@@ -24,9 +24,9 @@ flowchart LR
     T(("Team"))-- balance -->ID(("Interdependence"))
     T(("Team"))-- balance -->A(("Autonomy"))
     T(("Team"))-- balance -->I(("Individuality"))
-    W(("Work"))-- balance -->ID(("Speed"))
-    W(("Work"))-- balance -->A(("Quality"))
-    W(("Work"))-- balance -->I(("Ethics"))
+    W(("Work"))-- balance -->S(("Speed"))
+    W(("Work"))-- balance -->Q(("Quality"))
+    W(("Work"))-- balance -->E(("Ethics"))
 ```
 
 ## Two phase history of product
