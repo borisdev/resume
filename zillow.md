@@ -19,8 +19,8 @@
 flowchart LR
     V(("#nbsp; View #nbsp;"))-- customer problem -->C(("Conduct"))
     P(("Practice"))-. knowledge .->C(("Conduct"))
-    C(("Conduct"))-. balance .->T(("Team"))
-    C(("Conduct"))-. balance .->T(("Speed"))
+    C(("Conduct/Action"))-. balance .->T(("Team"))
+    C(("Conduct/Action"))-. balance .->S(("Speed"))
 ```
 
 ## Two phase history of product
