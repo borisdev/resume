@@ -9,10 +9,10 @@ boris.dev@gmail.com
 
 ## Coding tools
 
--   Product: Linux, Python, Postgres, Flask, Django
+-   Backend: Linux, Python, Flask, Django, SQLAlchemy
 -   DevOps: Docker Compose, Kubectl, Kafka, Celery, Helm, AWS Sagemaker, AWS Lambda
--   Data science and analytics: SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau, AWS Groundtruth
--   Instrumentation and observability: Splunk, LightStep, ELK, Grafana, Prometheus
+-   Analytics: , Spark, Pandas, Numpy
+-   Observability: Splunk, LightStep, Grafana, Prometheus, Tableau
 
 My toolkit includes domain modeling, process optimization, cognitive empathy,
 agile code refactoring, building observability systems, and inviting feedback
