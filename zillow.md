@@ -19,8 +19,8 @@
 flowchart TB
     V(("View <br> 'Customers are our North Star'"))-- customer problem -->P(("Practice <br> 'Turn on the lights'"))
     P-- knowledge -->C(("Conduct"))
-    C(("Conduct/Action"))-- balance -->T(("Team"))
-    C(("Conduct/Action"))-- balance -->W(("Work"))
+    C(("Conduct/Action"))-- balance -->T(("How socially?"))
+    C(("Conduct/Action"))-- balance -->W(("What action?"))
     T(("Team"))-- balance -->ID(("Interdependence"))
     T(("Team"))-- balance -->A(("Autonomy"))
     T(("Team"))-- balance -->I(("Individuality"))
