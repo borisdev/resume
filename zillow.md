@@ -8,13 +8,18 @@
 
 ## Distilling Zillow's 8 Core Values into three parts
 
-1. The view - Purpose - customer
-2. The practice - have an open state of mind - put on the light - use all information
-3. The conduct - two balancing trilemmas
+1. The View - Purpose - customer
+2. The Practice - have an open state of mind - put on the light - use all information
+3. The Conduct - two balancing trilemmas
   a. balance - trilemna - speed, quality, ethics
   b. balance - autonomy, interdependence, individuality 
   
 
+```mermaid
+flowchart LR
+    V((View))-- customer rationales -->C((Conduct))
+    P((Practice))-. knowledge .->C((Conduct))
+```
 
 ## Two phase history of product
 
