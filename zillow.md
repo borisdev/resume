@@ -19,14 +19,14 @@
 flowchart TB
     V(("View <br> 'Customers are our North Star'"))-- customer problem -->P(("Practice <br> 'Turn on the lights'"))
     P-- knowledge -->C(("Conduct"))
-    C(("Conduct/Action"))-- balance -->T(("How socially?"))
-    C(("Conduct/Action"))-- balance -->W(("What action?"))
-    T(("Team"))-- balance -->ID(("Interdependence"))
-    T(("Team"))-- balance -->A(("Autonomy"))
-    T(("Team"))-- balance -->I(("Individuality"))
-    W(("Work"))-- balance -->S(("Speed"))
-    W(("Work"))-- balance -->Q(("Quality"))
-    W(("Work"))-- balance -->E(("Ethics"))
+    C(("Conduct/Action"))-- balance -->T(("Team <br> How socially?"))
+    C(("Conduct/Action"))-- balance -->W(("Work <br> What action?"))
+    T-- balance -->ID(("Interdependence"))
+    T-- balance -->A(("Autonomy"))
+    T-- balance -->I(("Individuality"))
+    W-- balance -->S(("Speed"))
+    W-- balance -->Q(("Quality"))
+    W-- balance -->E(("Ethics"))
 ```
 
 ## Two phase history of product
