@@ -17,7 +17,7 @@
 
 ```mermaid
 flowchart LR
-    V(("View    "))-- customer rationales -->C(("Conduct"))
+    V(("View #nbsp; #nbsp; #nbsp; #nbsp;"))-- customer rationales -->C(("Conduct"))
     P(("Practice"))-. knowledge .->C(("Conduct"))
 ```
 
