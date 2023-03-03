@@ -17,8 +17,8 @@
 
 ```mermaid
 flowchart LR
-    V(("View #nbsp; <br> 'Customers are our North Star'"))-- customer problem -->C(("Conduct"))
-    P(("Practice"))-- knowledge -->C(("Conduct"))
+    V(("View <br> 'Customers are our North Star'"))-- customer problem -->P(("Practice <br> 'Turn on the lights'"))
+    P(("Practice <br> 'Turn on the lights'"))-- knowledge -->C(("Conduct"))
     C(("Conduct/Action"))-- balance -->T(("Team"))
     C(("Conduct/Action"))-- balance -->W(("Work"))
     T(("Team"))-- balance -->ID(("Interdependence"))
@@ -41,8 +41,8 @@ Customer journey starts with the Home search and ends with closing.
 
 ### Basic truths
 
-- [ ] Turn On the Lights - Information to Avoid waste. XY problem, think big picture
 - [ ] Customers Are Our North Star - Avoid XY problem, question ROI on the customer
+- [ ] Turn On the Lights - Information to Avoid waste. XY problem, think big picture
 
 ### Balance speed and quality and whats right -- tri-lemma
 
