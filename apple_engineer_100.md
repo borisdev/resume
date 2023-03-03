@@ -9,8 +9,8 @@ boris.dev@gmail.com
 
 ## Coding tools
 
--   Backend: Linux, Python, Flask, Django, SQLAlchemy
--   DevOps: Docker Compose, Kubectl, Kafka, Celery, Helm, AWS Sagemaker, AWS Lambda
+-   Backend: Linux, Python, Flask, Django, SQLAlchemy, Celery
+-   DevOps: Docker Compose, Kubectl, Kafka, Helm, AWS Sagemaker, AWS Lambda
 -   Analytics: , Spark, Pandas, Numpy
 -   Observability: Splunk, LightStep, Grafana, Prometheus, Tableau
 
