@@ -18,9 +18,15 @@
 ```mermaid
 flowchart LR
     V(("#nbsp; View #nbsp;"))-- customer problem -->C(("Conduct"))
-    P(("Practice"))-. knowledge .->C(("Conduct"))
-    C(("Conduct/Action"))-. balance .->T(("Team"))
-    C(("Conduct/Action"))-. balance .->S(("Speed"))
+    P(("Practice"))-- knowledge -->C(("Conduct"))
+    C(("Conduct/Action"))-- balance -->T(("Team"))
+    C(("Conduct/Action"))-- balance -->S(("Work"))
+    T(("Team"))-- balance -->ID(("Interdependence"))
+    T(("Team"))-- balance -->A(("Autonomy"))
+    T(("Team"))-- balance -->I(("Individuality"))
+    T(("Work"))-- balance -->ID(("Speed"))
+    T(("Work"))-- balance -->A(("Quality"))
+    T(("Work"))-- balance -->I(("Ethics"))
 ```
 
 ## Two phase history of product
