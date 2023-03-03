@@ -17,8 +17,8 @@
 
 ```mermaid
 flowchart LR
-    V((View))-- customer rationales -->C((Conduct))
-    P((Practice))-. knowledge .->C((Conduct))
+    V(("View    "))-- customer rationales -->C(("Conduct"))
+    P(("Practice"))-. knowledge .->C(("Conduct"))
 ```
 
 ## Two phase history of product
