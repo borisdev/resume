@@ -6,7 +6,7 @@
 - [values](https://www.zillow.com/careers/our-values/)
 
 
-## Distilling Zillow's 8 Core Values into three parts
+## Distilling Zillow's eight core values into three parts
 
 1. The View - Purpose - customer
 2. The Practice - have an open state of mind - put on the light - use all information
@@ -14,19 +14,20 @@
   a. balance - trilemna - speed, quality, ethics
   b. balance - autonomy, interdependence, individuality 
   
+## Distilling Zillow's eight core values into a flow chart diagram
 
 ```mermaid
 flowchart TB
-    V(("View <br> 'Customers are our North Star'"))-- customer problem -->P(("Practice <br> 'Turn on the lights'"))
+    V(("View <br> '1. Customers are our North Star'"))-- customer problem -->P(("Practice <br> '2. Turn on the lights'"))
     P-- knowledge -->C(("Conduct"))
-    C(("Conduct/Action"))-- balance -->T(("Team <br> How socially?"))
-    C(("Conduct/Action"))-- balance -->W(("Work <br> What action?"))
-    T-- balance -->ID(("Interdependence"))
-    T-- balance -->A(("Autonomy"))
-    T-- balance -->I(("Individuality"))
-    W-- balance -->S(("Speed"))
-    W-- balance -->Q(("Quality"))
-    W-- balance -->E(("Ethics"))
+    C-- balance -->T(("Team <br> How socially?"))
+    C-- balance -->W(("Work <br> What action?"))
+    T-- balance -->ID(("3. Interdependence"))
+    T-- balance -->A(("4. Autonomy"))
+    T-- balance -->I(("5. Individuality"))
+    W-- balance -->S(("6. Speed"))
+    W-- balance -->Q(("7. Quality"))
+    W-- balance -->E(("8. Ethics"))
 ```
 
 ## Two phase history of product
