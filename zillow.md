@@ -18,8 +18,8 @@
 
 ```mermaid
 flowchart TB
-    V(("View <br> '1. Customers are our North Star'"))-- customer problem -->P(("Practice <br> '2. Turn on the lights'"))
-    P-- knowledge -->C(("Conduct"))
+    V(("View <br> '1. Customers are our North Star'"))-- customer problem -->P(("Practice (pause) <br> '2. Turn on the lights'"))
+    P-- knowledge -->C(("Balanced Conduct"))
     C-- balance -->T(("Team <br> How socially?"))
     C-- balance -->W(("Work <br> What action?"))
     T-- balance -->ID(("3. Interdependence"))
