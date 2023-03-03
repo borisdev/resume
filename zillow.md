@@ -16,7 +16,7 @@
   
 
 ```mermaid
-flowchart LR
+flowchart TB
     V(("View <br> 'Customers are our North Star'"))-- customer problem -->P(("Practice <br> 'Turn on the lights'"))
     P-- knowledge -->C(("Conduct"))
     C(("Conduct/Action"))-- balance -->T(("Team"))
