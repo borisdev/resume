@@ -17,7 +17,7 @@
 
 ```mermaid
 flowchart LR
-    V(("#nbsp; View #nbsp;"))-- customer problem -->C(("Conduct"))
+    V(("View #nbsp; #<br>; sss"))-- customer problem -->C(("Conduct"))
     P(("Practice"))-- knowledge -->C(("Conduct"))
     C(("Conduct/Action"))-- balance -->T(("Team"))
     C(("Conduct/Action"))-- balance -->W(("Work"))
