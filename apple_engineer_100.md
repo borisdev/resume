@@ -6,21 +6,6 @@ colorlinks: true
 
 boris.dev@gmail.com
 
-## Interests
-
-- Domain modeling: translating domain expertise into code
-- Process optimization: debugging data hand-off toil, human-in-the-loop design, uncovering [extraneous cognitive load](https://en.wikipedia.org/wiki/Cognitive_load#Extraneous), tracking down wrong assumptions that grow in the cracks that split teams.
-- Building observability systems: monitoring, KPIs, and analytics
-- Learning: Ethereum and causal inference 
-
-
-I am looking to pull a company's stuck data project out of the quicksand. I
-want to fix a messy problem that requires working with engineers, subject
-matter experts, and data scientists. I want to save you $$$. My toolkit
-includes cognitive empathy, agile code refactoring, building observability
-systems, and inviting feedback with demos and papers
-[(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
-
 
 ## Coding tools
 
@@ -28,6 +13,11 @@ systems, and inviting feedback with demos and papers
 -   DevOps: Docker Compose, Kubectl, Kafka, Celery, Helm, AWS Sagemaker, AWS Lambda
 -   Data science and analytics: SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau, AWS Groundtruth
 -   Instrumentation and observability: Splunk, LightStep, ELK, Grafana, Prometheus
+
+My toolkit includes domain modeling, process optimization, cognitive empathy,
+agile code refactoring, building observability systems, and inviting feedback
+with demos and papers
+[(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
 
 ## Job experience
 

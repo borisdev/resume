@@ -20,7 +20,7 @@ I get data projects unstuck. I start by using cognitive empathy to get my head a
 
 - Product developer: Linux, Python, Postgres, Flask, Django
 - Infrastructure: Docker Compose, Kubectl, Kafka, Celery, Helm, LightStep, ELK, Splunk, AWS Sagemaker, AWS Lambda, Grafana, Prometheus
-- Data science: Pandas, Numpy, PyTorch, Tableau, AWS Groundtruth
+- Data science: Pandas, Spark, Numpy, PyTorch, Tableau, AWS Groundtruth
 
 ## Job experience
 
