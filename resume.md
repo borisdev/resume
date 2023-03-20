@@ -6,78 +6,176 @@ colorlinks: true
 
 boris.dev@gmail.com
 
-
 ## Interests
 
-I get data projects unstuck. I start by using cognitive empathy to get my head around the mental model of the end user (CEO, developer, data scientist, customer, SME, etc), and then work backwards, searching for the "low-hanging fruit" changes. Often this optimization involves uncovering extraneous cognitive load and wrong assumptions that build up in the split between two siloed teams. My toolkit to continuously question assumptions, and experiment, includes agile code refactoring, demos, papers (examples), and building observability systems.
+- Building observability systems
+- Synthesizing and documenting diverse expertise into a common language
+- Process optimization to reduce toil
 
-- Process optimization and system design: domain modeling, debugging hand-off toil, uncovering [extraneous cognitive load](https://en.wikipedia.org/wiki/Cognitive_load#Extraneous), building observability systems (monitoring and KPIs)
-- Data Analysis: exploratory data analysis, causal inference
-- Token economics: Ethereum, token curated registries
-- NLP AI: fine-tuning large language models (GPT-3)
+## Tools
 
-## Coding tools
-
-- Product developer: Linux, Python, Postgres, Flask, Django
-- Infrastructure: Docker Compose, Kubectl, Kafka, Celery, Helm, LightStep, ELK, Splunk, AWS Sagemaker, AWS Lambda, Grafana, Prometheus
-- Data science: Pandas, Spark, Numpy, PyTorch, Tableau, AWS Groundtruth
+- **Backend engineering:** Linux, Python, Postgres, Flask, Django
+- **DevOps:** Docker, Jenkins, Helm Charts, AWS Sagemaker and Lambda
+- **Observability:** Splunk, Lightstep for distributed tracing
+- **Data science:** SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau
+- Inviting feedback with demos and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
 
 ## Job experience
 
-### Technical AI Product Manager consultant at SimpleLegal, 2022 - 2023
+### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022 - 2023
 
-The company's first AI feature was stuck. As tech lead, my puzzle was to figure out why the performance of their machine learning models for text classification was flat even after the company had been
-spending more money on human annotation. The actions I took resulted in
-the company launching their first AI feature, with positive feedback from
-customers and the sales team. Below are the sequence of actions that I took.
+The SimpleLegal product is a tool for legal departments of large companies to manage
+the invoice bills from their vendor law firms. Before I arrived, the company had
+been working on a language AI feature for flagging suspicious line items. 
+For one year, this feature was stuck because of bad performance.
+They were unable to increase performance even after spending more money on
+human annotation. My job as tech lead was to increase AI performance.
+The actions I took resulted in the company launching their first AI feature, with positive feedback
+from customers and the sales team, as well as an AI Excellence Award. Below are the
+actions that I took.
 
-- I stopped the human annotation process ([pulled the Andon Cord](https://medium.com/@jjruescas/to-improve-pull-the-cord-ec309fa9d701#:~:text=%E2%80%9CAndon%20Cord%E2%80%9D%20is%20a%20principle,stops%20to%20get%20them%20fixed.)).
-- I identified an incorrect assumption: our performance blocker was not training data quantity, but quality. Then I identified two main culprits of the poor training data quality: 1) convoluted annotation guidelines and 2) missing pre-processing noise filters. 
-- I immersed myself in the metrics to perform triage on eleven machine learning classifier models: one was never needed; two were replaced by expert rules; five were sufficient; and two were targeted for relabeling.
-- I immersed myself in the company's legal invoice data through [exploratory data analysis](https://hbr.org/2018/12/what-great-data-analysts-do-and-why-every-organization-needs-them) and by labeling several thousand sentences while continuously getting feedback from our subject matter expert (SME).
-- I simplified the annotation guidelines in collaboration with both the SME and annotation team.
-- I designed a new annotation Human-in-the-loop ML QA process in collaboration with the SME and annotation team. This included a CI (continuous improvement) process where the annotators, our SME, and myself reached consensus to fix the guidelines as we hit edge cases (ie. feedback).
-- I added pre-processing noise filters to the labeling pipeline (AWS GroundTruth).
-- I wrote papers to explain new concepts and changes for the product team and executives.
-- I worked daily with our NLP-ML expert on re-prioritization of R&D work (ie. triage).
-- I added a new QC process (embarrassment review sheets and staging server).
-- I refactored the inference server (AWS Sagemaker) with new post-processing, decoupling, thresholds and preprocessing noise filters.
+I managed the data science consultant. 
 
+- To increase clarity, I helped the data scientist by organizing his analysis of the 
+  machine learning metrics into a table, which was continually shared at the
+  bi-weekly stand-ups to help others comprehend our progress. 
+- In the spirit of shared success, I worked daily as a team member with the data
+  scientist doing exploratory data analysis of the invoice data. This resulted
+  in the following triage: We killed one classifier that was never needed, 
+  replaced another with expert rules, stopped the labeling on five whose
+  performance was sufficient, and lastly, narrowed the focus of the labeling effort from
+  eleven to two classifiers. In addition, we identified two culprits of bad quality labeling, 1) convoluted annotation
+   guidelines and 2) missing pre-processing noise filters.
+- I asked the data scientist to take the lead in the explanation of complex
+  concepts to the rest of the team to help justify our changes.
+- I wrote him a stellar performance review.
+- I acted decisively to pause the human annotation process until after we made the required fixes. 
+
+I managed the offshore annotators.
+
+- To understand the perspective of the offshore annotators, I labeled several
+  thousand sentences.
+- I built a team relationship with the offshore team of annotators. My
+  objective was to increase training data, or labeling, quality. I managed them
+  with a spirit of continuous improvement and consensus. I asked them to debate
+  the subject-matter expert and I over Slack when they disagreed with us. 
+
+I built relationships across the organization.
+
+- To teach me, I connected with experts spread across three sisters companies.
+  This group included a principle data scientist, two product subject-matter
+  experts, one of which was a founder and VP, two DevOp experts, and one human
+  annotation expert.
+- To seek clarity, I asked the company president to convene a team meeting in the
+  style of the Amazon 6-pager. The team spent the first fifteen minutes reading
+  my high-level design document explaining that the performance
+  blocker was not training data quantity, but quality, as well as other
+  clarifications. 
+- I assigned Jira issues to engineers. 
+- After one engineer who had been helping me left to another job, I stepped in to refactor
+  the inference server (AWS Sagemaker) with new post-processing, decoupling,
+  thresholds and preprocessing noise filters.
+- I asked for weekly 1:1 meetings with the new VP of Engineering. Over a weekend I built
+  a demo server for him to show the company President and VP of Product that a launch
+  was imminent, opposing other opinions with evidence.
 
 ### Backend developer at Sight Machine, 2018 - 2021
 
-The puzzle I had was to bring the company’s biggest public facing feature at the moment, [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/), from its embryonic start as a spreadsheet to general release. Beyond the standard work required as the lead backend engineer (query optimizations, analytic endpoint coding, etc), my critical non-technical effort included release coordination (triage) and non-technical explanations to the product and customer support teams on what was going on “under the hood”, and continually incorporating their feedback.
+The Sight Machine product is a dashboard tool for process engineers at manufacturing
+plants to keep track of performance.
 
-In addition, I made analytic endpoints (Flask, Numpy, Pandas, Celery, Sqlalchemy) and wrote high level design papers. 
-I started the company's first distributed tracing using LightStep. 
-I simplified our development environment. And, I occasionally wore a devops hat by using Kubectl, Helm Charts, and Grafana. 
+- I built relationships across silos (customer success, devops, data engineers, and
+  product engineers) in order to bring the company's biggest public facing feature at the moment,
+[Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/)
+from its embryonic start as a spreadsheet to general release. Using high-level
+design papers, I gave
+non-technical explanations to the product and customer support teams, allowing
+them to get accurate feedback on product design decisions. I started
+a new process for giving demos to customers. 
+- My technical contributions included starting the company's first distributed
+  tracing using Lightstep and simplifying our development environment. 
+- I mentored junior engineers.
 
-### Data and product engineer tech lead at HiQ Labs, 2015 - 2018 
+### Data and product engineer tech lead at HiQ Labs, 2015 - 2018
 
-My company provided predictions to our customers on whether their employees were about to quit. As tech lead, the puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot detection in order to scrape millions of HTML public profiles, the raw data for our prediction pipeline. To solve the puzzle I ran and tracked experiments on different spider configurations.
+Our product provided predictions to our customers on whether their employees were
+about to quit. 
 
-Another puzzle we had was to reduce the stressful, manual pipeline work involved in every monthly release. I led developers and data scientists to move from a monolithic pipeline to a microservice pipeline (Spark, Kafka, Rancher, Docker Compose). A major effort was spent in refactoring old code so it could be decoupled into separate services, achieving horizontal scaling, reduced tech debt and reduced cognitive load during releases. In addition, I designed and built the company’s first observability system, and I trained data scientists on Kafka and Spark, and junior developers on coding.
+Tech lead for scraping
+
+- The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot detection in order to scrape millions of HTML
+public profiles, the raw data for our prediction pipeline. 
+- I ran and tracked experiments on different spider configurations. 
+- I led a junior devops engineer to help me build a Splunk observability system.
+- I trained a junior data engineer to help with scraping.
+
+Tech lead for migrating from a monolith and a microservice architecture
+
+
+- I refactored the pipeline code into a new repo structure.
+- I trained a junior data engineering to train the
+  data scientist yo decouple their code into docker microservice containers
+  and to use modern software development tools to make them more efficient.
+- I explained to management the microservice architecture using whiteboard diagrams.
+
+Helped data scientists
+
+- I migrated the data scientists from analysis using Mongo queries to analysis
+using pySpark.
+- I shadowed the data scientists to see how I can help them to reduce their toil.
+
 
 ### Start-up partner and developer at Map Decisions, 2014
 
-I created a mobile app to automate street sign inspection (Angular, Django)
+I created a mobile app to automate street sign inspection (Angular,
+Django)
 
 ### Developer at Urban Mapping, 2011 - 2013
 
-We provided a location query and map tiling service to Tableau’s software. The puzzle I had was to stop embarrassing regression errors. Regression errors occur when a developer’s bug fix breaks something that had previously worked. I identified the culprit. Our developers found it too complicated to deduce analytically the impact of their bug fixes because of the very large variation in customer requests (combinatorial explosion from map rendering of hundreds of variables at a dozen scales). As an empirical solution, using clustering and histograms, sorted by frequency and latency, I formed two samples of representative test requests: 1) two hundred test requests were automatically run after every git push and 2) a dozen test requests were manually run locally by developers doing TDD. In addition, I designed and built the company’s first observability system (Splunk and Tableau) and created the company’s first Jenkins QA CI system.
+Our product provided a location query and map tiling service to Tableau’s software. 
 
+The puzzle I had was to stop embarrassing regression errors. Regression errors occur
+when a developer’s bug fix breaks something that had previously worked. I
+identified the culprit. Our developers found it too complicated to write unit
+tests or deduce
+analytically the impact of their bug fixes because of the very large combination of potential parameters
+in Tableau customer requests. Using clustering and
+histograms, sorted by frequency and latency, I formed two samples of
+representative test requests: 1) two hundred test requests were automatically
+run after every git push and 2) a dozen test requests were manually run locally
+by developers using a script I made. 
 
-### Open source and work papers
+- I built the company's first observability system (Splunk and Tableau).
+- I built the company's first Jenkins QA CI system.
 
-- Co-founder of library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy).
-- A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
-- A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
-- [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
+### Non-software jobs
+
+- Assistant Manager at Gundy's Grill restaurant at Beaver Creek Ski Resort, Avon, Colorado.
+- Kids Snowboard instructor at Beaver Creek Ski Resort, Avon, Colorado.
+- Team lead of four analysts at California Business Magazine gathering financial
+  data on the performance of local public companies for newspapers such as the Los Angeles Times and Boston Globe.
+
+### Open source and papers
+
+-   Co-founder of library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). Taught
+    students in location data, object-oriented design and UI programming.
+-   A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
+-   A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
+-   [Work design papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
+-   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 
 ### Academics
 
-- Ph.D dissertation: [Assessing Inequality using Geographic Income Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw) 2014.
-- Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage Publications. 2009 
-- [Interactive spatiotemporal modelling of health systems: the SEKS–GUI framework](https://link.springer.com/article/10.1007/s00477-007-0135-0)
-- [sigma‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
-- [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
+-   Mentored students in the master degree program.
+-   Assisted teaching a class in spatial statistics.
+-   PhD dissertation: [Assessing Inequality using Geographic Income
+    Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw) 2014.
+-   Entry in Encyclopedia of Human Geography on Spatial Econometrics.
+    Sage Publications. 2009
+-   [Interactive spatiotemporal modelling of health systems: the
+    SEKS--GUI
+    framework](https://link.springer.com/article/10.1007/s00477-007-0135-0)
+-   [sigma‐convergence in the presence of spatial
+    effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
+-   [Integrating Econometric and Input-Output Models in a Multiregional
+    Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
