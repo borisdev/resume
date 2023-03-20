@@ -8,72 +8,73 @@ boris.dev@gmail.com
 
 ## Interests
 
-- Domain modeling: translating domain expertise into code
-- Process optimization: debugging data hand-off toil, human-in-the-loop design, uncovering [extraneous cognitive load](https://en.wikipedia.org/wiki/Cognitive_load#Extraneous), tracking down wrong assumptions that grow in the cracks that split teams.
-- Building observability systems: monitoring, KPIs, and analytics
-- Learning: Ethereum and causal inference 
+- Building observability systems
+- Applying cognitive empathy to document expertise as a ubiquitous language (i.e., Domain Driven Design) 
+- Process optimization to reduce toil
 
+## Tools
 
-I am looking to pull a company's stuck data project out of the quicksand. I
-want to fix a messy problem that requires working with engineers, subject
-matter experts, and data scientists. I want to save you $$$. My toolkit
-includes cognitive empathy, agile code refactoring, building observability
-systems, and inviting feedback with demos and papers
-[(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
-
-
-## Coding tools
-
--   Product: Linux, Python, Postgres, Flask, Django
--   DevOps: Docker Compose, Kubectl, Kafka, Celery, Helm, AWS Sagemaker, AWS Lambda
--   Data science and analytics: SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau, AWS Groundtruth
--   Instrumentation and observability: Splunk, LightStep, ELK, Grafana, Prometheus
+- Product: Linux, Python, Postgres, Flask, Django
+- DevOps: Docker Compose, Kubectl, Kafka, Celery, Jenkins, Helm, AWS Sagemaker, AWS Lambda
+- Data science and analytics: SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau, AWS Groundtruth
+- Observability: Splunk, Lightstep for distributed tracing, ELK, Grafana, Prometheus
+- Inviting feedback with demos and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
 
 ## Job experience
 
 ### Data Scientist / Technical AI Product Manager consultant at SimpleLegal, 2022 - 2023
 
-The company's first AI feature was stuck. As tech lead, my puzzle was to
-figure out why the performance of their machine learning models for text
-classification was flat even after the company had been spending more
-money on human annotation. The actions I took resulted in the company
-launching their first AI feature, with positive feedback from customers
-and the sales team. Below are the sequence of actions that I took.
+The SimpleLegal product is a tool for legal departments of large companies to manage
+the invoice bills from their vendor law firms. Before I arrived, the company had
+been working on a language AI feature for flagging suspicious line items. 
+For one year this feature was stuck because of bad performance.
+They were not able to increase performance even after spending more money on
+human annotation. My job as tech lead was to increase AI performance.
+The actions I took resulted in the company launching their first AI feature, with positive feedback
+from customers, the sales team, as well as an AI Excellence Award. Below are the
+actions that I took.
 
--   I stopped the human annotation process ([pulled the Andon
-    Cord](https://medium.com/@jjruescas/to-improve-pull-the-cord-ec309fa9d701#:~:text=%E2%80%9CAndon%20Cord%E2%80%9D%20is%20a%20principle,stops%20to%20get%20them%20fixed.)).
--   I identified an incorrect assumption: our performance blocker was
-    not training data quantity, but quality. Then I identified two main
-    culprits of the poor training data quality: 1) convoluted annotation
-    guidelines and 2) missing pre-processing noise filters.
--   I immersed myself in the metrics to perform triage on eleven machine
-    learning classifier models: one was never needed; two were replaced
-    by expert rules; five were sufficient; and two were targeted for
-    relabeling.
--   I immersed myself in the company's legal invoice data through
-    [exploratory data
-    analysis](https://hbr.org/2018/12/what-great-data-analysts-do-and-why-every-organization-needs-them)
-    and by labeling several thousand sentences while continuously
-    getting feedback from our subject matter expert (SME).
--   I simplified the annotation guidelines in collaboration with both
-    the SME and annotation team.
--   I designed a new annotation Human-in-the-loop ML QA process in
-    collaboration with the SME and annotation team. This included a CI
-    (continuous improvement) process where the annotators, our SME, and
-    myself reached consensus to fix the guidelines as we hit edge cases
-    (ie. feedback).
--   I added pre-processing noise filters to the labeling pipeline (AWS
-    GroundTruth).
--   I wrote papers to explain new concepts and changes for the product
-    team and executives.
--   I worked daily with our NLP-ML expert on re-prioritization of R&D
-    work (ie. triage).
--   I added a new QC process (embarrassment review sheets and staging
-    server).
--   I refactored the inference server (AWS Sagemaker) with new
-    post-processing, decoupling, thresholds and preprocessing noise
-    filters.
--   I assigned Jira issues to the engineers and data scientist. 
+I managed the data science consultant. 
+
+- To increase clarity, I helped the data scientist by organizing his analysis of the 
+  machine learning metrics into a table, which was continually shared at the
+  bi-weekly stand-ups to help others comprehend our progress. 
+- In the spirit of shared success, I worked daily as a team member with the data
+  scientist doing  exploratory data analysis of the invoice data. This resulted
+  in the following triage: We killed one classifier that was never needed. We
+  replaced another with expert rules. We stopped the labeling on five whose
+  performance was sufficient. We narrowed the focus of the labeling effort from
+  eleven to two classifiers. In addition, we identified two culprits of bad quality labeling 1) convoluted annotation
+   guidelines and 2) missing pre-processing noise filters.
+- I asked the data scientist to share him alternative explanations of complex
+  concepts to the rest of the team to help justify out changes.
+- I wrote him a stellar performance review.
+
+I managed the off-shore annotators.
+
+- To understand the perspective of the off-shore annotators, I labeled several
+  thousand sentences.
+- I built an external relationship with the off-shore team of annotators. My
+  objective was to increase training data, or labeling, quality. I managed them
+  with a spirit of continuous improvement and consensus. I asked them to debate
+  the subject-matter expert and I over Slack when they disagreed with us. 
+
+I built relationships within the organization.
+
+- To teach me, I connected with experts spread across three sisters companies.
+  This group included a principle data scientist, two product subject-matter
+  experts, one of which was a founder and VP, two DevOp experts, and one human
+  annotation expert.
+- To seek clarity, at my request the president convened a team meeting in the
+  style of the Amazon 6-pager. The team spent the first fifteen minutes reading
+  my high-level design document explaining that the performance
+  blocker was not training data quantity, but quality, as well as other
+  clarifications. 
+- I acted decisively to pause the human annotation process until after we made the required fixes. 
+- I assigned Jira issues to the engineers and data scientist. 
+- After the engineer helping me left to another job, I stepped in to refactor
+  the inference server (AWS Sagemaker) with new post-processing, decoupling,
+  thresholds and preprocessing noise filters.
 
 ### Backend developer at Sight Machine, 2018 - 2021
 
