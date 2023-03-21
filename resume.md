@@ -165,10 +165,16 @@ Our product provided a location query and map tiling service to Tableau’s soft
 ### Open source and papers
 
 -   Co-founder of a library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). To jump start the project I fly to Medellin, Columbia and taught students for three weeks in location data, object-oriented design and UI programming.
--   A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
--   A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
--   [Work design papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+- [Geoscore](http://geoscore.com/) makes choropleth maps of lots of census data.
+  [geoscore repo](https://github.com/schmidtc/geoscore).
+-   A play Ethereum MEV bot,
+    [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
+-   A git bare approach to version control your dot files,
+    [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
+-   [Work design
+    papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
+-   [Why did your language AI feature
+    fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 
 ### Academics
 
