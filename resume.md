@@ -94,7 +94,7 @@ I built relationships across silos (customer success, DevOps, data engineers, an
 [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
 from its embryonic start as a spreadsheet to general release, I shared high-level
 design papers and gave non-technical explanations to the product and customer support teams. This allowed
-them to get accurate feedback on product technical design decisions. 
+them to get accurate customer feedback on product technical design decisions. 
 - I started a new process to ensure toil free and quality sales demos. Engineers must be included
   in the calendar invites. Twenty-four hours before the scheduled demo, the
   environment's worker are scaled up, and the best frontend and backend
