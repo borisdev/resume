@@ -46,10 +46,10 @@ I managed the data science consultant.
   performance was sufficient, and lastly, narrowed the focus of the labeling effort from
   eleven to two classifiers. In addition, we identified two culprits of bad quality labeling, 1) convoluted annotation
    guidelines and 2) missing pre-processing noise filters.
-- I asked the data scientist to take the lead in the explanation of complex
-  concepts to the rest of the team to help justify our changes.
-- I wrote him a stellar performance review.
-- I acted decisively to pause the human annotation process until after we made the required fixes. 
+- Periodically, I asked the data scientist to take the lead in explaining complex
+  concepts to the rest of the team, including  executives.
+- I wrote him a stellar performance review, which highlighted his capacity to
+  articulate complex concepts to executives.
 
 I managed the offshore annotators.
 
@@ -60,40 +60,54 @@ I managed the offshore annotators.
   with a spirit of continuous improvement and consensus. I asked them to debate
   the subject-matter expert and I over Slack when they disagreed with us. 
 
-I built relationships across the organization.
+I built relationships across the conglomerate.
 
 - To teach me, I connected with experts spread across three sisters companies.
   This group included a principle data scientist, two product subject-matter
-  experts, one of which was a founder and VP, two DevOp experts, and one human
-  annotation expert.
-- To seek clarity, I asked the company president to convene a team meeting in the
-  style of the Amazon 6-pager. The team spent the first fifteen minutes reading
-  my high-level design document explaining that the performance
-  blocker was not training data quantity, but quality, as well as other
-  clarifications. 
+  experts, one of which was a founder and VP, one DevOp engineer, one MLOps
+  engineer, and one human annotation expert.
+- After achieving a consensus that the biggest potential factor to bad
+  performance that had been unexplored to date was "garbage in,
+  garbage out", I acted decisively to pause the human annotation process and
+  change the focus from neural network R&D and labeling quantity to assessing
+  labeling quality. 
+- To seek clarity, I asked the company president to convene a team meeting in
+  the style of the Amazon 6-pager. The team spent the first fifteen minutes
+  reading my high-level design document explaining that the performance blocker
+  was not training data quantity, but quality, as well as other clarifications. 
 - I assigned Jira issues to engineers. 
-- After one engineer who had been helping me left to another job, I stepped in to refactor
-  the inference server (AWS Sagemaker) with new post-processing, decoupling,
-  thresholds and preprocessing noise filters.
-- I asked for weekly 1:1 meetings with the new VP of Engineering. Over a weekend I built
-  a demo server for him to show the company President and VP of Product that a launch
-  was imminent, opposing other opinions with evidence.
+- After one engineer who had been helping me left to another job, I stepped in
+  to refactor the inference server (AWS Sagemaker) with new post-processing,
+  decoupling, thresholds and preprocessing noise filters.
+- I asked for weekly 1:1 meetings with the new VP of Engineering. Over a weekend
+  I built a demo server for him to show the company President and VP of Product
+  that a launch was imminent, opposing other opinions with evidence.
 
 ### Backend developer at Sight Machine, 2018 - 2021
 
 The Sight Machine product is a dashboard tool for process engineers at manufacturing
 plants to keep track of performance.
 
-- I built relationships across silos (customer success, devops, data engineers, and
-  product engineers) in order to bring the company's biggest public facing feature at the moment,
+I built relationships across silos (customer success, devops, data engineers, and product engineers).
+
+- In order to bring the company's biggest public facing feature at the moment,
 [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/)
-from its embryonic start as a spreadsheet to general release. Using high-level
-design papers, I gave
-non-technical explanations to the product and customer support teams, allowing
-them to get accurate feedback on product design decisions. I started
-a new process for giving demos to customers. 
-- My technical contributions included starting the company's first distributed
-  tracing using Lightstep and simplifying our development environment. 
+from its embryonic start as a spreadsheet to general release, I shared high-level
+design papers and gave non-technical explanations to the product and customer support teams. This allowed
+them to get accurate feedback on product technical design decisions. 
+- I started a new process to ensure quality sales demos. Twenty-four hours beforehand, the demo environment 
+has the scaled up workers, the best front-end branch, the best back-end branch,
+and a thumbs-up from the product manager.
+
+I helped increase the engineering team's productivity.
+
+- The director of engineering and I started a new process where the engineers
+  were give the autonomy to write their own Jira issues.
+- In order to start the company's first distributed tracing using Lightstep, I
+  oversaw the integration of my instrumentation work with the required DevOps
+  work.
+- I helped front-end engineers by simplifying their development environment
+  through containerisation.
 - I mentored junior engineers.
 
 ### Data and product engineer tech lead at HiQ Labs, 2015 - 2018
@@ -109,56 +123,48 @@ public profiles, the raw data for our prediction pipeline.
 - I led a junior devops engineer to help me build a Splunk observability system.
 - I trained a junior data engineer to help with scraping.
 
-Tech lead for migrating from a monolith and a microservice architecture
+Tech lead to move the company from a monolith to a microservice architecture
 
-
-- I refactored the pipeline code into a new repo structure.
-- I trained a junior data engineering to train the
-  data scientist yo decouple their code into docker microservice containers
-  and to use modern software development tools to make them more efficient.
+- I broke down the coding work.
 - I explained to management the microservice architecture using whiteboard diagrams.
 
-Helped data scientists
+To scale, I trained a junior data engineer so he could help others in the following ways.
 
-- I migrated the data scientists from analysis using Mongo queries to analysis
-using pySpark.
+- Train the data scientist in working with their new development environment that I setup.
+- Train the data scientists to use best practices to setup their code editor.
+- Train the director in using Rancher to deploy the services.
+
+I supported the data scientists.
+
 - I shadowed the data scientists to see how I can help them to reduce their toil.
+- I migrated the data scientists from analysis using Mongo queries to pySpark.
 
 
 ### Start-up partner and developer at Map Decisions, 2014
 
-I created a mobile app to automate street sign inspection (Angular,
-Django)
+I collaborated with the CEO to design and build a mobile app to automate street sign inspection (Angular,
+Django).
+
 
 ### Developer at Urban Mapping, 2011 - 2013
 
 Our product provided a location query and map tiling service to Tableau’s software. 
 
-The puzzle I had was to stop embarrassing regression errors. Regression errors occur
-when a developer’s bug fix breaks something that had previously worked. I
-identified the culprit. Our developers found it too complicated to write unit
-tests or deduce
-analytically the impact of their bug fixes because of the very large combination of potential parameters
-in Tableau customer requests. Using clustering and
-histograms, sorted by frequency and latency, I formed two samples of
-representative test requests: 1) two hundred test requests were automatically
-run after every git push and 2) a dozen test requests were manually run locally
-by developers using a script I made. 
-
 - I built the company's first observability system (Splunk and Tableau).
 - I built the company's first Jenkins QA CI system.
+- I built tools for the developers.
 
 ### Non-software jobs
 
 - Assistant Manager at Gundy's Grill restaurant at Beaver Creek Ski Resort, Avon, Colorado.
-- Kids Snowboard instructor at Beaver Creek Ski Resort, Avon, Colorado.
-- Team lead of four analysts at California Business Magazine gathering financial
-  data on the performance of local public companies for newspapers such as the Los Angeles Times and Boston Globe.
+- Kids snowboard instructor at Beaver Creek Ski Resort, Avon, Colorado.
+- Team lead of four analysts at California Business Magazine. We collected financial
+  data on local public companies for newspapers such as the Los Angeles Times and Boston Globe. 
+- I helped design a prototype for the Wall Street Journal's "Main Street" section at California Business Magazine.
 
 ### Open source and papers
 
--   Co-founder of library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). Taught
-    students in location data, object-oriented design and UI programming.
+-   Co-founder of a library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). To jump start the project I fly to Medellin, Columbia and taught students for three weeks in location data, object-oriented design and UI programming.
 -   A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
 -   A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
 -   [Work design papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
