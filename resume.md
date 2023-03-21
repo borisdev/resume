@@ -22,7 +22,7 @@ boris.dev@gmail.com
 
 ## Job experience
 
-### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022 - 2023
+### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
 The SimpleLegal product is a tool for legal departments of large companies to manage
 the invoice bills from their vendor law firms. Before I arrived, the company had
@@ -83,15 +83,15 @@ Built relationships across the conglomerate
   I built a demo server for him to show the company President and VP of Product
   that a launch was imminent, opposing other opinions with evidence.
 
-### Backend developer at Sight Machine, 2018 - 2021
+### Backend developer at Sight Machine, 2018-2021
 
 The Sight Machine product is a dashboard tool for process engineers at manufacturing
 plants to keep track of performance.
 
-I built relationships across silos (customer success, devops, data engineers, and product engineers).
+I built relationships across silos (customer success, DevOps, data engineers, and product engineers).
 
-- In order to bring the company's biggest public facing feature at the moment,
-[Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/)
+- To bring the company's biggest public-facing feature,
+[Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
 from its embryonic start as a spreadsheet to general release, I shared high-level
 design papers and gave non-technical explanations to the product and customer support teams. This allowed
 them to get accurate feedback on product technical design decisions. 
@@ -102,15 +102,16 @@ and a thumbs-up from the product manager.
 I helped increase the engineering team's productivity.
 
 - The director of engineering and I started a new process where the engineers
-  were give the autonomy to write their own Jira issues.
-- In order to start the company's first distributed tracing using Lightstep, I
+  were given the autonomy to write their own Jira issues, instead of being
+  delegated Jira issues by the product team.
+- To start the company's first distributed tracing using Lightstep, I
   oversaw the integration of my instrumentation work with the required DevOps
   work.
 - I helped front-end engineers by simplifying their development environment
-  through containerisation.
+  through containerization.
 - I mentored junior engineers.
 
-### Data and product engineer tech lead at HiQ Labs, 2015 - 2018
+### Data and product engineer tech lead at HiQ Labs, 2015-2018
 
 Our product provided predictions to our customers on whether their employees were
 about to quit. 
@@ -146,7 +147,7 @@ I collaborated with the CEO to design and build a mobile app to automate street 
 Django).
 
 
-### Developer at Urban Mapping, 2011 - 2013
+### Developer at Urban Mapping, 2011-2013
 
 Our product provided a location query and map tiling service to Tableau’s software. 
 
