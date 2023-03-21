@@ -165,7 +165,7 @@ Our product provided a location query and map tiling service to Tableau’s soft
 ### Open source and papers
 
 -   Co-founder of a library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). To jump start the project I fly to Medellin, Columbia and taught students for three weeks in location data, object-oriented design and UI programming.
-- [Geoscore](http://geoscore.com/) makes choropleth maps of lots of census data.
+- [Geoscore](http://geoscore.com/) was a startup idea to make choropleth maps to rank and visualize the demographics of 85,000 Census tracts (or neighborhoods).
   [geoscore repo](https://github.com/schmidtc/geoscore).
 -   A play Ethereum MEV bot,
     [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
