@@ -95,9 +95,11 @@ I built relationships across silos (customer success, DevOps, data engineers, an
 from its embryonic start as a spreadsheet to general release, I shared high-level
 design papers and gave non-technical explanations to the product and customer support teams. This allowed
 them to get accurate feedback on product technical design decisions. 
-- I started a new process to ensure quality sales demos. Twenty-four hours beforehand, the demo environment 
-has the scaled up workers, the best front-end branch, the best back-end branch,
-and a thumbs-up from the product manager.
+- I started a new process to ensure toil free and quality sales demos. Engineers must be included
+  in the calendar invites. Twenty-four hours before the scheduled demo, the
+  environment's worker are scaled up, and the best frontend and backend
+  branches deployed. Only after these checks does the product
+  manager start smoke and sanity testing.
 
 I helped increase the engineering team's productivity.
 
@@ -107,7 +109,7 @@ I helped increase the engineering team's productivity.
 - To start the company's first distributed tracing using Lightstep, I
   oversaw the integration of my instrumentation work with the required DevOps
   work.
-- I helped front-end engineers by simplifying their development environment
+- I helped frontend engineers by simplifying their development environment
   through containerization.
 - I mentored junior engineers.
 
