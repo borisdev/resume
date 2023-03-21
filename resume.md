@@ -17,7 +17,7 @@ boris.dev@gmail.com
 - **Backend engineering:** Linux, Python, Postgres, Flask, Django
 - **DevOps:** Docker, Jenkins, Helm Charts, AWS Sagemaker and Lambda
 - **Observability:** Splunk, Lightstep for distributed tracing
-- **Data science:** SQLAlchemy, Spark, Pandas, Numpy, PyTorch, Tableau
+- **Data science:** SQLAlchemy, PySpark, Pandas, Numpy, PyTorch, Tableau
 - Inviting feedback with demos and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
 
 ## Job experience
@@ -128,16 +128,16 @@ Tech lead to move the company from a monolith to a microservice architecture
 - I broke down the coding work.
 - I explained to management the microservice architecture using whiteboard diagrams.
 
-To scale, I trained a junior data engineer so he could help others in the following ways.
+To scale, I trained a junior data engineer, so he could help others in the following ways.
 
-- Train the data scientist in working with their new development environment that I setup.
-- Train the data scientists to use best practices to setup their code editor.
-- Train the director in using Rancher to deploy the services.
+- Train the data scientist in working with their new development environment that I set up.
+- Guide the data scientists to set up their code editor so they can work more comfortably.
+- Show the director how to use Rancher to deploy the services.
 
-I supported the data scientists.
+Supported data scientists
 
 - I shadowed the data scientists to see how I can help them to reduce their toil.
-- I migrated the data scientists from analysis using Mongo queries to pySpark.
+- I migrated the data scientists from using Mongo queries for data analysis to using PySpark.
 
 
 ### Start-up partner and developer at Map Decisions, 2014
@@ -164,9 +164,9 @@ Our product provided a location query and map tiling service to Tableau’s soft
 
 ### Open source and papers
 
--   Co-founder of a library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). To jump start the project I went to Medellin, Columbia and taught students for three weeks in location data, object-oriented design and UI programming.
+-   Co-founder of a library for clustering geographic areas, [github.com/clusterpy](https://github.com/clusterpy/clusterpy). To jump start the project, I went to Medellín, Columbia and taught students for three weeks in location data, object-oriented design and UI programming.
 - [Geoscore](http://geoscore.com/) was a startup idea to make choropleth maps to rank and visualize the demographics of 85,000 Census tracts (or neighborhoods).
-  [geoscore repo](https://github.com/schmidtc/geoscore).
+  [Geoscore repo](https://github.com/schmidtc/geoscore).
 -   A play Ethereum MEV bot,
     [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
 -   A git bare approach to version control your dot files,
@@ -178,14 +178,13 @@ Our product provided a location query and map tiling service to Tableau’s soft
 
 ### Academics
 
--   Mentored students in the master degree program.
+-   Mentored students in the master's degree program.
 -   Assisted teaching a class in spatial statistics.
 -   PhD dissertation: [Assessing Inequality using Geographic Income
-    Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw) 2014.
--   Entry in Encyclopedia of Human Geography on Spatial Econometrics.
-    Sage Publications. 2009
--   [Interactive spatiotemporal modelling of health systems: the
-    SEKS--GUI
+    Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw), 2014.
+-   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage
+    Publications. 2009
+-   [Interactive spatio-temporal modelling of health systems: the SEKS--GUI
     framework](https://link.springer.com/article/10.1007/s00477-007-0135-0)
 -   [sigma‐convergence in the presence of spatial
     effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
