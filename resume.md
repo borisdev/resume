@@ -93,7 +93,7 @@ I built relationships across silos (customer success, DevOps, data engineers, an
 - To bring the company's biggest public-facing feature,
 [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
 from its embryonic start as a spreadsheet to general release, I shared high-level
-design papers and gave non-technical explanations to the product and customer support teams. This allowed
+design papers and gave non-technical explanations to the Product and Customer Support teams. This allowed
 them to get accurate customer feedback on product technical design decisions. 
 - I started a new process to ensure toil free and quality sales demos. Engineers must be included
   in the calendar invites. Twenty-four hours before the scheduled demo, the
@@ -104,7 +104,7 @@ I helped increase the engineering team's productivity.
 
 - The Director of Engineering and I started a new process where the engineers
   were given the autonomy to write their own Jira issues, instead of being
-  delegated Jira issues by the product team.
+  delegated Jira issues by the Product team.
 - To start the company's first distributed tracing using Lightstep, I
   oversaw the integration of my instrumentation work with the required DevOps
   work.
