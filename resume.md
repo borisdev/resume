@@ -71,7 +71,7 @@ Built relationships across the conglomerate
   was _"garbage in, garbage out"_, I stopped the human
   annotation process and changed the focus from neural network R&D and labeling
   quantity to learning about the foundational concepts of labeling quality. 
-- To seek clarity, I asked the company president to convene a team meeting in
+- To seek clarity, I asked the company's President to convene a team meeting in
   the style of the Amazon 6-pager. The team spent the first fifteen minutes
   reading my high-level design document explaining that the performance blocker
   was not training data quantity, but quality, as well as other clarifications. 
@@ -102,7 +102,7 @@ them to get accurate customer feedback on product technical design decisions.
 
 I helped increase the engineering team's productivity.
 
-- The director of engineering and I started a new process where the engineers
+- The Director of Engineering and I started a new process where the engineers
   were given the autonomy to write their own Jira issues, instead of being
   delegated Jira issues by the product team.
 - To start the company's first distributed tracing using Lightstep, I
