@@ -34,7 +34,7 @@ The actions I took resulted in the company launching their first AI feature, wit
 from customers and the sales team, as well as an AI Excellence Award. Below are the
 actions that I took.
 
-I managed the data science consultant. 
+Managed the data science consultant 
 
 - To increase clarity, I helped the data scientist by organizing his analysis of the 
   machine learning metrics into a table, which was continually shared at the
@@ -51,26 +51,26 @@ I managed the data science consultant.
 - I wrote him a stellar performance review, which highlighted his capacity to
   articulate complex concepts to executives.
 
-I managed the offshore annotators.
+Managed the offshore annotators
 
 - To understand the perspective of the offshore annotators, I labeled several
   thousand sentences.
 - I built a team relationship with the offshore team of annotators. My
   objective was to increase training data, or labeling, quality. I managed them
   with a spirit of continuous improvement and consensus. I asked them to debate
-  the subject-matter expert and I over Slack when they disagreed with us. 
+  the subject-matter expert, and I over Slack when they disagreed with us. 
 
-I built relationships across the conglomerate.
+Built relationships across the conglomerate
 
-- To teach me, I connected with experts spread across three sisters companies.
+- To teach me, I connected with experts spread across three sister companies.
   This group included a principle data scientist, two product subject-matter
-  experts, one of which was a founder and VP, one DevOp engineer, one MLOps
+  experts, one of which was a founder and VP, one DevOps engineer, one MLOps
   engineer, and one human annotation expert.
-- After achieving a consensus that the biggest potential factor to bad
-  performance that had been unexplored to date was "garbage in,
-  garbage out", I acted decisively to pause the human annotation process and
-  change the focus from neural network R&D and labeling quantity to assessing
-  labeling quality. 
+- I probed, got consensus, and acted. After it was agreed that the 
+  biggest potential factor to bad performance that had been unexplored to date
+  was _"garbage in, garbage out"_, I stopped the human
+  annotation process and changed the focus from neural network R&D and labeling
+  quantity to learning about the foundational concepts of labeling quality. 
 - To seek clarity, I asked the company president to convene a team meeting in
   the style of the Amazon 6-pager. The team spent the first fifteen minutes
   reading my high-level design document explaining that the performance blocker
