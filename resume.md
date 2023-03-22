@@ -92,16 +92,15 @@ them to get accurate customer feedback on product technical design decisions.
   in the calendar invites. Twenty-four hours before the scheduled demo, the
   environment's compute workers are scaled up, the best frontend and backend
   branches deployed, and lastly, the product manager starts smoke and sanity testing.
+- I oversaw the integration of my instrumentation work with the required DevOps work.
 
 I helped increase the engineering team's productivity.
 
 - The Director of Engineering and I started a new process where the engineers
   were given the autonomy to write their own Jira issues, instead of being
   delegated Jira issues by the Product team.
-- To start the company's first distributed tracing using Lightstep, I
-  oversaw the integration of my instrumentation work with the required DevOps
-  work.
-- I simplified the frontend development environment through containerization.
+- To debug faster, I started the first distributed tracing (Lightstep).
+- I simplified the frontend development environment.
 - I coached junior engineers.
 
 ### Data and product engineer tech lead at HiQ Labs, 2015-2018
