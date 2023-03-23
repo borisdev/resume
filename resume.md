@@ -142,7 +142,7 @@ We provided a location query and map tiling service to Tableau. I built the comp
 - Kids snowboard instructor at Beaver Creek Ski Resort.
 - Lead of four analysts at California Business Magazine. We collected
   financial data on local public companies for newspapers such as the Los
-  Angeles Times. I provided data visualizations for a prototype of the Wall
+  Angeles Times. In addition, I provided data visualizations for a prototype of the Wall
   Street Journal's "Main Street" section.
 
 ### Open source, papers, and academics
