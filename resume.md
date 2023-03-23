@@ -158,8 +158,7 @@ We provided a location query and map tiling service to Tableau. I built the comp
     geographic areal data, object-oriented design and UI programming.
 -   Coached students in the master's degree program, as a PhD student
 -   Assisted teaching a class in spatial statistics, as PhD student
--   PhD dissertation: [Assessing Inequality using Geographic Income
-    Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw),
+-   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
     2014.
 -   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage
     Publications. 2009
