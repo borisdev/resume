@@ -165,7 +165,6 @@ We provided a location query and map tiling service to Tableau. I built the comp
     Publications. 2009
 -   [Interactive spatio-temporal modelling of health
     systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
--   [$\sigma$‐convergence in the presence of spatial
-    effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
+-   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
 -   [Integrating Econometric and Input-Output Models in a Multiregional
     Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
