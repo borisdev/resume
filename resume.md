@@ -149,19 +149,23 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 -   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
--   A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
+-   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
+-   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 - [Geoscore](http://geoscore.com/) started as a startup idea to make choropleth maps to
   rank and visualize the demographics of 85,000 Census tracts (or neighborhoods)
   based on the user's custom preferences on where she wants to live. [Geoscore repo](https://github.com/schmidtc/geoscore).
--   Co-Founder of a library for clustering geographic areas,
-    [github.com/clusterpy](https://github.com/clusterpy/clusterpy). I taught
-    student researchers in Medellín, Columbia for three weeks in
+-   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught student researchers in Medellín, Columbia for three weeks in
     geographic areal data, object-oriented design and UI programming.
 -   Coached students in the master's degree program, as a PhD student
 -   Assisted teaching a class in spatial statistics, as PhD student
--   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw), 2014.
--   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage Publications. 2009
--   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
--   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
--   [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
+-   PhD dissertation: [Assessing Inequality using Geographic Income
+    Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw),
+    2014.
+-   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage
+    Publications. 2009
+-   [Interactive spatio-temporal modelling of health
+    systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
+-   [$\sigma$‐convergence in the presence of spatial
+    effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
+-   [Integrating Econometric and Input-Output Models in a Multiregional
+    Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
