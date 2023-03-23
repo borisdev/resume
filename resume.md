@@ -6,9 +6,9 @@ colorlinks: true
 
 ## Interests
 
-- Creating a ubiquitous language
-- Building observability systems
 - Process optimization
+- Building observability systems
+- Knowledge crunching to document a ubiquitous language of many experts
 
 ## Tools
 
@@ -71,10 +71,8 @@ Built relationships across the conglomerate
   the style of the Amazon 6-pager. The team spent the first fifteen minutes
   reading my high-level design document explaining that the performance blocker
   was not training data quantity, but quality, as well as other clarifications. 
-- I assigned Jira issues to engineers. 
-- After one engineer who had been helping me left to another job, I stepped in
-  to refactor the inference server.
-- I had 1:1 meetings with the new VP of Engineering.
+- I assigned Jira issues to engineers. 1:1 meetings with the VP of Engineering. After one engineer who had been helping
+  me left to another job, I stepped in to refactor the inference server.
 
 ### Backend developer at Sight Machine, 2018-2021
 
@@ -147,26 +145,21 @@ We provided a location query and map tiling service to Tableau. I built the comp
   Angeles Times. I provided data visualizations for a prototype of the Wall
   Street Journal's "Main Street" section.
 
-### Open source and papers
+### Open source, papers, and academics
 
+-   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+-   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
+-   A git bare approach to version control your dot files, [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
+-   A play Ethereum MEV bot, [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
+- [Geoscore](http://geoscore.com/) started as a startup idea to make choropleth maps to
+  rank and visualize the demographics of 85,000 Census tracts (or neighborhoods)
+  based on the user's custom preferences on where she wants to live. [Geoscore repo](https://github.com/schmidtc/geoscore).
 -   Co-Founder of a library for clustering geographic areas,
     [github.com/clusterpy](https://github.com/clusterpy/clusterpy). I taught
     student researchers in Medellín, Columbia for three weeks in
     geographic areal data, object-oriented design and UI programming.
-- [Geoscore](http://geoscore.com/) was a startup idea to make choropleth maps to
-  rank and visualize the demographics of 85,000 Census tracts (or neighborhoods)
-  based on the user's custom preferences on where she wants to live. [Geoscore repo](https://github.com/schmidtc/geoscore).
--   A play Ethereum MEV bot,
-    [github.com/borisdev/play_mev_bot](https://github.com/borisdev/play_mev_bot)
--   A git bare approach to version control your dot files,
-    [github.com/borisdev/dotfiles](https://github.com/borisdev/dotfiles/blob/master/README.md)
--   [Work design papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
-
-### Academics
-
--   Mentored students in the master's degree program
--   Assisted teaching a class in spatial statistics
+-   Coached students in the master's degree program, as a PhD student
+-   Assisted teaching a class in spatial statistics, as PhD student
 -   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://drive.google.com/file/d/0B3VpcoC5o49ZSzZXbnY3U0VJY2d6dWRETzh1S2Y5ZGNXRGtZ/view?pli=1&resourcekey=0-KJJYhy3nBjKMK5RSVvOisw), 2014.
 -   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage Publications. 2009
 -   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
