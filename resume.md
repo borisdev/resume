@@ -8,7 +8,7 @@ colorlinks: true
 
 - Process optimization
 - Building observability systems
-- Knowledge crunching to document a ubiquitous language of many experts
+- Knowledge crunching to document a ubiquitous language
 
 ## Tools
 
