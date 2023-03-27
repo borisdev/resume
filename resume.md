@@ -174,5 +174,6 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
-- [Geoscore](http://geoscore.com/) to rank and visualize the demographics of 100,000+ neighborhoods. [Geoscore repo](https://github.com/schmidtc/geoscore).
--   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught student researchers in Medellín, Columbia for three weeks in geographic areal data, object-oriented design and UI programming.
+- [Geoscore](http://geoscore.com/) website and
+  [repo](https://github.com/schmidtc/geoscore) to rank and visualize 100,000+ neighborhoods. 
+-   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught students in Columbia in geographic data, OO design and UI programming.
