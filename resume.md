@@ -138,13 +138,13 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 ### Misc jobs
 
-- Coached students in the master's degree program, as a PhD student
-- Assisted teaching a class in spatial statistics, as PhD student
+- Coached students in the master's degree program, as a PhD student at S.D.S.U.
+- Assisted teaching a class in spatial statistics, as PhD student at S.D.S.U.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
-- Researcher at California Business Magazine. Provided data visualizations for a prototype of the Wall Street Journal's "Main Street" section.
-- Lead analyst at California Business Magazine. Provided large newspapers rankings on their local companies.
-- Counselor for severely emotionally disturbed children at Seneca Family of Agencies in San Leandro, CA.
+- Researcher on building a prototype of the Wall Street Journal's "Main Street" section. California Business Magazine. CA. 
+- Led analysts collecting regional company ranking for large newspapers. California Business Magazine. CA. 
+- Counselor for severely emotionally disturbed children at Seneca Family of Agencies. CA.
 
 
 ### Writing
