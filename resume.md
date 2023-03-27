@@ -128,8 +128,7 @@ Tech lead to move the company from a monolith to a microservice architecture
 
 - I coached a data engineer to guide the data scientists into a new microservice development
   pattern.
-- I explained to management the technical vision behind how the microservice architecture using whiteboard diagrams.
-- I explained to management the human vision behind how the microservice architecture saving the data scientists from toil.
+- I explained to management the technical and human vision behind how the microservice architecture.
 
 
 Supported data scientists to reduce their toil
