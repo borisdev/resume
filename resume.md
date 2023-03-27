@@ -136,34 +136,33 @@ We provided a mobile app to automate street sign inspection for the Public Works
 
 We provided a location query and map tiling service to Tableau. I built the company's first observability system and QA system.
 
-### Non-software jobs
+### Misc jobs
 
-- Assistant Manager at Gundy's Grill restaurant at Beaver Creek Ski Resort.
-- Kids snowboard instructor at Beaver Creek Ski Resort.
-- Lead of four analysts at California Business Magazine. We collected
-  financial data on local public companies for newspapers such as the Los
-  Angeles Times. In addition, I provided data visualizations for a prototype of the Wall
-  Street Journal's "Main Street" section.
+- Coached students in the master's degree program, as a PhD student
+- Assisted teaching a class in spatial statistics, as PhD student
+- Kids snowboard instructor at Vail Resorts, CO.
+- Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
+- Researcher at California Business Magazine. Provided data visualizations for a prototype of the Wall Street Journal's "Main Street" section.
+- Lead analyst at California Business Magazine. Provided large newspapers rankings on their local companies.
+- Counselor for severely emotionally disturbed children at Seneca Family of Agencies in San Leandro, CA.
 
-### Open source, papers, and academics
+
+### Writing
 
 -   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
+-   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf) 2014.
+-   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage Publications. 2009
+-   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
+-   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
+-   [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
+
+
+### Open source code
+
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
+-   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 - [Geoscore](http://geoscore.com/) started as a startup idea to make choropleth maps to
   rank and visualize the demographics of 85,000 Census tracts (or neighborhoods)
   based on the user's custom preferences on where she wants to live. [Geoscore repo](https://github.com/schmidtc/geoscore).
--   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught student researchers in Medellín, Columbia for three weeks in
-    geographic areal data, object-oriented design and UI programming.
--   Coached students in the master's degree program, as a PhD student
--   Assisted teaching a class in spatial statistics, as PhD student
--   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
-    2014.
--   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage
-    Publications. 2009
--   [Interactive spatio-temporal modelling of health
-    systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
--   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
--   [Integrating Econometric and Input-Output Models in a Multiregional
-    Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
+-   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught student researchers in Medellín, Columbia for three weeks in geographic areal data, object-oriented design and UI programming.
