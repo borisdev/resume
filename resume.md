@@ -6,9 +6,9 @@ colorlinks: true
 
 ## Interests
 
-- Process optimization
-- Building observability systems
-- Knowledge crunching to document a ubiquitous language
+- Process optimization to scale human
+- Building observability systems to get quick feedback
+- Documenting a ubiquitous language to work together
 
 ## Tools
 
@@ -22,46 +22,57 @@ colorlinks: true
 
 ### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
-The SimpleLegal product is a tool for legal departments of large companies to manage
-the invoice bills from their vendor law firms. Before I arrived, the company had
-been working on a language AI feature for flagging suspicious line items. 
-For one year, this feature was stuck because of bad performance.
-They were unable to increase performance even after spending more money on
-human annotation. My job as tech lead was to increase AI performance.
+Legal departments of big companies to use SimpleLegal software to manage
+bills from their vendor law firms. The situation before I arrived was that 
+their new language AI feature for flagging suspicious invoice lines was 
+was stuck because of bad performance. My job was to increase AI performance.
 The actions I took resulted in the company launching their first AI feature, with positive feedback
 from customers and the sales team, as well as an AI Excellence Award. 
 
-Managed the data science consultant 
+Managed the senior data science consultant
 
-- To increase clarity, I helped the data scientist by organizing his analysis of the 
-  machine learning metrics into a table, which was continually shared at the
-  weekly stand-ups to help others comprehend our progress. 
-- In the spirit of shared success, I worked daily as a team member with the data
-  scientist doing exploratory data analysis of the invoice data. This resulted
-  in the following triage: We killed one classifier that was never needed, 
-  replaced another with expert rules, stopped the labeling on five whose
-  performance was sufficient, and lastly, narrowed the focus of the labeling effort from
-  eleven to two classifiers. In addition, we identified two culprits of bad quality labeling, 1) convoluted annotation
-   guidelines and 2) missing pre-processing noise filters.
-- Periodically, I asked the data scientist to take the lead in explaining complex
-  concepts to the rest of the team, including  executives.
-- I wrote him a stellar performance review, which highlighted his capacity to
-  articulate complex concepts to executives.
+- The technical vision I set for the data scientist was to continually search
+  for "low hanging fruit" to scale back machine learning to launch an MVP. This
+  resulted in scaling back our machine learning training from eleven to two classifiers.
+  The triage was to kill one classifier that was never needed, replace another
+  with expert rules, and stop the labeling on five whose performance was sufficient. 
+- Periodically, I asked the data scientist to take the lead in explaining
+  complex concepts to the rest of the team, including  executives. I wrote him a
+  stellar performance review, which highlighted his capacity to articulate
+  complex concepts to executives.
+
+Managed the inference server engineering and QA tasks
+
+- I assigned Jira issues to engineers. 
+- 1:1 meetings with the VP of Engineering. 
+- After one engineer left to another company, I stepped in to refactor the inference server.
+- I organized the subject-matter expert embarrassment reviews
+
+- To increase clarity, I crunched the knowledge of multiple experts into a
+  working paper, which was continually shared at the weekly stand-ups to help
+  others comprehend our progress. 
 
 Managed the offshore annotators
 
+- I overhauled the relationship with our team of offshore annotators from
+  hierarchical to democratic. 
 - To understand the perspective of the offshore annotators, I labeled several
-  thousand sentences.
-- I built a team relationship with the offshore team of annotators. My
-  objective was to increase labeling, quality. I managed them
-  with a spirit of continuous improvement and consensus. If they disagreed, I asked them to challenge the subject-matter expert and I to explain to test our rationale.
+  thousand sentences. This lead me to identify convoluted annotation guidelines
+  as the root cause of our poor labeling quality.
+- I asked the manager of the annotators to let his workers interact directly with 
+  me and the subject-mater through Slack to give provide us with challenging
+  feedback on our guidelines (the shared language document).
+- I developed and shared new performance metrics over periodic zoom meetings.
 
 Built relationships across the conglomerate
 
-- To teach me, I connected with experts spread across three sister companies.
+- I connected with experts spread across three sister companies.
   This group included a principle data scientist, two product subject-matter
   experts, one of which was a founder and VP, one DevOps engineer, one MLOps
   engineer, and one human annotation expert.
+- A VP of Product/Founder at a sister company helped me recognize that past work was missing pre-processing noise filters.
+- A annotation expert helped me recognize that we needed a democratic
+  relationship with the annotators to ensure quality.
 - I probed, got consensus, and acted. After it was agreed that the 
   biggest potential factor to bad performance that had been unexplored to date
   was _"garbage in, garbage out"_, I stopped the human
@@ -71,8 +82,6 @@ Built relationships across the conglomerate
   the style of the Amazon 6-pager. The team spent the first fifteen minutes
   reading my high-level design document explaining that the performance blocker
   was not training data quantity, but quality, as well as other clarifications. 
-- I assigned Jira issues to engineers. 1:1 meetings with the VP of Engineering. After one engineer who had been helping
-  me left to another job, I stepped in to refactor the inference server.
 
 ### Backend developer at Sight Machine, 2018-2021
 
@@ -90,15 +99,16 @@ them to get accurate customer feedback on product technical design decisions.
   in the calendar invites. Twenty-four hours before the scheduled demo, the
   environment's compute workers are scaled up, the best frontend and backend
   branches deployed, and lastly, the product manager starts smoke and sanity testing.
-- I oversaw the integration of my instrumentation work with the required DevOps work.
 
-I helped increase the engineering team's productivity.
+I led the following initiatives to increase the engineering team's productivity.
 
 - The Director of Engineering and I started a new process where the engineers
-  were given the autonomy to write their own Jira issues, instead of being
-  delegated Jira issues by the Product team.
-- To debug faster, I started the first distributed tracing (Lightstep).
-- I simplified the frontend development environment.
+  wrote their own Jira issues, instead of being delegated Jira issues by the
+  Product team. The new technical design autonomy allowed us to meet requirements with cheaper
+  technical implementations.
+- To debug faster, I instrumented and built distributed tracing (Lightstep) and
+  managed the DevOps work.
+- To simplify on-boarding, I containerized the frontend development environment.
 - I coached junior engineers.
 
 ### Data and product engineer tech lead at HiQ Labs, 2015-2018
@@ -110,14 +120,16 @@ Tech lead for scraping
 
 - The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot detection in order to scrape millions of HTML
 public profiles, the raw data for our prediction pipeline. 
-- I ran and tracked experiments on different spider configurations. 
-- I led a junior devops engineer to help me build a Splunk observability system.
-- I trained a junior data engineer to help with scraping.
+- I led a junior devops engineer to build a Splunk observability system that 
+   was used to track performance and experiments on different spider configurations. 
+- I trained a junior data engineer to maintain the scraping system.
 
 Tech lead to move the company from a monolith to a microservice architecture
 
-- I broke down the coding work.
-- I explained to management the microservice architecture using whiteboard diagrams.
+- I coached a data engineer to guide the data scientists into a new microservice development
+  pattern.
+- I explained to management the technical vision behind how the microservice architecture using whiteboard diagrams.
+- I explained to management the human vision behind how the microservice architecture saving the data scientists from toil.
 
 
 Supported data scientists to reduce their toil
@@ -151,8 +163,8 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 -   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   PhD dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf) 2014.
--   Entry in Encyclopedia of Human Geography on Spatial Econometrics. Sage Publications. 2009
+-   PhD thesis. [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+-   Entry in Encyclopedia of Human Geography on Spatial Econometrics. 2009.
 -   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
 -   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
 -   [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
@@ -162,7 +174,5 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
-- [Geoscore](http://geoscore.com/) started as a startup idea to make choropleth maps to
-  rank and visualize the demographics of 85,000 Census tracts (or neighborhoods)
-  based on the user's custom preferences on where she wants to live. [Geoscore repo](https://github.com/schmidtc/geoscore).
+- [Geoscore](http://geoscore.com/) to rank and visualize the demographics of 100,000+ neighborhoods. [Geoscore repo](https://github.com/schmidtc/geoscore).
 -   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught student researchers in Medellín, Columbia for three weeks in geographic areal data, object-oriented design and UI programming.
