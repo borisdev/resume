@@ -71,7 +71,7 @@ Built relationships across the conglomerate
   experts, one of which was a founder and VP, one DevOps engineer, one MLOps
   engineer, and one human annotation expert.
 - A VP of Product/Founder at a sister company helped me recognize that past work was missing pre-processing noise filters.
-- A annotation expert helped me recognize that we needed a democratic
+- An annotation expert helped me recognize that we needed a democratic
   relationship with the annotators to ensure quality.
 - I probed, got consensus, and acted. After it was agreed that the 
   biggest potential factor to bad performance that had been unexplored to date
