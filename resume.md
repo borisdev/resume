@@ -36,6 +36,9 @@ Managed the senior data science consultant
   resulted in scaling back our machine learning training from eleven to two classifiers.
   The triage was to kill one classifier that was never needed, replace another
   with expert rules, and stop the labeling on five whose performance was sufficient. 
+- To increase clarity, I crunched the knowledge of the data scientist's metrics
+  analysis into a working paper, which was continually shared at the weekly
+  stand-ups. 
 - Periodically, I asked the data scientist to take the lead in explaining
   complex concepts to the rest of the team, including  executives. I wrote him a
   stellar performance review, which highlighted his capacity to articulate
@@ -46,11 +49,7 @@ Managed the inference server engineering and QA tasks
 - I assigned Jira issues to engineers. 
 - 1:1 meetings with the VP of Engineering. 
 - After one engineer left to another company, I stepped in to refactor the inference server.
-- I organized the subject-matter expert embarrassment reviews
-
-- To increase clarity, I crunched the knowledge of multiple experts into a
-  working paper, which was continually shared at the weekly stand-ups to help
-  others comprehend our progress. 
+- I organized the subject-matter expert embarrassment reviews.
 
 Managed the offshore annotators
 
