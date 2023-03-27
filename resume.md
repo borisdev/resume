@@ -22,9 +22,8 @@ colorlinks: true
 
 ### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
-Legal departments of big companies to use SimpleLegal software to manage
-bills from their vendor law firms. The situation before I arrived was that 
-their new language AI feature for flagging suspicious invoice lines was 
+SimpleLegal software is a tool for legal departments of big companies to manage 
+bills from their vendor law firms. Their new language AI feature for flagging suspicious invoice lines was 
 was stuck because of bad performance. My job was to increase AI performance.
 The actions I took resulted in the company launching their first AI feature, with positive feedback
 from customers and the sales team, as well as an AI Excellence Award. 
