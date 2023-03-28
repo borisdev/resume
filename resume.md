@@ -28,7 +28,7 @@ feature for flagging suspicious invoice lines was stuck for one year
 because of bad performance, even after investing in more human annotation. My
 job was to increase AI performance. The actions I took resulted in the company
 launching their first AI feature, with positive feedback from customers and the
-sales team, as well as an AI Excellence Award. 
+sales team, as well as an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
 
 Managed the senior data science consultant
 
