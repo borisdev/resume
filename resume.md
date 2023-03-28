@@ -30,7 +30,7 @@ job was to increase AI performance. The actions I took resulted in the company
 launching their first AI feature, with positive feedback from customers and the
 sales team, as well as an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
 
-Managed the senior data science consultant
+Managed the Senior Data Scientist consultant
 
 - The technical vision I set for the Data Scientist and I was to continually search
   for "low-hanging fruit" to scale back machine learning to launch an MVP. This
@@ -120,7 +120,7 @@ Tech lead for scraping
 public profiles, the raw data for our prediction pipeline. 
 - I led a junior DevOps engineer to build a Splunk observability system that 
    was used to track performance and experiments on different spider configurations. 
-- I trained a junior Data Engineer to maintain the scraping system.
+- I trained a Junior Data Engineer to maintain the scraping system.
 
 Tech lead to move the company from a monolith to a microservice architecture
 
@@ -133,7 +133,7 @@ Supported Data Scientists to reduce their toil
 
 - I shadowed the Data Scientists to see what I could automate for them.
 - I migrated the Data Scientists from Mongo queries to PySpark.
-- To scale, I trained a junior Data Engineer to train the Data Scientists on the new development environment that I had set up.
+- To scale, I trained a Junior Data Engineer to train the Data Scientists on the new development environment that I had set up.
 
 
 ### Start-up partner and developer at Map Decisions, 2014
