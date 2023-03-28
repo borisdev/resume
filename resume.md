@@ -23,15 +23,17 @@ colorlinks: true
 ### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
 SimpleLegal software is a tool for legal departments of big companies to manage 
-bills from their vendor law firms. Their problem was that their new language AI feature for flagging suspicious invoice lines was 
-was stuck for one year because of bad performance, even after investing in more human annotation. My job was to increase AI performance.
-The actions I took resulted in the company launching their first AI feature, with positive feedback
-from customers and the sales team, as well as an AI Excellence Award. 
+bills from their vendor law firms. Their problem was that their new language
+feature for flagging suspicious invoice lines was stuck for one year
+because of bad performance, even after investing in more human annotation. My
+job was to increase AI performance. The actions I took resulted in the company
+launching their first AI feature, with positive feedback from customers and the
+sales team, as well as an AI Excellence Award. 
 
 Managed the senior data science consultant
 
 - The technical vision I set for the data scientist was to continually search
-  for "low hanging fruit" to scale back machine learning to launch an MVP. This
+  for "low-hanging fruit" to scale back machine learning to launch an MVP. This
   resulted in scaling back our machine learning training from eleven to two classifiers.
   The triage was to kill one classifier that was never needed, replace two
   with expert rules, and stop the labeling on five whose performance was sufficient. 
@@ -39,7 +41,7 @@ Managed the senior data science consultant
   analysis into a working paper, which was continually shared at the weekly
   stand-ups. 
 - Periodically, I asked the data scientist to take the lead in explaining
-  complex concepts to the rest of the team, including  executives. I wrote him a
+  complex concepts to the rest of the team, including executives. I wrote him a
   stellar performance review, which highlighted his capacity to articulate
   complex concepts to executives.
 
@@ -47,7 +49,7 @@ Managed the inference server engineering and QA tasks
 
 - I assigned Jira issues to engineers. 
 - 1:1 meetings with the VP of Engineering. 
-- After one engineer left to another company, I stepped in to refactor the inference server.
+- After one engineer left for another company, I stepped in to refactor the inference server.
 - I organized the subject-matter expert embarrassment reviews.
 
 Managed the offshore annotators
@@ -55,12 +57,12 @@ Managed the offshore annotators
 - I overhauled the relationship with our team of offshore annotators from
   hierarchical to democratic. 
 - To understand the perspective of the offshore annotators, I labeled several
-  thousand sentences. This lead me to identify convoluted annotation guidelines
+  thousand sentences. The result was I identified convoluted annotation guidelines
   as the root cause of our poor labeling quality.
 - I asked the manager of the annotators to let his workers interact directly with 
   me and the subject-mater through Slack to give us challenging
   feedback on our annotation guidelines (the shared language document).
-- I developed and shared new performance metrics over periodic zoom meetings.
+- I developed and shared new performance metrics over periodic Zoom meetings.
 
 Built relationships across the conglomerate
 
@@ -116,9 +118,9 @@ Tech lead for scraping
 
 - The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot detection in order to scrape millions of HTML
 public profiles, the raw data for our prediction pipeline. 
-- I led a junior devops engineer to build a Splunk observability system that 
+- I led a junior DevOps engineer to build a Splunk observability system that 
    was used to track performance and experiments on different spider configurations. 
-- I trained a junior data engineer to maintain the scraping system.
+- I trained a junior Data Engineer to maintain the scraping system.
 
 Tech lead to move the company from a monolith to a microservice architecture
 
@@ -131,7 +133,7 @@ Supported data scientists to reduce their toil
 
 - I shadowed the data scientists to see what I could automate for them.
 - I migrated the data scientists from Mongo queries to PySpark.
-- To scale, I trained a junior data engineer to train the data scientists on the new development environment that I had setup.
+- To scale, I trained a junior data engineer to train the data scientists on the new development environment that I had set up.
 
 
 ### Start-up partner and developer at Map Decisions, 2014
@@ -146,7 +148,7 @@ We provided a location query and map tiling service to Tableau. I built the comp
 ### Misc jobs
 
 - As a PhD researcher, I coached master's degree program students.
-- As a PhD researcher, I was a teach assistant in a spatial statistics class.
+- As a PhD researcher, I was a teaching assistant in a spatial statistics class.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
 - Researcher on building a prototype of the Wall Street Journal's "Main Street" section. California Business Magazine. CA. 
@@ -171,4 +173,4 @@ We provided a location query and map tiling service to Tableau. I built the comp
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 - [Geoscore](http://geoscore.com/) website and
   [repo](https://github.com/schmidtc/geoscore) to rank and visualize 100,000+ neighborhoods. 
--   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. Coached students in Columbia in geographic data software.
+- [ClusterPy](https://github.com/clusterpy/clusterpy). As co-founder, I coached students in Columbia in geographic data software.
