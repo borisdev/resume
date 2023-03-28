@@ -23,8 +23,8 @@ colorlinks: true
 ### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
 SimpleLegal software is a tool for legal departments of big companies to manage 
-bills from their vendor law firms. Their new language AI feature for flagging suspicious invoice lines was 
-was stuck because of bad performance. My job was to increase AI performance.
+bills from their vendor law firms. Their problem was that their new language AI feature for flagging suspicious invoice lines was 
+was stuck for one year because of bad performance, even after investing in more human annotation. My job was to increase AI performance.
 The actions I took resulted in the company launching their first AI feature, with positive feedback
 from customers and the sales team, as well as an AI Excellence Award. 
 
@@ -33,7 +33,7 @@ Managed the senior data science consultant
 - The technical vision I set for the data scientist was to continually search
   for "low hanging fruit" to scale back machine learning to launch an MVP. This
   resulted in scaling back our machine learning training from eleven to two classifiers.
-  The triage was to kill one classifier that was never needed, replace another
+  The triage was to kill one classifier that was never needed, replace two
   with expert rules, and stop the labeling on five whose performance was sufficient. 
 - To increase clarity, I crunched the knowledge of the data scientist's metrics
   analysis into a working paper, which was continually shared at the weekly
@@ -58,40 +58,38 @@ Managed the offshore annotators
   thousand sentences. This lead me to identify convoluted annotation guidelines
   as the root cause of our poor labeling quality.
 - I asked the manager of the annotators to let his workers interact directly with 
-  me and the subject-mater through Slack to give provide us with challenging
-  feedback on our guidelines (the shared language document).
+  me and the subject-mater through Slack to give us challenging
+  feedback on our annotation guidelines (the shared language document).
 - I developed and shared new performance metrics over periodic zoom meetings.
 
 Built relationships across the conglomerate
 
-- I connected with experts spread across three sister companies.
-  This group included a principle data scientist, two product subject-matter
-  experts, one of which was a founder and VP, one DevOps engineer, one MLOps
-  engineer, and one human annotation expert.
-- The VP of Product/Founder at a sister company helped me recognize that past work was missing pre-processing noise filters.
+- I built relationships with experts spread across three sister companies: 
+  a principle data scientist, two subject-matter
+  experts (one of which was a VP of Product/Founder), a DevOps engineer, an MLOps
+  engineer, a machine learning expert, and a human annotation expert.
+- From questioning the subject-matter expert, I figured out we were missing pre-processing noise filters.
 - The annotation expert helped me recognize that we needed a democratic
   relationship with the annotators to ensure quality.
-- I probed, got consensus, and acted. After it was agreed that the 
-  biggest potential factor to bad performance that had been unexplored to date
-  was _"garbage in, garbage out"_, I stopped the human
-  annotation process and changed the focus from neural network R&D and labeling
-  quantity to learning about the foundational concepts of labeling quality. 
-- To seek clarity, I asked the company's President to convene a team meeting in
-  the style of the Amazon 6-pager. The team spent the first fifteen minutes
-  reading my high-level design document explaining that the performance blocker
-  was not training data quantity, but quality, as well as other clarifications. 
+- After gathering the evidence, the data scientist, MLOps engineer, and I reached a consensus: the biggest potential factor to bad performance
+  was _"garbage in, garbage out"_. I stopped the human
+  annotation process. I asked the company's President to convene a meeting with
+  our expanded team in
+  the style of the Amazon 6-pager. The attendees spent the first fifteen minutes
+  reading my high-level design document to ensure we were on the same page with
+  complex issues before the discussion started.
 
 ### Backend developer at Sight Machine, 2018-2021
 
 The Sight Machine product is a dashboard tool for process engineers at manufacturing
 plants to keep track of performance.
 
-I built relationships across silos (customer success, DevOps, data engineers, and product engineers).
+I built relationships across silos (Customer Success, DevOps, Data Engineers, and Product Engineers).
 
 - To bring the company's biggest public-facing feature,
 [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
 from its embryonic start as a spreadsheet to general release, I shared high-level
-design papers and gave non-technical explanations to the Product and Customer Support teams. This allowed
+design papers and gave non-technical explanations to the Product and Customer Success teams. This allowed
 them to get accurate customer feedback on product technical design decisions. 
 - I started a new process to ensure toil free and quality sales demos. Engineers must be included
   in the calendar invites. Twenty-four hours before the scheduled demo, the
@@ -131,7 +129,7 @@ Tech lead to move the company from a monolith to a microservice architecture
 
 Supported data scientists to reduce their toil
 
-- I shadowed the data scientists.
+- I shadowed the data scientists to see what I could automate for them.
 - I migrated the data scientists from Mongo queries to PySpark.
 - To scale, I trained a junior data engineer to train the data scientists on the new development environment that I had setup.
 
@@ -147,8 +145,8 @@ We provided a location query and map tiling service to Tableau. I built the comp
 
 ### Misc jobs
 
-- Coached students in the master's degree program, as a PhD student at S.D.S.U.
-- Assisted teaching a class in spatial statistics, as PhD student at S.D.S.U.
+- As a PhD researcher, I coached master's degree program students.
+- As a PhD researcher, I was a teach assistant in a spatial statistics class.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
 - Researcher on building a prototype of the Wall Street Journal's "Main Street" section. California Business Magazine. CA. 
@@ -161,7 +159,7 @@ We provided a location query and map tiling service to Tableau. I built the comp
 -   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
 -   PhD thesis. [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
--   Entry in Encyclopedia of Human Geography on Spatial Econometrics. 2009.
+-   Spatial Econometrics entry. Encyclopedia of Human Geography. 2009.
 -   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
 -   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
 -   [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
@@ -173,4 +171,4 @@ We provided a location query and map tiling service to Tableau. I built the comp
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 - [Geoscore](http://geoscore.com/) website and
   [repo](https://github.com/schmidtc/geoscore) to rank and visualize 100,000+ neighborhoods. 
--   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. I taught students in Columbia in geographic data, OO design and UI programming.
+-   Co-Founder of the [ClusterPy library](https://github.com/clusterpy/clusterpy) for clustering geographic areas. Coached students in Columbia in geographic data software.
