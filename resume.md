@@ -32,7 +32,7 @@ sales team, as well as an AI Excellence Award.
 
 Managed the senior data science consultant
 
-- The technical vision I set for the data scientist was to continually search
+- The technical vision I set for the data scientist and I was to continually search
   for "low-hanging fruit" to scale back machine learning to launch an MVP. This
   resulted in scaling back our machine learning training from eleven to two classifiers.
   The triage was to kill one classifier that was never needed, replace two
