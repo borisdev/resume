@@ -173,4 +173,4 @@ We provided a location query and map tiling service to Tableau. I built the comp
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 - [Geoscore](http://geoscore.com/) website and
   [repo](https://github.com/schmidtc/geoscore) to rank and visualize 100,000+ neighborhoods. 
-- [ClusterPy](https://github.com/clusterpy/clusterpy). As co-founder, I coached students in Columbia in geographic data software.
+- [ClusterPy](https://github.com/clusterpy/clusterpy). As co-founder, I coached students in Medellín, Columbia in geographic data software.
