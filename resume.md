@@ -32,15 +32,15 @@ sales team, as well as an AI Excellence Award.
 
 Managed the senior data science consultant
 
-- The technical vision I set for the data scientist and I was to continually search
+- The technical vision I set for the Data Scientist and I was to continually search
   for "low-hanging fruit" to scale back machine learning to launch an MVP. This
   resulted in scaling back our machine learning training from eleven to two classifiers.
   The triage was to kill one classifier that was never needed, replace two
   with expert rules, and stop the labeling on five whose performance was sufficient. 
-- To increase clarity, I crunched the knowledge of the data scientist's metrics
+- To increase clarity, I crunched the knowledge of the Data Scientist's metrics
   analysis into a working paper, which was continually shared at the weekly
   stand-ups. 
-- Periodically, I asked the data scientist to take the lead in explaining
+- Periodically, I asked the Data Scientist to take the lead in explaining
   complex concepts to the rest of the team, including executives. I wrote him a
   stellar performance review, which highlighted his capacity to articulate
   complex concepts to executives.
@@ -55,25 +55,25 @@ Managed the inference server engineering and QA tasks
 Managed the offshore annotators
 
 - I overhauled the relationship with our team of offshore annotators from
-  hierarchical to democratic. 
+  a hierarchical one to a democratic one. 
 - To understand the perspective of the offshore annotators, I labeled several
-  thousand sentences. The result was I identified convoluted annotation guidelines
+  hundred sentences. The result was I identified convoluted annotation guidelines
   as the root cause of our poor labeling quality.
 - I asked the manager of the annotators to let his workers interact directly with 
   me and the subject-mater through Slack to give us challenging
   feedback on our annotation guidelines (the shared language document).
-- I developed and shared new performance metrics over periodic Zoom meetings.
+- I developed and shared new performance metrics with the team over periodic Zoom meetings.
 
 Built relationships across the conglomerate
 
 - I built relationships with experts spread across three sister companies: 
-  a principle data scientist, two subject-matter
+  a principle Data Scientist, two subject-matter
   experts (one of which was a VP of Product/Founder), a DevOps engineer, an MLOps
   engineer, a machine learning expert, and a human annotation expert.
 - From questioning the subject-matter expert, I figured out we were missing pre-processing noise filters.
 - The annotation expert helped me recognize that we needed a democratic
   relationship with the annotators to ensure quality.
-- After gathering the evidence, the data scientist, MLOps engineer, and I reached a consensus: the biggest potential factor to bad performance
+- After gathering the evidence, the Data Scientist, MLOps engineer, and I reached a consensus: the biggest potential factor to bad performance
   was _"garbage in, garbage out"_. I stopped the human
   annotation process. I asked the company's President to convene a meeting with
   our expanded team in
@@ -124,16 +124,16 @@ public profiles, the raw data for our prediction pipeline.
 
 Tech lead to move the company from a monolith to a microservice architecture
 
-- I coached a data engineer to guide the data scientists into a new microservice development
+- I coached a Data Engineer to guide the Data Scientists into a new microservice development
   pattern.
 - I explained to management the technical and human vision behind the microservice architecture.
 
 
-Supported data scientists to reduce their toil
+Supported Data Scientists to reduce their toil
 
-- I shadowed the data scientists to see what I could automate for them.
-- I migrated the data scientists from Mongo queries to PySpark.
-- To scale, I trained a junior data engineer to train the data scientists on the new development environment that I had set up.
+- I shadowed the Data Scientists to see what I could automate for them.
+- I migrated the Data Scientists from Mongo queries to PySpark.
+- To scale, I trained a junior Data Engineer to train the Data Scientists on the new development environment that I had set up.
 
 
 ### Start-up partner and developer at Map Decisions, 2014
