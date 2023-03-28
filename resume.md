@@ -153,7 +153,7 @@ We provided a location query and map tiling service to Tableau. I built the comp
 - Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
 - Researcher on building a prototype of the Wall Street Journal's "Main Street" section. California Business Magazine. CA. 
 - Led analysts collecting regional company ranking for large newspapers. California Business Magazine. CA. 
-- Counselor for severely emotionally disturbed children at Seneca Family of Agencies. CA.
+- Counselor for severely emotionally disturbed children. Seneca Institute. CA.
 
 
 ### Writing
