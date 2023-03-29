@@ -34,7 +34,7 @@ Managed the Senior Data Scientist consultant
 
 - The technical vision I set for the Data Scientist and I was to continually search
   for "low-hanging fruit" to scale back machine learning to launch an MVP. This
-  resulted in scaling back our machine learning training from eleven to two classifiers.
+  resulted in scaling back our machine learning training from eleven to three classifiers.
   The triage was to kill one classifier that was never needed, replace two
   with expert rules, and stop the labeling on five whose performance was sufficient. 
 - To increase clarity, I crunched the knowledge of the Data Scientist's metrics
@@ -118,7 +118,7 @@ Tech lead for scraping
 
 - The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot detection in order to scrape millions of HTML
 public profiles, the raw data for our prediction pipeline. 
-- I led a junior DevOps engineer to build a Splunk observability system that 
+- I led a Junior DevOps engineer to build a Splunk observability system that 
    was used to track performance and experiments on different spider configurations. 
 - I trained a Junior Data Engineer to maintain the scraping system.
 
