@@ -6,9 +6,9 @@ colorlinks: true
 
 ## Interests
 
-- Process optimization to scale humans
-- Building observability systems to get quick feedback
-- Documenting a ubiquitous language to work together
+- Process optimization to scale humans vertically
+- Building observability systems for quicker feedback
+- Documenting a ubiquitous language to scale humans horizontally
 
 ## Tools
 
