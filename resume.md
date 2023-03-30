@@ -8,7 +8,7 @@ colorlinks: true
 
 - To reduce toil, optimize or automate processes
 - To increase collaboration, document a ubiquitous language
-- To increase feedback, build observability, prototypes, and papers
+- To increase feedback, build observability, prototypes, and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
 - To increase customer value, unravel the primitive concepts of a dataset
 
 ## Tools
@@ -17,14 +17,13 @@ colorlinks: true
 - **DevOps:** Docker, Jenkins, Helm Charts, AWS Sagemaker and Lambda
 - **Observability:** Splunk, Lightstep for distributed tracing
 - **Data science:** SQLAlchemy, PySpark, Pandas, Numpy, PyTorch, Tableau
-- **Teamwork:** Inviting feedback with demos and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view).
 
 ## Job experience
 
 ### Data Scientist / Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
 
 SimpleLegal software is a tool for legal departments of big companies to manage 
-bills from their vendor law firms. Their problem was that their new language
+bills from their vendor law firms. Before I arrived, my employer's problem was that its new language
 feature for flagging suspicious invoice lines was stuck for one year
 because of bad performance, even after investing in more human annotation. My
 job was to increase AI performance. The actions I took resulted in the company
@@ -33,8 +32,8 @@ sales team, as well as an [AI Excellence Award](https://www.bintelligence.com/bl
 
 Managed the Senior Data Scientist consultant
 
-- The technical vision I set for the Data Scientist and I was to continually search
-  for "low-hanging fruit" to scale back machine learning to launch an MVP. This
+- The technical vision I set for the Data Scientist and I was to launch an MVP in six months by discovering
+  "low-hanging fruit" that could scale back the machine learning effort. This
   resulted in scaling back our machine learning training from eleven to three classifiers.
   The triage was to kill one classifier that was never needed, replace two
   with expert rules, and stop the labeling on five whose performance was sufficient. 
@@ -152,20 +151,20 @@ We provided a location query and map tiling service to Tableau. I built the comp
 - As a PhD researcher, I was a teaching assistant in a spatial statistics class.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
-- Researcher on building a prototype of the Wall Street Journal's "Main Street" section. California Business Magazine. CA. 
+- Researcher on building a prototype of the Wall Street Journal's *Main Street* section. California Business Magazine. CA. 
 - Led analysts collecting regional company ranking for large newspapers. California Business Magazine. CA. 
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
 ### Writing
 
--   [Why did your language AI feature fail?](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+-   [*Why did your language AI feature fail?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
--   PhD thesis. [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
--   Spatial Econometrics entry. Encyclopedia of Human Geography. 2009.
--   [Interactive spatio-temporal modelling of health systems](https://link.springer.com/article/10.1007/s00477-007-0135-0)
--   [$\sigma$‐convergence in the presence of spatial effects](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
--   [Integrating Econometric and Input-Output Models in a Multiregional Context](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
+-   PhD thesis. [*Assessing Inequality using Geographic Income Distributions*](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+-   *Spatial Econometrics* entry. Encyclopedia of Human Geography. 2009.
+-   [*Interactive spatio-temporal modelling of health systems*](https://link.springer.com/article/10.1007/s00477-007-0135-0)
+-   [*$\sigma$‐convergence in the presence of spatial effects*](https://rsaiconnect.onlinelibrary.wiley.com/doi/abs/10.1111/j.1435-5957.2006.00083.x)
+-   [*Integrating Econometric and Input-Output Models in a Multiregional Context*](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2257.1997.tb00771.x)
 
 
 ### Open source code
