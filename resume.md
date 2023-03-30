@@ -6,10 +6,10 @@ colorlinks: true
 
 ## Interests
 
-- To reduce toil, optimize or automate processes
-- To increase collaboration, document a ubiquitous language
-- To increase feedback, build observability, prototypes, and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
-- To increase customer value, unravel the primitive concepts of a dataset
+- To reduce toil by optimizing and automating processes
+- To increase collaboration by documenting a ubiquitous language
+- To increase feedback by building observability, prototypes, and papers [(examples)](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
+- To increase customer value by discovering primitive concepts behind the data's relevance
 
 ## Tools
 
