@@ -9,7 +9,7 @@ colorlinks: true
 - To reduce toil by optimizing and automating processes
 - To increase collaboration by documenting a ubiquitous language
 - To increase feedback by building observability, prototypes, and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
-- To help customers by modeling how they make business judgements with the data
+- To help customers by discovering how the data can be mapped to their decision making
 
 ## Tools
 
