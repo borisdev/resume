@@ -6,9 +6,10 @@ colorlinks: true
 
 ## Interests
 
-- Process optimization to scale humans
-- Documenting a ubiquitous language to scale humans
-- Building observability systems and prototypes for quick feedback
+- To reduce toil, optimize or automate processes
+- To increase collaboration, document a ubiquitous language
+- To increase feedback, build observability, prototypes, and papers
+- To increase customer value, unravel the primitive concepts of a dataset
 
 ## Tools
 
