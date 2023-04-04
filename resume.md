@@ -18,11 +18,10 @@ colorlinks: true
 
 My goal is to serve a team of scientists that are discovering new analytic methods to help decision makers grow the business. My interests include the following.
 
-- reduce scientist toil by optimizing (automating) data processes
-- get clearer feedback by documenting a shared language on the meaning behind the data
+- automating data processes to reduce toil for the scientists
+- document a shared language of the data's meaning for clearer feedback
 - generate more feedback with prototypes (demos), and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
-- improve delivery by evangelizing engineering best (standard) practices to scientists
-- increase delivery of observability systems with standardized instrumentation
+- evangelize engineering best practices to scientists
 
 ## Leadership style
 
