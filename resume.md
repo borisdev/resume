@@ -6,21 +6,23 @@ colorlinks: true
 
 ## Data leader background
 
-- Led Language AI model development to GA release
-- Led a data engineering switch from monolith to microservice paradigm
-- Led building new observability systems
-- Leader in the GA release of a large analytic product feature
+- led Language AI model development to GA release
+- led a data engineering switch from monolith to microservice paradigm
+- led building new observability systems
+- led in the GA release of a large analytic product feature
 - PhD research in creating new data analysis methods to track inequality
-- Engineering expertise in microservice, distributed backend systems
-- Data expertise in Language AI, analytic methods, and observability
+- engineering expertise in microservice, distributed backend systems
+- data expertise in Language AI, analytic methods, observability, and BI
 
 ## Career goal
 
-My goal is to serve a team of scientists that are discovering new analytic methods to help decision makers grow the business. My interests include the following.
+My goal is to serve a team of scientists that are discovering new analytic
+methods to help decision makers grow the business. My interests include the
+following.
 
 - automating data processes to reduce toil for the scientists
-- document a shared language of the data's meaning for clearer feedback
-- generate more feedback with prototypes (demos), and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
+- document a common language of the customer meaning behind the data
+- generate more feedback with prototypes (demos) and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
 - evangelize engineering best practices to scientists
 
 ## Leadership style
@@ -41,6 +43,27 @@ AI feature for flagging suspicious invoice lines was stuck for one year
 because of bad performance, even after investing in more human annotation. My
 job was to increase AI performance. My actions resulted in the feature being launched and winning an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
 
+I changed our direction from increasing data quantity to increasing data quality.
+
+- I asked the President to convene a Amazon 6-pager meeting to share the results of the gathering mission, outlined below. 
+- I built relationships with five experts across the conglomerate.
+- The annotation expert opened my eyes to treat the offshore annotators as
+  creative partners. Success depended on getting their feedback for the continuous improvement of 
+  the annotation guidelines and AI flag definitions.
+- I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
+- I connected with a Founder (VP of Product) at a sister company who translated for me the customer meaning behind the legal invoice line-item data.
+
+Managed the data, offshore annotators, and the subject-matter expert
+
+- I added the subject-matter expert to our team.
+- I included the offshore annotators and subject-matter expert into a continuous
+  improvement collaboration on AI flag definition and annotation guidelines.
+- I changed annotation process to small batches
+- I started inter-annotator performance metrics and meetings.
+- To build cognitive empathy I labeled several hundred sentences. As a result,
+  I identified convoluted annotation guidelines as the root cause of our poor labeling quality.
+
+
 Managed the Senior Data Scientist consultant
 
 - The technical vision I set for the Data Scientist and I was to launch an MVP in six months by discovering
@@ -52,7 +75,7 @@ Managed the Senior Data Scientist consultant
   behind the data and the AI flags.
 - To increase clarity, I crunched the knowledge of the Data Scientist's metrics
   analysis into a working paper, which was continually shared at the weekly
-  stand-ups. 
+  check-ins. 
 - I wrote the data scientist a
   stellar performance review, highlighting his acumen at articulating
   complex concepts to executives.
@@ -63,23 +86,6 @@ Managed the engineering tasks
 - 1:1 meetings with the VP of Engineering. 
 - After one engineer left for another company, I stepped in to refactor the inference server.
 
-Managed the offshore annotators
-
-- Included the offshore annotators and subject-matter expert into a continuous
-  improvement collaboration on AI flag definition and annotation guidelines.
-- Changed annotation process to small batches
-- Started inter-annotator performance metrics and meetings.
-- Labeling several hundred sentences, I built cognitive empathy to identify convoluted annotation guidelines
-  as the root cause of our poor labeling quality.
-
-I changed our direction from increasing data quantity to increasing quality.
-
-- I built relationships with five experts in three sister companies across the conglomerate.
-- I included the subject-matter expert into our team.
-- I learned from the annotation expert that success depended on including the annotators as experts for feedback.
-- I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
-- I connected with a Founder (VP of Product) at a sister company who gave me the pre-processing noise filter idea.
-- I asked the President to convene a Amazon 6-pager meeting to share the new knowledge. 
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
@@ -87,37 +93,39 @@ I changed our direction from increasing data quantity to increasing quality.
 The Sight Machine product is a performance dashboard tool for process engineers at factories.
 
 
-- got the company's biggest public-facing feature,
+- To get the company's biggest public-facing feature,
   [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
-  across the GA line
-- worked across silos (Customer Success, DevOps, Data Engineers) 
-- wrote high-level design papers to help the Product and Customer Success
-  teams get relevant customer feedback on product technical design decisions. 
-- started a new checklist process to lock down successful sales demos.
-- nudging the engineering delivery team to be closer to a product
-  team, the Director of Engineering and I started a new process where the
+  across the GA line, I worked across silos (Customer Success, DevOps, Data
+  Engineers). I wrote high-level design papers to help the Product and Customer Success
+  teams understand the time cost of competing technical design decisions, arming them with
+  a conceptual framework to gather more information from the customer on her
+  priorities.
+- I started a new checklist process to lock down successful sales demos.
+- I nudged the engineering team to move from a delivery team to a product
+  team. The Director of Engineering and I started a new process where the
   engineers fleshed out their own Jira issues. The new technical design autonomy
   reduced engineering toil and increased creativity.
-- built the first distributed tracing (Lightstep), which made debugging system
+- I built the first distributed tracing (Lightstep), which made debugging system
   downtime easier. 
-- proposed and standardized frontend development environment, which made
-  on-boarding easier.
-- coached junior engineers.
+- I proposed and delivered a new standardized frontend development environment. The innovation made debugging and on-boarding easier.
+- I coached junior engineers in systems thinking.
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 The HiQ product predicted the likelihood that an employee would quit.
 
-- A puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot
+- I led the move from a monolith to a microservice paradigm. I led a Data
+  Engineer to guide the Data Scientists to refactor each component of their monolith 
+  into a docker container service. I explained to management the technical and human vision behind the
+  microservice paradigm. 
+- I owned the scraping part of the pipeline. The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot
   detection in order to scrape millions of HTML public profiles, the raw data
   for our prediction pipeline. 
 - I led a Junior DevOps engineer to build a Splunk observability system that was
   used to track performance and experiments on different spider configurations. 
 - I trained a Junior Data Engineer to maintain the scraping system.
-- I led the move from a monolith to a microservice paradigm.
-- I led a Data Engineer to guide the Data Scientists into a new microservice development paradigm.
-- I explained to management the technical and human vision behind the microservice architecture.
-- I shadowed the Data Scientists to see what I could automate for them.
+- I shadowed the Data Scientists to see what I could
+  automate for them.
 - I migrated the Data Scientists from Mongo queries to PySpark.
 
 ### Start-up partner and full-stack developer at Map Decisions, 2014
@@ -126,7 +134,9 @@ Map Decisions was a mobile app to automate street sign inspection for city Publi
 
 ### Start-up partner and analytics developer at Geoscore, 2014
 
-[Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore)) ranks and visualizes 100,000+ neighborhoods. 
+[Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore))
+was an app for customer's to rank and visualize 100,000+ neighborhoods based on
+their individual weighted preferences of different socio-demographic factors.
 
 
 ### Developer at Urban Mapping, 2011-2013
@@ -141,19 +151,19 @@ Urban Mapping provided a geodata REST API to Tableau and other customers.
 ## Misc leadership roles
 
 
-- coached students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy)
-- coached graduate students and taught spatial statistics, as a PhD
+- I coached students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
+- I coached graduate students and taught spatial statistics, as a PhD.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Restaurant Assistant Manager at Vail Resorts, CO.
-- Lead analyst at California Business Magazine. CA. Collected company data for newspaper rankings.
+- Lead analyst at California Business Magazine. CA. We collected data for large newspapers to rank their local companies.
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
 ### Open source code and writing
 
+-   [*Why did your language AI feature fail?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
--   [*Why did your language AI feature fail?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
 -   PhD thesis. [*Assessing Inequality using Geographic Income Distributions*](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
 -   *Spatial Econometrics* entry. Encyclopedia of Human Geography. 2009.
