@@ -11,8 +11,8 @@ colorlinks: true
 - Led building new observability systems
 - Leader in the GA release of a large analytic product feature
 - PhD research in creating new data analysis methods to track inequality
-- Engineering tools: microservice backend stack, Splunk, Lightstep
-- Data science tools: PySpark, Pandas, Numpy, BI (Splunk, Tableau)
+- Engineering expertise in microservice, distributed backend systems
+- Data expertise in Language AI, analytic methods, and observability
 
 ## Career goal
 
@@ -74,11 +74,12 @@ Managed the offshore annotators
 
 I changed our direction from increasing data quantity to increasing quality.
 
-- To gather knowledge, I organized meetings with six experts in three sister companies across the conglomerate.
-- At my request, the President convened a Amazon 6-pager meeting where we could teach the team what we learned and sell the new direction. 
-- The annotation expert taught us success depends on the annotators expert feedback.
-- The data scientists explained the biggest issue is _"garbage in, garbage out"_.
-- A Founder/VP of Product at a sister company taught me we must have pre-processing noise filters.
+- I built relationships with five experts in three sister companies across the conglomerate.
+- I included the subject-matter expert into our team.
+- I learned from the annotation expert that success depended on including the annotators as experts for feedback.
+- I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
+- I connected with a Founder (VP of Product) at a sister company who gave me the pre-processing noise filter idea.
+- I asked the President to convene a Amazon 6-pager meeting to share the new knowledge. 
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
