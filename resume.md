@@ -6,11 +6,11 @@ colorlinks: true
 
 ## Data leader background
 
-- Led Language AI model development
-- Led data engineering from monolith to microservice paradigm
+- Led Language AI model development to GA release
+- Led a data engineering switch from monolith to microservice paradigm
 - Led building new observability systems
-- Led analytic product features
-- PhD research in social science data analytics
+- Leader in the GA release of a large analytic product feature
+- PhD research in creating new data analysis methods to track inequality
 - Engineering tools: microservice backend stack, Splunk, Lightstep
 - Data science tools: PySpark, Pandas, Numpy, BI (Splunk, Tableau)
 
@@ -105,7 +105,7 @@ The Sight Machine product is a performance dashboard tool for process engineers 
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
-The HiQ product provided predictions on the likelihood that a company employee would quit.
+The HiQ product predicted the likelihood that an employee would quit.
 
 - A puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot
   detection in order to scrape millions of HTML public profiles, the raw data
@@ -113,7 +113,7 @@ The HiQ product provided predictions on the likelihood that a company employee w
 - I led a Junior DevOps engineer to build a Splunk observability system that was
   used to track performance and experiments on different spider configurations. 
 - I trained a Junior Data Engineer to maintain the scraping system.
-- tech lead on the move from a monolith to a microservice paradigm 
+- I led the move from a monolith to a microservice paradigm.
 - I led a Data Engineer to guide the Data Scientists into a new microservice development paradigm.
 - I explained to management the technical and human vision behind the microservice architecture.
 - I shadowed the Data Scientists to see what I could automate for them.
@@ -140,12 +140,11 @@ Urban Mapping provided a geodata REST API to Tableau and other customers.
 ## Misc leadership roles
 
 
-- As a founder of [ClusterPy](https://github.com/clusterpy/clusterpy), I coached students in Medellín, Columbia in geographic data software.
-- As a PhD researcher, I coached graduate students and taught spatial statistics.
+- coached students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy)
+- coached graduate students and taught spatial statistics, as a PhD
 - Kids snowboard instructor at Vail Resorts, CO.
-- Assistant Manager at Gundy's Grill restaurant at Vail Resorts, CO.
-- Researcher on building a prototype of the Wall Street Journal's *Main Street* section. California Business Magazine. CA. 
-- Led analysts collecting regional company ranking for large newspapers. California Business Magazine. CA. 
+- Restaurant Assistant Manager at Vail Resorts, CO.
+- Lead analyst at California Business Magazine. CA. Collected company data for newspaper rankings.
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
