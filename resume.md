@@ -10,7 +10,7 @@ colorlinks: true
 - led a data engineering switch from monolith to microservice paradigm
 - led building new observability systems
 - led in the GA release of a large analytic product feature
-- PhD research in creating new data analysis methods to track inequality
+- PhD research on data analysis methods in economic geography
 - engineering expertise in microservice, distributed backend systems
 - data expertise in Language AI, analytic methods, observability, and BI
 
@@ -20,10 +20,10 @@ My goal is to serve a team of scientists that are discovering new analytic
 methods to help decision makers grow the business. My interests include the
 following.
 
-- automating data processes to reduce toil for the scientists
+- innovate data processes to reduce toil for the scientists
+- evangelize agile engineering best practices to scientists
 - document a common language of the customer meaning behind the data
-- generate more feedback with prototypes (demos) and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
-- evangelize engineering best practices to scientists
+- generate prioritization feedback with prototypes (demos) and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
 
 ## Leadership style
 
@@ -41,11 +41,11 @@ SimpleLegal software is a tool for big companies to manage
 bills from their vendor law firms. Before I arrived, my employer's new language
 AI feature for flagging suspicious invoice lines was stuck for one year
 because of bad performance, even after investing in more human annotation. My
-job was to increase AI performance. My actions resulted in the feature being launched and winning an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
+job was to increase AI performance. The result was we launched the AI feature and won an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
 
-I changed our direction from increasing data quantity to increasing data quality.
+I changed our priorities from increasing data quantity to increasing data quality.
 
-- I asked the President to convene a Amazon 6-pager meeting to share the results of the gathering mission, outlined below. 
+- I asked the President to convene an Amazon 6-pager meeting to share the results of the gathering mission, outlined below. 
 - I built relationships with five experts across the conglomerate.
 - The annotation expert opened my eyes to treat the offshore annotators as
   creative partners. Success depended on getting their feedback for the continuous improvement of 
@@ -53,39 +53,37 @@ I changed our direction from increasing data quantity to increasing data quality
 - I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
 - I connected with a Founder (VP of Product) at a sister company who translated for me the customer meaning behind the legal invoice line-item data.
 
-Managed the data, offshore annotators, and the subject-matter expert
+Managed the Senior Data Scientist consultant, offshore annotators, and the
+subject-matter expert
 
 - I added the subject-matter expert to our team.
 - I included the offshore annotators and subject-matter expert into a continuous
   improvement collaboration on AI flag definition and annotation guidelines.
-- I changed annotation process to small batches
-- I started inter-annotator performance metrics and meetings.
-- To build cognitive empathy I labeled several hundred sentences. As a result,
-  I identified convoluted annotation guidelines as the root cause of our poor labeling quality.
-
-
-Managed the Senior Data Scientist consultant
-
-- The technical vision I set for the Data Scientist and I was to launch an MVP in six months by discovering
-  "low-hanging fruit" that could scale back the machine learning effort. This
-  resulted in scaling back our machine learning training from eleven to three redefined classifiers.
-  The triage was to kill one classifier that was never needed, replace two
-  with expert rules, and stop the labeling on five whose performance was sufficient. 
+- I changed the annotation process to small batches
+- I started inter-annotator performance metrics and reviews.
+- To build cognitive empathy, I labeled several hundred sentences. As a result,
+  I identified convoluted annotation guidelines as the root cause of our poor
+  labeling quality.
+- The technical vision I set for the data scientist and I was to launch an MVP
+  in six months by discovering "low-hanging fruit" that could scale back the
+  machine learning effort. This resulted in scaling back our machine learning
+  from eleven to three redefined classifiers. The triage was to kill one
+  classifier that was never needed, replace two with expert rules, and stop the
+  labeling on five whose performance was sufficient. 
 - To increase clarity, I coached the team to understand the customer meaning
   behind the data and the AI flags.
 - To increase clarity, I crunched the knowledge of the Data Scientist's metrics
   analysis into a working paper, which was continually shared at the weekly
   check-ins. 
-- I wrote the data scientist a
-  stellar performance review, highlighting his acumen at articulating
-  complex concepts to executives.
+- I wrote the data scientist a stellar performance review, highlighting his
+  acumen at articulating complex concepts to executives.
 
 Managed the engineering tasks
 
 - I assigned Jira issues to engineers. 
 - 1:1 meetings with the VP of Engineering. 
-- After one engineer left for another company, I stepped in to refactor the inference server.
-
+- After one engineer left for another company, I stepped in to refactor the
+  inference server.
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
@@ -130,13 +128,14 @@ The HiQ product predicted the likelihood that an employee would quit.
 
 ### Start-up partner and full-stack developer at Map Decisions, 2014
 
-Map Decisions was a mobile app to automate street sign inspection for city Public Works departments.
+Map Decisions was a mobile app, which I built, to automate street sign inspection for city Public Works departments.
 
 ### Start-up partner and analytics developer at Geoscore, 2014
 
 [Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore))
-was an app for customer's to rank and visualize 100,000+ neighborhoods based on
-their individual weighted preferences of different socio-demographic factors.
+was an app to compare and visualize neighborhoods based on user livability preferences.
+We ran Google Ad experiments around an SEO strategy of user's entering addresses in Google
+search queries.
 
 
 ### Developer at Urban Mapping, 2011-2013
