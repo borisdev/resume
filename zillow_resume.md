@@ -4,7 +4,7 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Job goal
+# Objective
 
 To solve ambiguous, high-impact problems using a scrappy style. 
 
@@ -23,12 +23,24 @@ To solve ambiguous, high-impact problems using a scrappy style.
 - engineering expertise in microservice, distributed backend systems
 - data expertise in Language AI, analytic methods, observability, and BI
 
+## Career goal
+
+My goal is to serve a team of scientists that are discovering new analytic
+methods to help decision makers grow the business. My interests include the
+following.
+
+- innovate data processes to reduce toil for the scientists
+- evangelize agile engineering best practices to scientists
+- document a common language of the customer meaning behind the data
+- generate prioritization feedback with prototypes (demos) and [papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/view)
+
 ## Leadership style
 
 1. Questioning - cognitive empathy to get context to execute the below points.
 2. Visioning - win-win attitude that results in joyful effort over obfuscating
 3. Coaching - top-down feedback, smaller chunks, metrics, short-cuts
 4. Serving - bottom-up feedback, documentation discipline, blockers
+
 
 ## Job experience
 
@@ -157,7 +169,7 @@ Urban Mapping provided a geodata REST API to Tableau and other customers.
 
 ### Open source code and writing
 
--   [*How can a Lean Startup approach help you launch your domain-specific language AI feature?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+-   [*Why did your language AI feature fail?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
