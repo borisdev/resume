@@ -6,22 +6,29 @@ colorlinks: true
 
 ## Job goal
 
-To solve ambiguous, high-impact problems using a scrappy style. 
+- I am looking to solve big customer problems, by untangling messy, ambiguous data
+puzzles. 
+- I see my high business impact as being a function of getting grounded 
+cognitive empathy for the customer combined with getting a big picture of the data flow.
+
+## Entrepreneurial, scrappy work style
 
 - work across silos to deliver
 - write Amazon 6-pagers to discover better solutions
 - question assumptions with counterfactuals to innovate
 - use cognitive empathy to dive into the data's human relevance
 
-## Data leader background
+## Notable successes as a data leader
 
-- led Language AI model development to GA release
-- led a data engineering switch from monolith to microservice paradigm
-- led building new observability systems
-- led in the GA release of a large analytic product feature
-- PhD research on data analysis methods in economic geography
-- engineering expertise in microservice, distributed backend systems
-- data expertise in Language AI, analytic methods, observability, and BI
+- earned a PhD, designed metrics that reflect nuanced inequality concerns
+- led a company's switch to a microservice paradigm
+- got a company's 1st language AI feature unstuck and launched
+- got a company's largest analytic feature launched from scratch
+- built observability systems for three companies from scratch
+- built a scraper to circumvent LinkedIn's bot detection system
+- helped nudge a delivery engineering team to be a product team
+- engineering expertise in distributed backend systems
+- built Splunk and Tableau BI dashboards
 
 ## Leadership style
 
@@ -157,7 +164,7 @@ Urban Mapping provided a geodata REST API to Tableau and other customers.
 
 ### Open source code and writing
 
--   [*How can a Lean Startup approach help you launch your domain-specific language AI feature?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+-   [*What does the Lean Startup approach have to do with language AI?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
