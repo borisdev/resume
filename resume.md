@@ -4,14 +4,19 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Work goal: Analytics Engineer
+## Goal: Data Science Engineer
 
-- deliver analytic insights to stakeholders
-- innovate data science processes
+- telemetry/observability/instrumentation
+- deliver insights to stakeholders
 - work on ambiguous problems
-- build language AI analytics 
-- build composable analytics
+- innovate processes
 - work across silos
+
+## Tools
+
+- Telemetry: OpenTracing, Lightstep, Splunk, Tableau, Grafana
+- Coding: Python, Linux, AWS, Docker, Kubectl, Rancher, Flask/Django
+- Data: Pandas, SageMaker, GroundTruth, PyTorch, PySpark, LangChain
 
 ## Notable successes
 
@@ -22,7 +27,7 @@ colorlinks: true
 
 ## Job experience
 
-### Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
+### Data Science Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company. 
 
@@ -119,7 +124,7 @@ HiQ Labs was a people analytics company.
 
 ### Start-up partner and full-stack developer at Map Decisions, 2014
 
-Map Decisions was a asset management company for city Public Works departments.
+Map Decisions was an asset management company for city Public Works departments.
 
 - I built a mobile app to automate street sign inspection.
 
