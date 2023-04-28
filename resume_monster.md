@@ -4,50 +4,39 @@ colorlinks: true
 
 # Boris Dev
 
-## Job goal
+## Goal: Data Science Engineer
 
-- I am looking to solve big customer problems, by untangling messy, ambiguous data
-puzzles. 
-- I see my high business impact as being a function of getting grounded 
-cognitive empathy for the customer combined with getting a big picture of the data flow.
+- telemetry/observability/instrumentation
+- deliver insights to stakeholders
+- work on ambiguous problems
+- innovate processes
+- work across silos
 
-## Entrepreneurial, scrappy work style
+## Tools
 
-- work across silos to deliver
-- write Amazon 6-pagers to discover better solutions
-- question assumptions with counterfactuals to innovate
-- use cognitive empathy to dive into the data's human relevance
+- Telemetry: OpenTracing, Lightstep, Splunk, Tableau, Grafana
+- Coding: Python, Linux, AWS, Docker, Kubectl, Rancher, Flask/Django
+- Data: Pandas, SageMaker, GroundTruth, PyTorch, PySpark, LangChain
 
-## Notable successes as a data leader
+## Notable successes
 
-- earned a PhD, designed metrics that reflect nuanced inequality concerns
-- led a company's switch to a microservice paradigm
-- got a company's 1st language AI feature unstuck and launched
-- got a company's largest analytic feature launched from scratch
-- built observability systems for three companies from scratch
-- built a scraper to circumvent LinkedIn's bot detection system
-- helped nudge a delivery engineering team to be a product team
-- engineering expertise in distributed backend systems
-- built Splunk and Tableau BI dashboards
-
-## Leadership style
-
-1. Questioning - cognitive empathy to get context to execute the below points.
-2. Visioning - win-win attitude that results in joyful effort over obfuscating
-3. Coaching - top-down feedback, smaller chunks, metrics, short-cuts
-4. Serving - bottom-up feedback, documentation discipline, blockers
+- led microservice migration
+- led language AI feature launch 
+- led building observability systems
+- earned a PhD working on human inequality analytics
 
 ## Job experience
 
-### Technical AI Product Manager, consultant at SimpleLegal, 2022-2023
+### Data Science Engineer consultant at SimpleLegal, 2022-2023
 
-SimpleLegal software is a tool for big companies to manage 
-bills from their vendor law firms. Before I arrived, my employer's new language
+SimpleLegal is a legal billing analytics company. 
+
+Before I arrived, my employer's new language
 AI feature for flagging suspicious invoice lines was stuck for one year
 because of bad performance, even after investing in more human annotation. My
 job was to increase AI performance. The result was we launched the AI feature and won an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
 
-I changed our priorities from increasing data quantity to increasing data quality.
+I changed the direction from data quantity to data quality.
 
 - I asked the President to convene an Amazon 6-pager meeting to share the results of the gathering mission, outlined below. 
 - I built relationships with five experts across the conglomerate.
@@ -57,10 +46,8 @@ I changed our priorities from increasing data quantity to increasing data qualit
 - I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
 - I connected with a Founder (VP of Product) at a sister company who translated for me the customer meaning behind the legal invoice line-item data.
 
-Managed the Senior Data Scientist consultant, offshore annotators, and the
-subject-matter expert
+I managed the offshore annotators.
 
-- I added the subject-matter expert to our team.
 - I included the offshore annotators and subject-matter expert into a continuous
   improvement collaboration on AI flag definition and annotation guidelines.
 - I changed the annotation process to small batches
@@ -68,6 +55,11 @@ subject-matter expert
 - To build cognitive empathy, I labeled several hundred sentences. As a result,
   I identified convoluted annotation guidelines as the root cause of our poor
   labeling quality.
+
+
+I led the Senior Data Scientist and the subject-matter expert.
+
+- I added the subject-matter expert to our team.
 - The technical vision I set for the data scientist and I was to launch an MVP
   in six months by discovering "low-hanging fruit" that could scale back the
   machine learning effort. This resulted in scaling back our machine learning
@@ -82,7 +74,7 @@ subject-matter expert
 - I wrote the data scientist a stellar performance review, highlighting his
   acumen at articulating complex concepts to executives.
 
-Managed the engineering tasks
+I led the engineering tasks.
 
 - I assigned Jira issues to engineers. 
 - 1:1 meetings with the VP of Engineering. 
@@ -92,8 +84,7 @@ Managed the engineering tasks
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
-The Sight Machine product is a performance dashboard tool for process engineers at factories.
-
+The Sight Machine is a manufacturing analytics company.
 
 - To get the company's biggest public-facing feature,
   [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
@@ -114,7 +105,8 @@ The Sight Machine product is a performance dashboard tool for process engineers 
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
-The HiQ product predicted the likelihood that an employee would quit.
+HiQ Labs was a people analytics company. 
+
 
 - I led the move from a monolith to a microservice paradigm. I led a Data
   Engineer to guide the Data Scientists to refactor each component of their monolith 
@@ -132,33 +124,34 @@ The HiQ product predicted the likelihood that an employee would quit.
 
 ### Start-up partner and full-stack developer at Map Decisions, 2014
 
-Map Decisions was a mobile app, which I built, to automate street sign inspection for city Public Works departments.
+Map Decisions was an asset management company for city Public Works departments.
+
+- I built a mobile app to automate street sign inspection.
 
 ### Start-up partner and analytics developer at Geoscore, 2014
 
-[Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore))
-was an app to compare and visualize neighborhoods based on user livability preferences.
-We ran Google Ad experiments around an SEO strategy of user's entering addresses in Google
-search queries.
+Geoscore was a company for demographic analytics.
+
+- I made the analytic endpoints.
+- I ran Google Ad experiments around comparing SEO strategies.
 
 
 ### Developer at Urban Mapping, 2011-2013
 
-Urban Mapping provided a geodata REST API to Tableau and other customers. 
+Urban Mapping provided geospatial analytics to Tableau. 
 
-- I built the observability system (Splunk).
-- I created a new performance metric for map tile rendering.
+- I created KPIs.
 - I built the CI pipeline (Jenkins).
-- I built a Tableau BI Dashboard
+- I built the observability system (Splunk, Tableau BI Dashboard).
 
 ## Misc leadership roles
 
 
-- I coached students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
+- I gave technical vision to students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
 - I coached graduate students and taught spatial statistics, as a PhD.
 - Kids snowboard instructor at Vail Resorts, CO.
 - Restaurant Assistant Manager at Vail Resorts, CO.
-- Lead analyst at California Business Magazine. CA. We collected data for large newspapers to rank their local companies.
+- Lead analyst at California Business Magazine. CA. 
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
@@ -168,6 +161,7 @@ Urban Mapping provided a geodata REST API to Tableau and other customers.
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
+-   [Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore))
 -   PhD thesis. [*Assessing Inequality using Geographic Income Distributions*](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
 -   *Spatial Econometrics* entry. Encyclopedia of Human Geography. 2009.
 -   [*Interactive spatio-temporal modelling of health systems*](https://link.springer.com/article/10.1007/s00477-007-0135-0)
