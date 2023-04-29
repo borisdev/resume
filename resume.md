@@ -4,26 +4,32 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Goal: Data Science Engineer
+## Goal: Data Science Observability Engineer 
 
-- telemetry/observability/instrumentation
-- deliver insights to stakeholders
-- work on ambiguous problems
-- innovate processes
-- work across silos
+- build observability systems (instrumentation, telemetry, metrics)
+- collaborate with stakeholders to improve KPIs
+- leverage Language AI
 
 ## Tools
 
-- Telemetry: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Coding: Python, Linux, AWS, Docker, Kubectl, Rancher, Flask/Django
-- Data: Pandas, SageMaker, GroundTruth, PyTorch, PySpark, LangChain
+- Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
+- Data: SQLAlchemy, Pandas, PyTorch, PySpark, DoWhy, Geospatial
+- Backend: Python, Linux, Flask/Django REST API
+- Infrastructure: AWS, Docker, Kubectl, Rancher, AWS SageMaker
+- Language AI: LangChain, OpenAI, AWS GroundTruth (annotation)
+
+## Style
+
+- work across silos
+- seek to innovate processes
+- relish the challenge of ambiguous problems
 
 ## Notable successes
 
-- led microservice migration
-- led language AI feature launch 
-- led building observability systems
-- earned a PhD working on human inequality analytics
+- built observability systems
+- launched language AI model
+- migrated my team to a microservice paradigm
+- earned a PhD working on human inequality metrics
 
 ## Job experience
 
