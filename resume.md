@@ -90,7 +90,7 @@ I led the engineering tasks.
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
-The Sight Machine is a manufacturing analytics company.
+Sight Machine is a manufacturing analytics company.
 
 - To get the company's biggest public-facing feature,
   [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
