@@ -6,9 +6,9 @@ colorlinks: true
 
 ## Goal: Data Science Engineer 
 
-- collaborate with stakeholders on data-centric problems
-- build high observability systems (instrumentation, telemetry, metrics)
 - exploit the new LLM prompt engineering paradigm
+- build data pipelines with high observability
+- collaborate with stakeholders
 
 ## Tools
 
