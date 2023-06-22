@@ -26,6 +26,7 @@ colorlinks: true
 
 ## Notable successes
 
+- [Langchain PR, 1st chain to target causal structure](https://github.com/hwchase17/langchain/pull/6255)
 - built observability systems
 - launched language AI model
 - migrated my team to a microservice paradigm
