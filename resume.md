@@ -25,7 +25,7 @@ colorlinks: true
 ## Notable successes
 
 - [CPAL
-  Chain](https://github.com/hwchase17/langchain/pull/6255)[https://github.com/hwchase17/langchain/pull/6255]
+  Chain](https://github.com/hwchase17/langchain/pull/6255)[https://github.com/hwchase17/langchain/pull/6255] - 1st chain to integrate causal structure with a Langchain LLM chains.
 - built observability systems
 - launched language AI model
 - migrated my team to a microservice paradigm
