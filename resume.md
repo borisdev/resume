@@ -4,11 +4,10 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Goal: Data Science Engineer 
+## Role: AI Engineer 
 
-- exploit the new LLM prompt engineering paradigm
-- build data pipelines with high observability
-- collaborate with stakeholders
+- build disruptive analytic apps with LLM chains
+- build cognitive empathy for the customer's data demands
 
 ## Tools
 
@@ -20,9 +19,8 @@ colorlinks: true
 
 ## Style
 
-- work across silos
-- seek to innovate processes
-- relish the challenge of ambiguous problems
+- enjoy working across silos on ambiguous, high impact problems
+- enjoy systems thinking for process innovation
 
 ## Notable successes
 
