@@ -19,8 +19,8 @@ colorlinks: true
 
 ## Style
 
-- enjoy working across silos on ambiguous, high impact problems
-- enjoy systems thinking for process innovation
+- excel at cross-silo, ambiguous, high impact problems
+- excel at systems thinking for process innovation
 
 ## Notable successes
 
@@ -33,7 +33,7 @@ colorlinks: true
 
 ## Job experience
 
-### Data Science Engineer consultant at SimpleLegal, 2022-2023
+### AI Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company. 
 
