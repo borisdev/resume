@@ -25,7 +25,7 @@ colorlinks: true
 ## Notable successes
 
 - [CPAL
-  Chain](https://github.com/hwchase17/langchain/pull/6255)[https://github.com/hwchase17/langchain/pull/6255] - perhaps, first approach to add causality to a LLM chain.
+  Chain](https://github.com/hwchase17/langchain/pull/6255)[https://github.com/hwchase17/langchain/pull/6255] - a first in combining causality with a LLM chain.
 - built observability systems
 - launched company's first language AI 
 - migrated my team to a microservice paradigm
