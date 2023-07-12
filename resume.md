@@ -4,10 +4,10 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Role: AI Engineer 
+## Role: Data Science Engineer 
 
-- build disruptive analytic apps with LLM chains
-- build cognitive empathy for the customer's data demands
+- build analytic apps
+- model the customer's data problem
 
 ## Tools
 
