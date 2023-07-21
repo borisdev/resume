@@ -33,7 +33,7 @@ colorlinks: true
 
 ## Job experience
 
-### AI Engineer consultant at SimpleLegal, 2022-2023
+### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company. 
 
