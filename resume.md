@@ -6,13 +6,10 @@ colorlinks: true
 
 ## Role: Data Science Engineer 
 
-- build analytic apps
-- model the customer's data problem
-
 ## Tools
 
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Data: SQLAlchemy, Pandas, PyTorch, PySpark, DoWhy, Geospatial
+- Data: SQLAlchemy, Pandas, PyTorch, PySpark, Geospatial
 - Backend: Python, Linux, Flask/Django REST API
 - Infrastructure: AWS, Docker, Kubectl, Rancher, AWS SageMaker
 - Language AI: LangChain, OpenAI, AWS GroundTruth (annotation)
@@ -21,6 +18,7 @@ colorlinks: true
 
 - excel at cross-silo, ambiguous, high impact problems
 - excel at systems thinking for process innovation
+- enjoy diving into the nuances of the customer's data problem
 
 ## Notable successes
 
