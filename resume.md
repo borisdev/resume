@@ -31,6 +31,13 @@ colorlinks: true
 
 ## Job experience
 
+### AI Technical Advisor at Intuitive Systems, 2023
+
+Intuitive System's product triages customer issues. 
+
+- Business strategy
+- High-level design on evaluation and inference model
+
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company. 
@@ -163,6 +170,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
+-   [Normalize tables using a LLM](https://github.com/borisdev/zero-llm-test)
 -   [*How can language AI performance be raised with cognitive empathy?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
