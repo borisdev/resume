@@ -35,7 +35,7 @@ colorlinks: true
 
 Intuitive System's is an early stage start-up aiming to build enterprise language AI applications to handle customer feedback. We are currently working on two prototypes for two fortune 500 companies. 
 
-My role is in evaluation and inference system design.
+My role is part-time and in evaluation and inference system design.
 
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
