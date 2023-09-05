@@ -4,7 +4,7 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Role: Data Science Engineer 
+## Role: LLM Application Developer 
 
 ## Tools
 
@@ -33,10 +33,9 @@ colorlinks: true
 
 ### AI Technical Advisor at Intuitive Systems, 2023
 
-Intuitive System's product triages customer issues. 
+Intuitive System's is an early stage start-up aiming to build enterprise language AI applications to handle customer feedback. We are currently working on two prototypes for two fortune 500 companies. 
 
-- Business strategy
-- High-level design on evaluation and inference model
+My role is in evaluation and inference system design.
 
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
