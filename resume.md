@@ -4,7 +4,7 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Role: LLM Application Developer 
+## Role: Data Science Engineer building LLM applications 
 
 ## Tools
 
@@ -23,7 +23,7 @@ colorlinks: true
 ## Notable successes
 
 - [CPAL LLM
-  Chain](https://github.com/hwchase17/langchain/pull/6255) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
+  Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
 - built observability systems
 - launched company's first language AI 
 - migrated my team to a microservice paradigm
