@@ -172,6 +172,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 -   [Normalize tables using a LLM](https://github.com/borisdev/zero-llm-test)
 -   [*How can language AI performance be raised with cognitive empathy?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
+-   [Small commit to shell-ai](https://github.com/ricklamers/shell-ai/pull/6)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
 -   [Geoscore](http://geoscore.com/) ([repo](https://github.com/schmidtc/geoscore))
