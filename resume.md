@@ -14,12 +14,6 @@ colorlinks: true
 - Backend: Python, Linux, Flask/Django REST API, SQLAlchemy
 - Infrastructure: AWS, Docker, Kubectl, Rancher
 
-## Style
-
-- excel at cross-silo, ambiguous, high impact problems
-- excel at systems thinking for process innovation
-- enjoy diving into the nuances of the customer's data problem
-
 ## Notable successes
 
 - [CPAL LLM
