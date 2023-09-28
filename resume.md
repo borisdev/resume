@@ -23,6 +23,13 @@ colorlinks: true
 - migrated my team to a microservice paradigm
 - earned a PhD working on human inequality metrics
 
+## Style
+
+- excel at cross-silo, ambiguous, high impact problems
+- excel at systems thinking for process innovation
+- enjoy diving into the nuances of the customer's data problem
+
+
 ## Job experience
 
 ### AI Engineer at Intuitive Systems, 2023
