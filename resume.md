@@ -8,9 +8,9 @@ colorlinks: true
 
 ## Tools
 
-- Language AI: LangChain, LangSmith, AWS GroundTruth & SageMaker, sklearn
+- Language AI (LLM): LangChain, LangSmith, AWS GroundTruth & SageMaker
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Data Science: Pandas, PyTorch, PySpark, Geospatial
+- Data Science: Pandas, PyTorch, PySpark, Geospatial, skelearn
 - Backend: Python, Linux, Flask/Django REST API, SQLAlchemy
 - Infrastructure: AWS, Docker, Kubectl, Rancher
 
