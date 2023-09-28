@@ -4,15 +4,15 @@ colorlinks: true
 
 # Boris Dev | boris.dev@gmail.com
 
-## Role: Data Science Engineer building LLM applications 
+## Role: Data Science Engineer 
 
 ## Tools
 
+- Language AI: LangChain, LangSmith, AWS GroundTruth & SageMaker, sklearn
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Data: SQLAlchemy, Pandas, PyTorch, PySpark, Geospatial
-- Backend: Python, Linux, Flask/Django REST API
-- Infrastructure: AWS, Docker, Kubectl, Rancher, AWS SageMaker
-- Language AI: LangChain, OpenAI, AWS GroundTruth (annotation)
+- Data Science: Pandas, PyTorch, PySpark, Geospatial
+- Backend: Python, Linux, Flask/Django REST API, SQLAlchemy
+- Infrastructure: AWS, Docker, Kubectl, Rancher
 
 ## Style
 
@@ -31,11 +31,13 @@ colorlinks: true
 
 ## Job experience
 
-### AI Technical Advisor at Intuitive Systems, 2023
+### AI Engineer at Intuitive Systems, 2023
 
-Intuitive System's is an early stage start-up aiming to build enterprise language AI applications to handle customer feedback. We are currently working on two prototypes for two fortune 500 companies. 
+Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
 
-My role is part-time and in evaluation and inference system design.
+- canonicalization algorithm
+- prediction evaluation
+- inference server system design
 
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
