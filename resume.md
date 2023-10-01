@@ -19,7 +19,6 @@ colorlinks: true
   Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
 - new algorithm to reduce LLM inference load by 80% and 10x ground truth 
 - new observability system for two companies
-- new data curation process for two companies
 - new language AI feature for one company 
 - new microservice paradigm for one company
 - new geospatial human inequality metrics (PhD research)
@@ -40,7 +39,6 @@ Intuitive System's is an early stage start-up building language AI applications 
 - canonicalization algorithm
 - prediction evaluation
 - inference server system design
-- data curation
 - high-level advice to founder
 
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
