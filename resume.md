@@ -18,9 +18,11 @@ colorlinks: true
 
 - [CPAL LLM
   Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- built observability systems
-- launched company's first language AI 
-- migrated my team to a microservice paradigm
+- algorithm to reduce LLM inference load by 80% and 10x ground truth 
+- 1st observability system designed and built for two companies
+- 1st data curation process for two companies
+- 1st language AI feature for one company 
+- 1st microservice paradigm for one company
 - earned a PhD working on human inequality metrics
 
 ## Style
