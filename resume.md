@@ -11,25 +11,24 @@ colorlinks: true
 - Language AI (LLM): LangChain, LangSmith, GroundTruth & SageMaker
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
 - Data Science: Pandas, PyTorch, PySpark, Geospatial, sklearn
-- Backend: Python, Linux, Flask/Django REST API, SQLAlchemy
-- Infrastructure: AWS, Docker, Kubectl, Rancher
+- Eng Stack: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
 
 ## Notable successes
 
-- [CPAL LLM
+- new [CPAL LLM
   Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- algorithm to reduce LLM inference load by 80% and 10x ground truth 
-- 1st observability system designed and built for two companies
-- 1st data curation process for two companies
-- 1st language AI feature for one company 
-- 1st microservice paradigm for one company
-- earned a PhD working on human inequality metrics
+- new algorithm to reduce LLM inference load by 80% and 10x ground truth 
+- new observability system for two companies
+- new data curation process for two companies
+- new language AI feature for one company 
+- new microservice paradigm for one company
+- new geospatial human inequality metrics (PhD research)
 
 ## Style
 
-- excel at cross-silo, ambiguous, high impact problems
-- excel at systems thinking for process innovation
-- enjoy diving into the nuances of the customer's data problem
+- tackle cross-silo, ambiguous, high impact problems
+- tackle process friction with innovation
+- dive into the semantic nuances of the data
 
 
 ## Job experience
@@ -41,6 +40,8 @@ Intuitive System's is an early stage start-up building language AI applications 
 - canonicalization algorithm
 - prediction evaluation
 - inference server system design
+- data curation
+- high-level advice to founder
 
 ### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
 
