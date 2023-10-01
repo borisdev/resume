@@ -36,7 +36,7 @@ colorlinks: true
 
 Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
 
-- canonicalization algorithm
+- canonicalization algorithm and data curation
 - prediction evaluation
 - inference server system design
 - high-level advice to founder
