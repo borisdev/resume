@@ -11,7 +11,7 @@ colorlinks: true
 - Language AI (LLM): LangChain, LangSmith, GroundTruth & SageMaker
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
 - Data Science: Pandas, PyTorch, PySpark, Geospatial, sklearn
-- Eng Stack: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
+- Engineering Stack: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
 
 ## Notable successes
 
