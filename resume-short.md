@@ -2,7 +2,7 @@
 colorlinks: true
 ---
 
-# Boris Dev | boris.dev@gmail.com
+# Boris Dev
 
 ## Role: AI Engineer
 
