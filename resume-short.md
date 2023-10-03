@@ -17,11 +17,11 @@ colorlinks: true
 
 - new [CPAL LLM
   Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- new algorithm to reduce LLM inference load by 80% and 10x ground truth
-- new backend analytics endpoint for company's biggest feature
-- new observability system for two companies
-- new language AI feature for one company
-- new microservice paradigm for one company
+- new algorithm to 10x ground truth for my client's language AI
+- new backend analytics endpoint for my company's biggest feature
+- new observability system for me teams
+- new language AI feature for my client
+- new microservice paradigm migration of my team
 - new geospatial human inequality metrics (PhD research)
 
 ## Style
