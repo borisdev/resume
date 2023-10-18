@@ -8,10 +8,11 @@ colorlinks: true
 
 ## Engineering Stack
 
-- Coding: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
-- Data Science: GIS, PostGIS, SQL, Geospatial Statistics, Pandas, PyTorch, PySpark, Geospatial, sklearn
+- GIS: PostGIS, SQL, Geospatial Statistics, GeoPandas, Map tiles
+- Coding: Python, Linux, 
+- Data Engineering: Kafka, SQLAlchemy, Microservices
 - Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Language AI (LLM): LangChain, LangSmith, GroundTruth & SageMaker
+- Misc: Language AI chains
 
 ## Notable successes
 
