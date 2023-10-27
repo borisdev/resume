@@ -33,6 +33,10 @@ colorlinks: true
 
 ## Job experience
 
+### Engineer consultant at Wolf Games, 2023
+
+- stealth work
+
 ### Engineer consultant at Intuitive Systems, 2023
 
 Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
