@@ -35,7 +35,9 @@ colorlinks: true
 
 ### Engineer consultant at Wolf Games, 2023
 
-- stealth work
+- LLM prompt engineering
+- High-level app design
+
 
 ### Engineer consultant at Intuitive Systems, 2023
 
@@ -136,6 +138,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ### Open source code and writing
 
+-   Nobsmed.com
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
 -   [Normalize tables using a LLM](https://github.com/borisdev/zero-llm-test)
