@@ -8,59 +8,53 @@ colorlinks: true
 
 ## Tools
 
-- Engineering Stack: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
-- Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Data Science: Pandas, PyTorch, PySpark, Geospatial, sklearn
-- Language AI (LLM): LangChain, LangSmith, GroundTruth & SageMaker
+- Code: Python, SQL
+- Observability: OpenTracing, Lightstep, Splunk, Grafana
+- Data Science: Pandas/PySpark, PyTorch, sklearn, numpy
+- Language AI: LangChain, AWS GroundTruth & SageMaker
 
 ## Notable successes
 
-- new [CPAL LLM
-  Chain](https://github.com/langchain-ai/langchain/blob/master/cookbook/causal_program_aided_language_model.ipynb) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- new algorithm to 10x ground truth for my client's language AI
-- new backend analytics endpoint for my company's biggest feature
-- new observability system for two teams
-- new language AI feature for my client
-- new microservice paradigm migration of my team
+- new causal graph AI story generation
+- discovery of causal structure in natural language: [CPAL LLM
+  Chain](https://github.com/langchain-ai/langchain/blob/master/cookbook/causal_program_aided_language_model.ipynb) and [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
+- semantic inference to medical treatments, Nobsmed.com [in-progress]
+- new factory line analytics backend for company's biggest public facing feature
+- new observability systems for three teams
+- new language AI feature for my legal ops client
+- led team migration to microservice paradigm
 - new geospatial human inequality metrics (PhD research)
 
 ## Style
 
-- tackle cross-silo, ambiguous, high impact problems
-- tackle process friction with innovation
-- dive into the semantic nuances of the data
+- tackle ambiguous problems
+- tackle process friction
+- bridge silos
+- explore semantic nuances of the data
 
 
 ## Job experience
 
 ### Engineer consultant at Wolf Games, 2023
 
-- LLM prompt engineering
-- High-level app design
-
+- research engineering for mystery story generation
 
 ### Engineer consultant at Intuitive Systems, 2023
 
 Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
 
-- canonicalization algorithm and data curation
-- prediction evaluation
-- inference server system design
-- high-level advice to founder
+- canonicalization algorithm
+- LangSmith evaluators
 
 ### Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company.
 
-- Changed the direction from data quantity to data quality.
-- Built relationships with five experts across the conglomerate.
-- Managed the offshore annotators.
-- Started inter-annotator performance metrics and reviews.
-- Identified convoluted annotation guidelines as the root cause of our poor
-  labeling quality.
+- Shifted team from data quantity to data quality
+- Managed the offshore annotators with new inter-annotator performance metrics
 - Led the Senior Data Scientist and the subject-matter expert.
-- Led the engineering tasks.
-- Built SageMarker inference server
+- Assigned engineering tasks
+- Built SageMaker inference server
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
@@ -88,57 +82,31 @@ Sight Machine is a manufacturing analytics company.
 
 HiQ Labs was a people analytics company.
 
-
-- I led the move from a monolith to a microservice paradigm. I led a Data
-  Engineer to guide the Data Scientists to refactor each component of their monolith
-  into a docker container service. I explained to management the technical and human vision behind the
-  microservice paradigm.
-- I owned the scraping part of the pipeline. The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot
-  detection in order to scrape millions of HTML public profiles, the raw data
-  for our prediction pipeline.
-- I led a Junior DevOps engineer to build a Splunk observability system that was
-  used to track performance and experiments on different spider configurations.
-- I trained a Junior Data Engineer to maintain the scraping system.
-- I shadowed the Data Scientists to see what I could
-  automate for them.
+- I led the migration from a monolith to a microservice paradigm. 
 - I migrated the Data Scientists from Mongo queries to PySpark.
-
-### Start-up partner and full-stack developer at Map Decisions, 2014
-
-Map Decisions was an asset management company for city Public Works departments.
-
-- I built a mobile app to automate street sign inspection.
-
-### Start-up partner and analytics developer at Geoscore, 2014
-
-Geoscore was a company for demographic analytics.
-
-- I made the analytic endpoints.
-- I ran Google Ad experiments around comparing SEO strategies.
+- I designed and built the scaping system V2
+- I trained a Junior Data Engineer to maintain the scraping system.
+- I led a Junior DevOps engineer to build a Splunk pipeline observability system.
 
 
 ### Developer at Urban Mapping, 2011-2013
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- I created KPIs.
-- I built the CI pipeline (Jenkins).
-- I built the observability system (Splunk, Tableau BI Dashboard).
+- CI/CD/QA pipeline
+- Observability 
 
 ## Misc leadership roles
 
 
-- I gave technical vision to students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
-- I coached graduate students and taught spatial statistics, as a PhD.
+- Worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
 - Kids snowboard instructor at Vail Resorts, CO.
 - Restaurant Assistant Manager at Vail Resorts, CO.
-- Lead analyst at California Business Magazine. CA.
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
 ### Open source code and writing
 
--   Nobsmed.com
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
 -   [Normalize tables using a LLM](https://github.com/borisdev/zero-llm-test)
