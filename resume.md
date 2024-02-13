@@ -2,98 +2,65 @@
 colorlinks: true
 ---
 
-# Boris Dev | boris.dev@gmail.com
+# Boris Dev
 
-## Role: Data Science Engineer 
+## Role: AI Engineer
 
-## Tools
-
-- Language AI (LLM): LangChain, LangSmith, GroundTruth & SageMaker
-- Observability: OpenTracing, Lightstep, Splunk, Tableau, Grafana
-- Data Science: Pandas, PyTorch, PySpark, Geospatial, sklearn
-- Engineering Stack: Python, Linux, Flask/Django REST API, SQLAlchemy, Angular, AWS, Docker, Kubectl, Rancher
-
-## Notable successes
-
-- new [CPAL LLM
-  Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- new algorithm to reduce LLM inference load by 80% and 10x ground truth 
-- new observability system for two companies
-- new language AI feature for one company 
-- new microservice paradigm for one company
-- new geospatial human inequality metrics (PhD research)
+To augment human creativity, I build tools that combine natural language tech and code.
 
 ## Style
 
-- tackle cross-silo, ambiguous, high impact problems
-- tackle process friction with innovation
-- dive into the semantic nuances of the data
+- tackle ambiguous problems
+- tackle process friction
+- tackle cross-silo knowledge gaps to unstick projects
+- explore semantic nuances of the data
+- deliver prototypes
+- build conceptual frameworks [aka., primitives]
+
+## Tech stack
+
+• Data science: LangChain, Sklearn, Pandas, Geospatial
+• Engineering: Distributed systems, Observability, Analytic endpoints
+
+## Notable successes
+
+- new mystery story generation starting from understanding the primitives
+- New [CPAL LLM
+ Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
+- Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
+- New observability system designed and built for two companies
+- New data curation process for two companies
+- New language AI feature for one company
+- New microservice paradigm for one company
+- New geospatial human inequality metrics (PhD)
+- Climbed Cotopaxi (21,000 ft)
+- Bodyboarded Mexpipe
 
 
 ## Job experience
 
-### AI Engineer at Intuitive Systems, 2023
+### Engineer consultant at Wolf Games, 2023
+
+- research engineering for mystery story generation
+- storyboard composition grammar
+
+### Engineer consultant at Intuitive Systems, 2023
 
 Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
 
-- canonicalization algorithm and data curation
-- prediction evaluation
-- inference server system design
-- high-level advice to founder
+- high-level advisor
+- canonicalization algorithm
+- LangSmith evaluators
 
-### AI Technical Product Manager, consultant at SimpleLegal, 2022-2023
+### Engineer consultant at SimpleLegal, 2022-2023
 
-SimpleLegal is a legal billing analytics company. 
+SimpleLegal is a legal billing analytics company.
 
-Before I arrived, my employer's new language
-AI feature for flagging suspicious invoice lines was stuck for one year
-because of bad performance, even after investing in more human annotation. My
-job was to increase AI performance. The result was we launched the AI feature and won an [AI Excellence Award](https://www.bintelligence.com/blog/2023/3/23/5-people-30-companies-and-65-products-awarded-for-excellence-in-artificial-intelligence). 
-
-I changed the direction from data quantity to data quality.
-
-- I asked the President to convene an Amazon 6-pager meeting to share the results of the gathering mission, outlined below. 
-- I built relationships with five experts across the conglomerate.
-- The annotation expert opened my eyes to treat the offshore annotators as
-  creative partners. Success depended on getting their feedback for the continuous improvement of 
-  the annotation guidelines and AI flag definitions.
-- I nudged the data scientists to articulate the biggest issue as _"garbage in, garbage out"_.
-- I connected with a Founder (VP of Product) at a sister company who translated for me the customer meaning behind the legal invoice line-item data.
-
-I managed the offshore annotators.
-
-- I included the offshore annotators and subject-matter expert into a continuous
-  improvement collaboration on AI flag definition and annotation guidelines.
-- I changed the annotation process to small batches
-- I started inter-annotator performance metrics and reviews.
-- To build cognitive empathy, I labeled several hundred sentences. As a result,
-  I identified convoluted annotation guidelines as the root cause of our poor
-  labeling quality.
-
-
-I led the Senior Data Scientist and the subject-matter expert.
-
-- I added the subject-matter expert to our team.
-- The technical vision I set for the data scientist and I was to launch an MVP
-  in six months by discovering "low-hanging fruit" that could scale back the
-  machine learning effort. This resulted in scaling back our machine learning
-  from eleven to three redefined classifiers. The triage was to kill one
-  classifier that was never needed, replace two with expert rules, and stop the
-  labeling on five whose performance was sufficient. 
-- To increase clarity, I coached the team to understand the customer meaning
-  behind the data and the AI flags.
-- To increase clarity, I crunched the knowledge of the Data Scientist's metrics
-  analysis into a working paper, which was continually shared at the weekly
-  check-ins. 
-- I wrote the data scientist a stellar performance review, highlighting his
-  acumen at articulating complex concepts to executives.
-
-I led the engineering tasks.
-
-- I assigned Jira issues to engineers. 
-- 1:1 meetings with the VP of Engineering. 
-- After one engineer left for another company, I stepped in to refactor the
-  inference server.
+- Shifted team from data quantity to data quality
+- Managed the offshore annotators with new inter-annotator performance metrics
+- Led the Senior Data Scientist and the subject-matter expert.
+- Assigned engineering tasks
+- Built SageMaker inference server
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
@@ -113,59 +80,34 @@ Sight Machine is a manufacturing analytics company.
   engineers fleshed out their own Jira issues. The new technical design autonomy
   reduced engineering toil and increased creativity.
 - I built the first distributed tracing (Lightstep), which made debugging system
-  downtime easier. 
+  downtime easier.
 - I proposed and delivered a new standardized frontend development environment. The innovation made debugging and on-boarding easier.
 - I coached junior engineers in systems thinking.
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
-HiQ Labs was a people analytics company. 
+HiQ Labs was a people analytics company.
 
-
-- I led the move from a monolith to a microservice paradigm. I led a Data
-  Engineer to guide the Data Scientists to refactor each component of their monolith 
-  into a docker container service. I explained to management the technical and human vision behind the
-  microservice paradigm. 
-- I owned the scraping part of the pipeline. The puzzle for the CTO and I was to figure out how to get around LinkedIn’s bot
-  detection in order to scrape millions of HTML public profiles, the raw data
-  for our prediction pipeline. 
-- I led a Junior DevOps engineer to build a Splunk observability system that was
-  used to track performance and experiments on different spider configurations. 
-- I trained a Junior Data Engineer to maintain the scraping system.
-- I shadowed the Data Scientists to see what I could
-  automate for them.
+- I led the migration from a monolith to a microservice paradigm. 
 - I migrated the Data Scientists from Mongo queries to PySpark.
-
-### Start-up partner and full-stack developer at Map Decisions, 2014
-
-Map Decisions was an asset management company for city Public Works departments.
-
-- I built a mobile app to automate street sign inspection.
-
-### Start-up partner and analytics developer at Geoscore, 2014
-
-Geoscore was a company for demographic analytics.
-
-- I made the analytic endpoints.
-- I ran Google Ad experiments around comparing SEO strategies.
+- I designed and built the scaping system V2
+- I trained a Junior Data Engineer to maintain the scraping system.
+- I led a Junior DevOps engineer to build a Splunk pipeline observability system.
 
 
 ### Developer at Urban Mapping, 2011-2013
 
-Urban Mapping provided geospatial analytics to Tableau. 
+Urban Mapping provided geospatial analytics to Tableau.
 
-- I created KPIs.
-- I built the CI pipeline (Jenkins).
-- I built the observability system (Splunk, Tableau BI Dashboard).
+- CI/CD/QA pipeline
+- Observability 
 
 ## Misc leadership roles
 
 
-- I gave technical vision to students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
-- I coached graduate students and taught spatial statistics, as a PhD.
+- Worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
 - Kids snowboard instructor at Vail Resorts, CO.
 - Restaurant Assistant Manager at Vail Resorts, CO.
-- Lead analyst at California Business Magazine. CA. 
 - Counselor for emotionally disturbed children. Seneca Institute. CA.
 
 
