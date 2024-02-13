@@ -6,16 +6,16 @@ colorlinks: true
 
 ## Role: AI Engineer
 
-To augment human creativity, I build tools that combine natural language tech and code.
+To augment human creativity, I build tools that merge natural language with code.
 
 ## Style
 
-- tackle ambiguous problems
-- tackle process friction
-- tackle cross-silo knowledge gaps to unstick projects
-- explore semantic nuances of the data
-- deliver prototypes
-- build conceptual frameworks [aka., primitives]
+• tackle ambiguous problems
+• tackle process friction
+• tackle cross-silo knowledge gaps to unstick projects
+• explore semantic nuances of the data
+• deliver prototypes
+• build conceptual frameworks [aka., primitives]
 
 ## Tech stack
 
@@ -24,7 +24,7 @@ To augment human creativity, I build tools that combine natural language tech an
 
 ## Notable successes
 
-- new mystery story generation starting from understanding the primitives
+- New mystery story generation starting from understanding the primitives
 - New [CPAL LLM
  Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
 - Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
