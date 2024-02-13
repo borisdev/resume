@@ -24,17 +24,17 @@ To augment human creativity, I build tools that merge natural language with code
 
 ## Notable successes
 
-- New mystery story generation starting from understanding the primitives
-- New [CPAL LLM
- Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
-- New observability system designed and built for two companies
-- New data curation process for two companies
-- New language AI feature for one company
-- New microservice paradigm for one company
-- New geospatial human inequality metrics (PhD)
-- Climbed Cotopaxi (21,000 ft)
-- Bodyboarded Mexpipe
+• New mystery story generation starting from understanding the primitives
+• New [CPAL LLM
+ Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) is the first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
+• Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
+• New observability system designed and built for two companies
+• New data curation process for two companies
+• New language AI feature for one company
+• New microservice paradigm for one company
+• New geospatial human inequality metrics (PhD)
+• Climbed Cotopaxi (21,000 ft)
+• Bodyboarded Mexpipe
 
 
 ## Job experience
