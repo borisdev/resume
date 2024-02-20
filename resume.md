@@ -39,20 +39,12 @@ To augment human creativity, I build tools that merge natural language with code
 
 ## Job experience
 
-### Engineer consultant at Wolf Games, 2023
+### AI Engineer consultant at Wolf Games, 2023
 
-- research engineering for mystery story generation
-- storyboard composition grammar
+- events mystery story generation
+- story composition language primitives
 
-### Engineer consultant at Intuitive Systems, 2023
-
-Intuitive System's is an early stage start-up building language AI applications for vendor management and customer complaint triage.
-
-- high-level advisor
-- canonicalization algorithm
-- LangSmith evaluators
-
-### Engineer consultant at SimpleLegal, 2022-2023
+### AI Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company.
 
