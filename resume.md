@@ -48,44 +48,25 @@ To augment human creativity, I build tools that merge natural language with code
 
 SimpleLegal is a legal billing analytics company.
 
-- Shifted team from data quantity to data quality
-- Managed the offshore annotators with new inter-annotator performance metrics
-- Led the Senior Data Scientist and the subject-matter expert.
-- Assigned engineering tasks
-- Built SageMaker inference server
+- launched a stuck AI feature by shifting focus from training examples quantity to quality
+- led offshore annotators, data scientist, and the subject-matter expert
+- built SageMaker inference server
 
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
 Sight Machine is a manufacturing analytics company.
 
-- To get the company's biggest public-facing feature,
-  [Recipes](https://sightmachine.com/blog/manufacturing-dynamic-recipes/),
-  across the GA line, I worked across silos (Customer Success, DevOps, Data
-  Engineers). I wrote high-level design papers to help the Product and Customer Success
-  teams understand the time cost of competing technical design decisions, arming them with
-  a conceptual framework to gather more information from the customer on her
-  priorities.
-- I started a new checklist process to lock down successful sales demos.
-- I nudged the engineering team to move from a delivery team to a product
-  team. The Director of Engineering and I started a new process where the
-  engineers fleshed out their own Jira issues. The new technical design autonomy
-  reduced engineering toil and increased creativity.
-- I built the first distributed tracing (Lightstep), which made debugging system
-  downtime easier.
-- I proposed and delivered a new standardized frontend development environment. The innovation made debugging and on-boarding easier.
-- I coached junior engineers in systems thinking.
+- analytic endpoints
+- started new checklist process to lock down successful sales demos
+- built distributed tracing
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 HiQ Labs was a people analytics company.
 
-- I led the migration from a monolith to a microservice paradigm. 
-- I migrated the Data Scientists from Mongo queries to PySpark.
-- I designed and built the scaping system V2
-- I trained a Junior Data Engineer to maintain the scraping system.
-- I led a Junior DevOps engineer to build a Splunk pipeline observability system.
-
+- led the migration from a monolith to a micro-service paradigm 
+- built the scraping system
 
 ### Developer at Urban Mapping, 2011-2013
 
@@ -105,10 +86,10 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ### Open source code and writing
 
+-   [Without cognitive empathy, your language AI performance metrics are meaningless](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
 -   [Normalize tables using a LLM](https://github.com/borisdev/zero-llm-test)
--   [*How can language AI performance be raised with cognitive empathy?*](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [A play Ethereum MEV bot](https://github.com/borisdev/play_mev_bot)
 -   [Small commit to shell-ai](https://github.com/ricklamers/shell-ai/pull/6)
 -   [A git bare approach to version control your dot files](https://github.com/borisdev/dotfiles/blob/master/README.md)
