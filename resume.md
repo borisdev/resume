@@ -4,27 +4,23 @@ colorlinks: true
 
 # Boris Dev
 
-## Role: AI Engineer
-
-To augment human creativity, I build tools that merge natural language with code.
-
 ## Style
 
-• tackle ambiguous problems
-• tackle process friction
-• tackle cross-silo knowledge gaps to unstick projects
-• explore semantic nuances of the data
 • deliver prototypes
-• build conceptual frameworks [aka., primitives]
+• tackle process friction
+• tackle ambiguous problems
+• tackle cross-silo knowledge gaps
+• document the foundational (primitive) domain language
 
 ## Tech stack
 
-• Data science: LangChain, Sklearn, Pandas, Geospatial
-• Engineering: Distributed systems, Observability, Analytic endpoints
+• AI: LangChain, pyTorch, AWS Sagemaker & GroundTruth, Annotation pipes
+• Data: Scrapy, Sklearn, Pandas, Geospatial, Numpy, Kafka
+• Engineering: distributed systems, observability, analytic endpoints
 
 ## Notable successes
 
-• New mystery story generation starting from understanding the primitives
+• New mystery story generation 
 • New [CPAL LLM
  Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) is the first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
 • Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
@@ -41,8 +37,8 @@ To augment human creativity, I build tools that merge natural language with code
 
 ### AI Engineer consultant at Wolf Games, 2023
 
-- events mystery story generation
-- story composition language primitives
+- events mystery story generation service
+- documented story composition language primitives
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
