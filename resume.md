@@ -57,24 +57,27 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Notable success
 
-- New primitives for murder mystery story generation 
-- New [CPAL LLM
- Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) is the first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514)
-- New observability system designed and built for two companies
-- New data curation process for two companies
-- New language AI feature for one company
-- New microservice paradigm for one company
-- New geospatial human inequality metrics (PhD)
+
+-  For a gaming startup, I designed and built their murder mystery story generation service, starting from a greenfield design of the primitives.
+-  For a semiconductor analytics startup, I designed a new computer name disambiguation approach for AMD's sale analytics pipeline.
+-  For the Langchain open-source library, I contributed an experimental [CPAL Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514).
+- For a legal ops company, a new language AI billing feature.
+- For a people analytics startup, new microservice paradigm.
+- For academics, new location based human inequality metrics in [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+- For several companies, I built observability systems.
+
+
 
 ## Interesting activities
 
-- Nobsmed.com, a side project to help ordinary people evaluate their medical treatment options
-- Climbed Cotopaxi (21,000 ft)
-- Bodyboarded Mexpipe
-- Worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
-- Kids snowboard instructor at Vail Resorts, CO.
-- Restaurant Assistant Manager at Vail Resorts, CO.
-- Counselor for emotionally disturbed children. Seneca Institute. CA.
+- For my side-project, I am deriving normal forms for clinical studies and murder mysteries.
+- For my side-project, Nobsmed.com, I am building a new causal discovery approach to RAG to help ordinary people evaluate their medical treatment options.
+- For fun, I climbed Cotopaxi (21,000 ft).
+- For fun, I survived bodyboarding Mexpipe.
+- For fun, I worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
+- For work, I was a kids snowboard instructor at Vail Resorts, CO.
+- For work, I was an assistant manager at Gundy's Grill in Vail Resorts, CO.
+- For work, I was a counselor for severely emotionally disturbed children at Seneca Institute, CA.
 
 
 ### Papers and code
@@ -84,4 +87,3 @@ Urban Mapping provided geospatial analytics to Tableau.
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
 -   [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-)
--   PhD thesis. [*Assessing Inequality using Geographic Income Distributions*](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
