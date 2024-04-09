@@ -60,7 +60,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 -  For a gaming startup, I designed and built their murder mystery story generation service, starting from a greenfield design of the primitives.
 -  For a semiconductor analytics startup, I designed a new computer name disambiguation approach for AMD's sale analytics pipeline.
--  For the Langchain open-source library, I contributed an experimental [CPAL Chain](https://python.langchain.com/docs/use_cases/more/code_writing/cpal) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514).
+-  For the Langchain open-source library, I contributed an experimental [CPAL Chain](https://github.com/hwchase17/langchain/pull/6255) - first causal LLM chain. [Tweet by LangChain](https://twitter.com/LangChainAI/status/1678797225013440514).
 - For a legal ops company, a new language AI billing feature.
 - For a people analytics startup, new microservice paradigm.
 - For academics, new location based human inequality metrics in [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
