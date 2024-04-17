@@ -26,7 +26,7 @@ colorlinks: true
 
 ### AI Engineer consultant at Intuitive Systems, 2023
 
-- Research engineering for NER of product names for AMD's sale analytics pipeline
+- Normalize vendor receipts fed into AMD's sales analytic pipeline
 - Human-in-the-loop product design
 
 - murder mystery story composition
