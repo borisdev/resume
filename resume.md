@@ -13,7 +13,7 @@ colorlinks: true
 ## Tech stack
 
 - **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation
-- **Data:** Scrapy, Sklearn, Pandas, Geospatial, Numpy, Kafka
+- **Data:** Scrapy, Sklearn, Pandas, Geospatial, Numpy
 - **Engineering:** distributed systems, observability, analytic endpoints
 
 
@@ -21,7 +21,17 @@ colorlinks: true
 
 ### AI Engineer consultant at Wolf Games, 2023
 
-- murder mystery story composition language primitives and service
+- murder mystery story composition
+- murder mystery story events service
+
+### AI Engineer consultant at Intuitive Systems, 2023
+
+- Research engineering for NER of product names for AMD's sale analytics pipeline
+- Human-in-the-loop product design
+
+- murder mystery story composition
+- murder mystery story events service
+
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
