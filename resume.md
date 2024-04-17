@@ -29,10 +29,6 @@ colorlinks: true
 - Normalize vendor receipts fed into AMD's sales analytic pipeline
 - Human-in-the-loop product design
 
-- murder mystery story composition
-- murder mystery story events service
-
-
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company.
