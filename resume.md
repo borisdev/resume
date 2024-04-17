@@ -13,8 +13,8 @@ colorlinks: true
 ## Tech stack
 
 - **Language AI:** LangChain, AWS Sagemaker & GroundTruth, Sklearn, annotation pipeline
-- **Data Engineering:** Python, Scrapy, Sklearn, Pandas, Geospatial, Numpy,
-  Splunk, distributed systems, observability, analytic endpoints
+- **Data science tools:** Python, Sklearn, Pandas, Numpy,
+- **Engineering systems:** ETL microservices, distributed web apps, observability, analytic endpoints
 
 
 ## Job experience
