@@ -12,16 +12,15 @@ colorlinks: true
 
 ## Tech stack
 
-- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, Sklearn, annotation pipeline
-- **Data science tools:** Python, Sklearn, Pandas, Numpy,
-- **Engineering systems:** ETL microservices, distributed web apps, observability, analytic endpoints
+- **Language AI:** Python, LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
+- **Engineering:** ETL micro-services, distributed web apps, observability, analytic endpoints
 
 
 ## Job experience
 
 ### AI Engineer consultant at Wolf Games, 2023
 
-- murder mystery story composition
+- murder mystery story compositional grammar
 - murder mystery story events service
 
 ### AI Engineer consultant at Intuitive Systems, 2023
@@ -34,7 +33,7 @@ colorlinks: true
 SimpleLegal is a legal billing analytics company.
 
 - launched a stuck AI feature
-- shifting focus from training example quantity to quality
+- shifted focus from training example quantity to quality
 - led offshore annotators, data scientist, and the subject-matter expert
 - built SageMaker inference server
 
