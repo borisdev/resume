@@ -8,13 +8,15 @@ colorlinks: true
 
 - quick prototypes
 - tackle ambiguity
-- papers 
 
 ## Tech stack
 
 - **Language AI:** Python, LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
 - **Engineering:** ETL micro-services, distributed web apps, observability, analytic endpoints
 
+## Education
+
+PhD in Geography from joint program of SDSU and UCSB, 2015. Dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf). Focus on data science for social science research involving location referenced data.
 
 ## Job experience
 
