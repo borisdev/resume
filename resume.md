@@ -16,7 +16,7 @@ colorlinks: true
 
 ## Education
 
-PhD in Geography from joint program of SDSU and UCSB, 2015. Dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf). Focus on data science for social science research involving location referenced data.
+PhD in Geography, at SDSU and UCSB, 2015. Data science for social science problems with location referenced data.
 
 ## Job experience
 
