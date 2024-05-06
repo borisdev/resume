@@ -4,15 +4,11 @@ colorlinks: true
 
 # Boris Dev
 
-## Style
-
-- quick prototypes
-- tackle ambiguity
-
-## Tech stack
+## Stack
 
 - **Language AI:** Python, LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
 - **Engineering:** ETL micro-services, distributed web apps, observability, analytic endpoints
+- **Style:** prototypes, tackle ambiguity with cross-silo dialogue and Amazon 6-pagers
 
 ## Education
 
