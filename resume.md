@@ -6,8 +6,6 @@ colorlinks: true
 
 ## Role
 
-I merge human expertise with AI through knowledge graphs.
-
 human expertise &rightarrow; AI knowledge graph  &leftarrow; human question
 
 ## Stack
