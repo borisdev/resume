@@ -4,10 +4,16 @@ colorlinks: true
 
 # Boris Dev
 
+## Role
+
+I merge human expertise with AI through knowledge graphs.
+
+human expertise &rightarrow; AI knowledge graph  &leftarrow; human question
+
 ## Stack
 
-- **Language AI:** Python, LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
-- **Engineering:** ETL micro-services, distributed web apps, observability, analytic endpoints
+- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
+- **Engineering:** Python backend (Flask/Django), micro-services, distributed systems, observability, analytic endpoints
 - **Style:** prototypes, tackle ambiguity with cross-silo dialogue and Amazon 6-pagers
 
 ## Education
@@ -75,12 +81,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 - For my side-project, I am deriving normal forms for clinical studies and murder mysteries.
 - For my side-project, Nobsmed.com, I am building a new causal discovery approach to RAG to help ordinary people evaluate their medical treatment options.
-- For fun, I climbed Cotopaxi (21,000 ft).
-- For fun, I survived bodyboarding Mexpipe.
-- For fun, I worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy).
-- For work, I was a kids snowboard instructor at Vail Resorts, CO.
-- For work, I was an assistant manager at Gundy's Grill in Vail Resorts, CO.
-- For work, I was a counselor for severely emotionally disturbed children at Seneca Institute, CA.
+- I climbed Cotopaxi (21,000 ft), survived bodyboarding Mexpipe, worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy), was a kids snowboard instructor at Vail Resorts, CO, was an assistant manager at Gundy's Grill in Vail Resorts, CO, was a counselor for severely emotionally disturbed children at Seneca Institute, CA.
 
 
 ### Papers and code
