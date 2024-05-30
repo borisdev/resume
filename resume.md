@@ -4,10 +4,6 @@ colorlinks: true
 
 # Boris Dev
 
-## Role
-
-human expertise &rightarrow; AI knowledge graph  &leftarrow; human question
-
 ## Stack
 
 - **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
