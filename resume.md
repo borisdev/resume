@@ -8,7 +8,6 @@ colorlinks: true
 
 - **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy,
 - **Engineering:** Python backend (Flask/Django), micro-services, distributed systems, observability, analytic endpoints
-- **Style:** prototypes, tackle ambiguity with cross-silo dialogue and Amazon 6-pagers
 
 ## Education
 
