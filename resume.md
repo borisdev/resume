@@ -6,7 +6,8 @@ colorlinks: true
 
 ## Stack
 
-- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy, Instructor, Weaviate, knowledge graphs, causal discovery
+- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy, Instructor, 
+- **Knowledge graphs:** Weaviate, SNOMED CT ontology, causal discovery, causal graph based story generation
 - **Engineering:** Python backend (Flask/Django), micro-services, distributed systems, observability, analytic endpoints
 
 ## Education
