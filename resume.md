@@ -80,7 +80,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ### Papers and code
 
--   [Without cognitive empathy, your language AI performance metrics are meaningless](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
+-   [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255)
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
