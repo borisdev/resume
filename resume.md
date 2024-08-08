@@ -7,7 +7,7 @@ colorlinks: true
 ## Stack
 
 - **Data modeling and Knowledge graphs:** Pydantic, SNOMED CT ontology, causal discovery, causal graph based story generation
-- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy, Instructor, Weaviate vector search DB
+- **Language AI:** LangChain, AWS Sagemaker & GroundTruth, annotation pipeline, Sklearn, Pandas, Numpy, Instructor, Weaviate vector search DB, OpenSearch
 - **Engineering:** Python backend (FastAPI/Flask/Django), micro-services, distributed systems, observability, analytic endpoints
 
 ## Education
