@@ -49,6 +49,7 @@ HiQ Labs was a people analytics company.
 
 -   led the migration from a monolith to a micro-service paradigm
 -   built the scraping system
+-   supported data science team
 
 ### Developer at Urban Mapping, 2011-2013
 
