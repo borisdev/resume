@@ -38,7 +38,7 @@ SimpleLegal is a legal billing analytics company.
 
 Sight Machine is a manufacturing analytics company.
 
--   lead backend engineer on biggest public facing analytic feature
+-   led backend engineering on biggest public facing analytic feature
 -   coordinated QA process with sales and engineering
 -   built company's first distributed tracing
 -   containerized frontend engineering development environment
