@@ -30,7 +30,7 @@ found in clinical studies and Reddit comments.
 
 ### AI Engineer consultant at Wolf Games, 2023
 
--   The producer of Law and Order is making a murder mystery game. I made designed and built the
+-   The producer of Law and Order is making a murder mystery game. I designed and built the
     story generator. I started from the primitive concepts of organizing the narrative plot structure.
     around a causal DAG.
 
