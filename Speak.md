@@ -23,11 +23,10 @@ Below I will outline where I intersect with your experience requirements.
 
 ## Ground Truth
 
-At the end of the day, the faster you can evaluate (read) the faster you can
-re-write. But the evaluation and re-writing process is meaningless if you don't
-have a good Ground Truth data set and even better mental model (ideally documented).
-
-I believe what people miss is the issue of getting better and better Ground
-Truth. This is hard. If your Ground Truth is wrong then your evaluation is
-wrong. Getting better Ground Truth requires collective creativity and debates.
-I have worked successfully on this issue as a leader.
+Its true, the faster you can evaluate (read), the faster you can re-write.
+However, if your Ground Truth is wrong then your evaluation is wrong. The
+evaluation and re-writing process is meaningless if you don't have a good
+Ground Truth data set and even better mental model (ideally documented). I
+believe what people miss is the issue of getting better and better Ground
+Truth. This is hard. Getting better Ground Truth requires collective creativity
+and debates. I have worked successfully on this issue as a leader.
