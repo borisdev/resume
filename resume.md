@@ -6,11 +6,11 @@ colorlinks: true
 
 ## Skill Stack
 
--   **Data:** Building Ground Truth, Prompt Engineering, Evaluation
+-   **Data:** Pandas, Building Ground Truth, Prompt Engineering, Evaluation, Social Science Data
 -   **Engineering:** Data modeling, inference server, REST API frameworks
 -   **Tools**: Pydantic, Pandas, FastAPI, Flask, Django, HTMX, Bootstrap,
     SageMaker, Docker, Jenkins, Kafka, Grafana, Splunk, Embedding DBs
-    (Weaviate, ElasticSearch), LangSmith, Sklearn, InstructorAI, PyTorch, Langchain
+    (Weaviate, ElasticSearch), LangSmith, Sklearn, InstructorAI, PyTorch, Langchain, Amazon 6-pagers
 
 ## Education
 
@@ -31,7 +31,8 @@ found in clinical studies and Reddit comments.
 ### AI Engineer consultant at Wolf Games, 2023
 
 -   The producer of Law and Order is making a murder mystery game. I designed and built the
-    story generator. I started from the primitive concepts of organizing the narrative plot structure around a causal DAG.
+    story generator. I started from the primitive concepts of organizing the narrative plot structure around a causal DAG
+    to auto build LLM prompts.
 
 ### AI Engineer consultant at Intuitive Systems, 2023
 
