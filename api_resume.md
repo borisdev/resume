@@ -8,7 +8,7 @@ colorlinks: true
 
 -   **API Development:** FastAPI, Flask, Django, SageMaker, Pydantic, Serverless
 -   **Data Engineering:** ETL Pipelines, Pandas, ElasticSearch, Building Ground Truth, Prompt Engineering, Docker, Jenkins, Kafka, Grafana, Splunk, Embedding DBs
-    (Weaviate, ElasticSearch), LangSmith, Sklearn, InstructorAI, PyTorch, Langchain, Amazon 6-pagers, Postrgres, PostGIS
+    (Weaviate, ElasticSearch), LangSmith, Sklearn, InstructorAI, PyTorch, Langchain, Amazon 6-pagers, Postrgres, PostGIS, Data Bricks
 
 ## Education
 
