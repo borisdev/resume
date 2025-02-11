@@ -4,13 +4,12 @@ colorlinks: true
 
 # Boris Dev
 
+**Data science engineer**
+
 ## Skill Stack
 
--   **Data:** Pandas, Building Ground Truth, Prompt Engineering, Evaluation, Social Science Data
--   **Engineering:** Data modeling, inference server, REST API frameworks
--   **Tools**: Pydantic, Pandas, FastAPI, Flask, Django, HTMX, Bootstrap,
-    SageMaker, Docker, Jenkins, Kafka, Grafana, Splunk, Embedding DBs
-    (Weaviate, ElasticSearch), LangSmith, Sklearn, InstructorAI, PyTorch, Langchain, Amazon 6-pagers
+-   **Data tools:** Pandas, Sklearn, PyTorch, LangSmith, Langchain, InstructorAI, Embedding DBs (Weaviate, ElasticSearch), Numpy, Plotly
+-   **Engineering Tools:** FastAPI, Flask, Django, HTMX, Bootstrap, SageMaker, Docker, Jenkins, Kafka, Grafana, Splunk, Amazon 6-pagers, CI/CD/QA pipeline, Observability, Distributed tracing, NextJS, AI Agents, Prompt Engineering, HTMX, SageMaker, AWS, Ground Truth
 
 ## Education
 
