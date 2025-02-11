@@ -7,4 +7,5 @@
 
 ```console
 pandoc resume.md -s -o resume.pdf
+pandoc cover.md -s -o cover.pdf
 ```
