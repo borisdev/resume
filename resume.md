@@ -13,7 +13,7 @@ colorlinks: true
 
 ## Education
 
-PhD in Geography, at SDSU and UCSB, 2015. Data science for social science problems.
+PhD in Quantitative Geography, at SDSU and UCSB, 2015. Data science for location referenced social science problems.
 
 ## Experience
 
