@@ -22,20 +22,20 @@ PhD in Quantitative Geography, at SDSU and UCSB, 2015. Data science for location
 Built https://nobsmed.com/ for users to search for biohacking experiences
 found in clinical studies and Reddit comments.
 
--   ETL of 100,000 studies and 100,000 Reddit comments.
--   Customer discovery and user interviews.
--   Data science model to parse studies and comments.
--   Full stack AI development. (Weaviate and Opensearch, Prompt Engineering)
+-   Prompt engineering to parse 100,000 studies and 100,000 Reddit comments.
+-   Full stack AI product development. (ElasticSearch, Weaviate, FastAPI, HTMX, Bootstrap, Plotly)
 
 ### AI Engineer consultant at Wolf Games, 2023
 
--   The producer of Law and Order is making a murder mystery game. I designed and built the
-    story generator. I started from the primitive concepts of organizing the narrative plot structure around a causal DAG
-    to auto build LLM prompts.
+-   Prompt engineering
+-   Built an automated DAG of prompts for story generation
+-   Worked closely with the CTO on requirements
+-   Built the story generation Flask API service
 
 ### AI Engineer consultant at Intuitive Systems, 2023
 
--   NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline. Used LangSmith for evaluation.
+-   NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline.
+-   Used LangSmith for evaluation.
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
