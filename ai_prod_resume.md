@@ -22,8 +22,6 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 Built https://nobsmed.com/ for users to search for people's health hacking experiences
 found in clinical studies and Reddit comments.
 
-With Nobsmed.com I built a search service for people to find other people's health hacking experiments shared on Reddit. The
-
 -   Integrated an LLM into the ETL data pipeline for enrichment parsing, relevance scoring, and classification.
 -   Developed an LLM based topic modeling tool, [bertopic-easy](https://github.com/borisdev/bertopic-easy).
 -   Customer discovery and user interviews.
