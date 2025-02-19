@@ -6,9 +6,9 @@ colorlinks: true
 
 ## Tool Stack
 
--   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres,
+-   **Data Analytics:** GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, OpenTelemetry
+-   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
 -   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, Pydantic Agents (learning), Sentence Transformers (fine-tuning)
--   **Data Analytics:** Prometheus, Grafana, Tableau, Splunk, ELK, OpenTelemetry
 -   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch)
 
 ## Education
