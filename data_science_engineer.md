@@ -6,7 +6,7 @@ colorlinks: true
 
 ## Tool Stack
 
--   **Data Analytics:** GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, OpenTelemetry
+-   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, Git, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, OpenTelemetry
 -   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
 -   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, Pydantic Agents (learning), Sentence Transformers (fine-tuning)
 -   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch)
