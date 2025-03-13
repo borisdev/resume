@@ -1,4 +1,4 @@
-# # Boris Dev's application for Staff Data Scientist at Fastly
+# Boris Dev's application for Staff Data Scientist at Fastly
 
 Below I address each point in the section of your job posting,
 _"We’ll be super impressed if you have experience in one or more of these"_.
