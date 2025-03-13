@@ -4,7 +4,9 @@
 -   boris.dev@gmail.com
 -   San Francisco
 
-I am applying for the Staff Data Scientist position at Fastly in San Francisco. Attached is my resume. Below I address the section of your job posting title, _"We’ll be super impressed if you have experience in one or more of these"_.
+I am applying for the Staff Data Scientist position at Fastly in San Francisco.
+Attached is my resume. Below I address this section of your job posting,
+_"We’ll be super impressed if you have experience in one or more of these"_.
 
 ## Domain expertise in our industry or related fields
 
