@@ -2,7 +2,7 @@
 colorlinks: true
 ---
 
-# Boris Dev, AI Product Engineer
+# Boris Dev, AI Data Products Engineer
 
 ## Tool Stack
 
