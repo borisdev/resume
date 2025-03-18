@@ -74,10 +74,9 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Impactful projects
 
--   persuaded team that our culprit was data quality, not data quantity, to get a stuck AI feature launched.
--   proposed and built observability systems to reduce firefighting.
--   proposed and built containerized FE dev env for faster onboarding.
--   migrated a data science monolith to a microservice paradigm
+-   launched stuck AI feature to stop bleeding customers
+-   built observability to reduce firefighting.
+-   migrated to microservice paradigm to relieve monolith bottleneck.
 
 <!--
 ## Interesting activities
