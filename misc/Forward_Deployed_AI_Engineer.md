@@ -2,7 +2,7 @@
 colorlinks: true
 ---
 
-# Boris Dev, Data Science Engineer
+# Boris Dev, Forward Deployed AI Engineer
 
 ## Tool Stack
 
