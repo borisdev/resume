@@ -2,7 +2,7 @@
 colorlinks: true
 ---
 
-# Boris Dev, Forward Deployed AI Engineer
+# Boris Dev, Data Science Engineer
 
 ## Tool Stack
 
@@ -17,9 +17,13 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ## Experience
 
-### Nobsmed, 2024, Founder
+### EcoR1, 2025 - current, Data Science Engineer Contractor
 
-Built https://nobsmed.com/ for users to search for health care experiences
+-   Building AI automation research tools for a biotech hedge fund.
+
+### Nobsmed, 2024 - current, Founder
+
+Built https://nobsmed.com/ for users to search for biohacking experiences
 found in clinical studies and Reddit comments.
 
 -   ETL: Language AI parsing of 100,000 studies and 1,000,000 Reddit comments.
