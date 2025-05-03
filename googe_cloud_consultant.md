@@ -1,8 +1,9 @@
 ---
 colorlinks: true
+title: "Boris Dev's Resume for Google Cloud Consultant II, AI/ML, Professional Services - United States"
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+output: pdf_document
 ---
-
-# Boris Dev, Cloud Consultant II, AI/ML, Professional Services - United States
 
 ## Tool Stack
 

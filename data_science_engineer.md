@@ -1,5 +1,10 @@
 ---
 colorlinks: true
+title: "Resume"
+author: Boris Dev
+date: May 3, 2025
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+output: pdf_document
 ---
 
 # Boris Dev, Data Science Engineer
