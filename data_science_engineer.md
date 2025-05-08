@@ -1,20 +1,18 @@
 ---
 colorlinks: true
-title: "Resume"
+title: "Data Science Engineer Resume"
 author: Boris Dev
 date: May 3, 2025
 geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
 
-# Boris Dev, Data Science Engineer
-
 ## Tool Stack
 
--   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, Git, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, OpenTelemetry
+-   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, Distributed Tracing
 -   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
--   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, Pydantic Agents (learning), Sentence Transformers (fine-tuning)
--   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch)
+-   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth
+-   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch), PydanticAI Graph Agents, LangChain, LangSmith, SentenceTransformers
 
 ## Education
 
