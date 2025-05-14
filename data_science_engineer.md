@@ -101,3 +101,12 @@ Urban Mapping provided geospatial analytics to Tableau.
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255). See Harrison Chase's [Tweet](https://twitter.com/LangChainAI/status/1678797225013440514).
 -   [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
 -   [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-)
+
+### Non-tech fun points
+
+• climbed Cotopaxi (21,000 ft).
+• survived bodyboarding Mexpipe.
+• worked with students in Medellín, Columbia to make an open-source geo clustering library (ClusterPy)
+• taught kids snowboarding, as an instructor
+• managed service workers, as a restaurant assistant manager
+• counseled severely emotionally disturbed children
