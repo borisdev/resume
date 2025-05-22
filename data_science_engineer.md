@@ -82,7 +82,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 ## Impactful projects
 
 -   got a stuck AI feature launched by shifting the team's focus from training data quantity to quality
--   reduced Tableau customer complaints by building new observability system and metrics (CI/CD)
+-   reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
 -   reduced the data science team's firefighting by building a microservice architecture
 -   launched a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
 
