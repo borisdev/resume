@@ -2,7 +2,7 @@
 colorlinks: true
 title: "Data Science Engineer Resume"
 author: Boris Dev
-date: May 3, 2025
+date: May 22, 2025
 geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
