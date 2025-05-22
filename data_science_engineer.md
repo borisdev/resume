@@ -81,9 +81,9 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Impactful projects
 
--   persuaded team that our culprit was data quality, not data quantity, to get a stuck AI feature launched.
--   proposed and built observability systems to reduce firefighting.
--   proposed and built containerized FE dev env for faster onboarding.
+-   got a stuck AI feature launched by shifting the team's focus from example quantity to example quality
+-   reduced firefighting by building new observability systems and metrics
+-   launched a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
 
 <!--
 ## Interesting activities
