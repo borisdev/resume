@@ -16,17 +16,17 @@ output: pdf_document
 
 ## Education
 
-PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for location referenced social science problems. Dissertation: [Assessing Inequality using Geographic Income Distributions](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for location referenced social science problems. Dissertation: [New Metrics for Assessing Inequality using Geographic Data](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
 
 ## Experience
 
 ### EcoR1, 2025 - current, Data Science Engineer Contractor
 
--   Building AI automation research tools for a biotech hedge fund.
+-   Building LLM AI automation tools for a biotech hedge fund to remove manual work, toil.
 
 ### Nobsmed, 2024 - current, Founder
 
-Built https://nobsmed.com/ for users to search for biohacking experiences
+Built LLM based website, https://nobsmed.com/, for users to search for biohacking experiences
 found in clinical studies and Reddit comments.
 
 -   ETL: Language AI parsing of 100,000 studies and 1,000,000 Reddit comments.
@@ -38,7 +38,7 @@ found in clinical studies and Reddit comments.
 
 ### AI Engineer consultant at Wolf Games, 2023
 
--   Built an automated DAG of LLM prompts for story generation
+-   Built an LLM based service with a new graph prompting for story generation
 -   Worked closely with the CTO on requirements
 -   Built the story generation Flask API service
 
@@ -50,28 +50,26 @@ found in clinical studies and Reddit comments.
 
 SimpleLegal is a legal billing analytics company.
 
--   launched a previously stuck AI feature to flag invoice billing discrepancies
--   was first to provide metric documentation at the meetings
--   trained 8 ML classification models to flag suspicious invoice line items
--   redesigned and managed 5 workers on the annotation pipeline of the labels
--   built the inference server (SageMaker, PyTorch) and its product integration
+-   Built the ground truth for a language model for an AI feature to flag invoice billing discrepancies
+-   Managed SMEs (subject matter expects) and 5 workers on the annotation pipeline of the training examples
+-   Built the inference server (SageMaker, PyTorch) and its product integration
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
 Sight Machine is a manufacturing analytics company.
 
--   led backend engineering on biggest public facing analytic feature
--   coordinated QA process with sales and engineering
--   built company's first distributed tracing
--   containerized frontend engineering development environment
+-   Built the backend engineering on biggest public facing analytic feature
+-   Coordinated QA process with sales and engineering
+-   Built company's first distributed tracing
+-   Built the containerized frontend engineering development environment
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 HiQ Labs was a people analytics company.
 
--   built and owned the scraping system and observability (Splunk)
--   led the migration from a monolith to a micro-service paradigm
--   supported the data science team's migration to DataBricks PySpark and microservices
+-   Built the scraping system and observability (Splunk)
+-   Led the migration from a monolith to a micro-service paradigm
+-   Migrated the data science team to DataBricks PySpark and microservices
 
 ### Developer at Urban Mapping, 2011-2013
 
@@ -81,10 +79,10 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Impactful projects
 
--   got a stuck AI feature launched by shifting the team's focus from training data quantity to quality
--   reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
--   reduced the data science team's firefighting by building a microservice architecture
--   launched a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
+-   Revived a stuck AI feature by shifting the team's focus from training data quantity to quality
+-   Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
+-   Reduced the data science team's firefighting by building a microservice architecture
+-   Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
 
 <!--
 ## Interesting activities
@@ -96,7 +94,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ### Papers and code
 
--   LLM Topic Modeling: [bertopic-easy](https://github.com/borisdev/bertopic-easy).
+-   LLM based taxonomy (topic modeling): [bertopic-easy](https://github.com/borisdev/bertopic-easy).
 -   [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
 -   [Langchain PR: Causal Program-aided Language
     (CPAL)](https://github.com/hwchase17/langchain/pull/6255). See Harrison Chase's [Tweet](https://twitter.com/LangChainAI/status/1678797225013440514).
