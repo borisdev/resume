@@ -103,9 +103,9 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ### Non-tech fun points
 
--   climbed Cotopaxi (21,000 ft).
--   survived bodyboarding Mexpipe.
--   worked with students in Medellín, Columbia to make an open-source geo clustering library (ClusterPy)
--   taught kids snowboarding, as an instructor
--   managed service workers, as a restaurant assistant manager
--   counseled severely emotionally disturbed children
+-   Climbed Cotopaxi (21,000 ft).
+-   Bodyboarded Mexpipe.
+-   Taught with students in Medellín, Columbia to make an open-source geo clustering library (ClusterPy)
+-   Taught kids snowboarding, as an instructor
+-   Managed service workers, as a restaurant assistant manager
+-   Counseled severely emotionally disturbed children
