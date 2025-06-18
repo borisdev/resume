@@ -1,6 +1,11 @@
-# Role: Principal Data Scientist - Oracle Health Applications & Infrastructure
-
-## Candidate: Boris Dev, boris.dev@gmail.com
+---
+colorlinks: true
+title: "Cover letter for Principal Data Scientist - Oracle Health Applications & Infrastructure"
+author: Boris Dev (boris.dev@gmail.com)
+date: May 22, 2025
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+output: pdf_document
+---
 
 ## 0 to 1
 
