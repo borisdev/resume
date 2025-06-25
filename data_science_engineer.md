@@ -22,7 +22,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### The Program Labs, 2025 - current, AI Growth Engineer Contractor
 
--   Building LLM AI automation tooling and a Google Ads Experimentation platform for a startup accelerator.
+-   Building LLM AI automation tooling and a Google Ads Experimentation platform for a non-profit accelerator that helps startups in disadvantaged communities.
 
 ### EcoR1, 2025, Data Science Engineer Contractor
 
