@@ -20,7 +20,11 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ## Experience
 
-### EcoR1, 2025 - current, Data Science Engineer Contractor
+### The Program Labs, 2025 - current, AI Growth Engineer Contractor
+
+-   Building LLM AI automation tooling and a Google Ads Experimentation platform for a startup accelerator.
+
+### EcoR1, 2025, Data Science Engineer Contractor
 
 -   Building LLM AI automation tools for a biotech hedge fund to remove manual work, toil.
 
