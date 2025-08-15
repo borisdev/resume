@@ -2,16 +2,17 @@
 colorlinks: true
 title: "Data Science Engineer Resume"
 author: Boris Dev
-date: May 22, 2025
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
 
-## Tool Stack
+## Tools
 
--   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, Distributed Tracing
--   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
--   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth
+-   **Statistical Computing & Scripting:** PhD social science work with Numpy and R.
+-   **Data Analytics:** Migrated Data Scientists from laptop environments to Databricks PySpark. SQLAlchemy, Pandas, Tableau
+-   **Data Pipelines:** Migrated team from monolith to microservice paradigm. Jenkins, Kafka, SQLAlchemy, Postgres
+-   **DevOps:** Helm, Prometheus, Grafana, Splunk, ELK, Distributed Tracing
+-   **Data Science:** Pandas, SageMaker, PyTorch, GroundTruth, scikit, Plotly dataviz, Jupyter Notebooks, Taught a GeoSpatial Data Science course
 -   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch), PydanticAI Graph Agents, LangChain, LangSmith, SentenceTransformers
 
 ## Education
@@ -83,7 +84,9 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Impactful projects
 
--   Revived a stuck AI feature by shifting the team's focus from training data quantity to quality
+-   Got an AI feature unstuck by shifting the team's focus from quantity to quality of ML training examples.
+-   Migrated data science team from laptop environments to Databricks PySpark
+-   Migrated data science team from monolith to microservice paradigm
 -   Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
 -   Reduced the data science team's firefighting by building a microservice architecture
 -   Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
