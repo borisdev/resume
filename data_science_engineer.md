@@ -42,7 +42,7 @@ found in clinical studies and Reddit comments.
 
 ### AI Engineer consultant at Wolf Games, 2023
 
--   Built an LLM based service with a new graph prompting for story generation
+-   Built an LLM based service with a [new graph prompting for story generation](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
 -   Worked closely with the CTO on requirements
 -   Built the story generation Flask API service
 
@@ -86,7 +86,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 -   Revived a stuck AI feature by shifting the team's focus from training data quantity to quality
 -   Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
 -   Reduced the data science team's firefighting by building a microservice architecture
--   Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency.
+-   Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)).
 
 <!--
 ## Interesting activities
