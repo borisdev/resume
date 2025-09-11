@@ -20,13 +20,13 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ## Experience
 
-### The Program Labs, 2025 - current, AI Growth Engineer Contractor
+### The Program Labs, 2025 - current, Advisor and AI Engineer Contractor
 
--   Building LLM AI automation tooling and a Google Ads Experimentation platform for a non-profit accelerator that helps startups in disadvantaged communities.
+-   Advising on AI and SEO strategy
 
 ### EcoR1, 2025, Data Science Engineer Contractor
 
--   Building LLM AI automation tools for a biotech hedge fund to remove manual work, toil.
+-   LLM AI scraper
 
 ### Nobsmed, 2024 - current, Founder
 
