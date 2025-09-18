@@ -9,6 +9,7 @@ output: pdf_document
 
 ## Tool Stack
 
+-   **Recent Consulting:** OpenAI, LangChain, Python
 -   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, Distributed Tracing
 -   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
 -   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth
