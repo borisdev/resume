@@ -46,9 +46,12 @@ flowchart TB
 
 ```
 
-## 3. ROI Metrics — Driving Questions
+## 3. ROI Metrics
 
-**Goal:** Align on which ROI levers matter most to Jackson and the EPC customer, and how to baseline them now so we can show measurable impact quickly after launch.
+### Anchor Questions
+
+> "What's the best ROI metric?"
+> "Can we start making a baseline now?"
 
 ### Core ROI Levers to Probe
 
@@ -67,9 +70,7 @@ flowchart TB
 -   How soon after launch should we **see and report** these metrics to Michael for GTM impact?
 -   Which **NCR types** are the "low-hanging fruit" with high ROI potential?
 
-> **Note:** Establishing these baselines before launch is what lets us prove uplift later, not guess at it.
-
-## 4. AI Quality Evaluation — Driving Questions
+## 3. AI Quality Evaluation
 
 **Goal:** Align with Jackson on how to define and measure **"better product"** when comparing Sindri to an imagined competitor.
 
@@ -77,27 +78,3 @@ flowchart TB
 
 > "Imagine you have two products in front of you — ours and a competitor's.  
 > What quick **smell tests** would you run to decide which one is actually better?"
-
-## 5. Tech Stack & Data Access — Driving Questions
-
-**Goal:** Understand the current tools, data flows, and integration points so we can instrument Sindri AI early and avoid surprises later.
-
-### Anchor Question
-
-> "What systems and tools are already in place that we can plug into fast — without building everything from scratch?"
-
-### Supporting Questions
-
--   How does Aker currently manage NCRs and procurement data in **SAP QM/MM**?
--   How mature is their **Cognite Data Fusion (CDF)** integration, and what signals can we access?
--   Where does **critical path scheduling** data live (e.g., Primavera, other)?
--   What data can we realistically **access before launch** to build baselines?
--   Who controls data permissions and can help us **get access early**?
--   How does Aker currently **visualize NCR performance** (Power BI, Grafana, SAP reports, etc.)?
--   What **system boundaries** should we respect to avoid stepping on internal IT or SI work?
-
-### Why This Matters
-
--   Early integration lets us **instrument ROI from day one**.
--   Knowing what's already in place keeps the scope focused.
--   This clarifies how Sindri will **layer on top of existing systems** (not replace them).
