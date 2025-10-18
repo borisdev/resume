@@ -46,7 +46,7 @@ flowchart TD
 
 ```
 
-## 2. Business Vision
+## 2. Product Vision
 
 ### Market Position
 
