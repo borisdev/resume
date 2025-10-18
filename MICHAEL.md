@@ -67,7 +67,7 @@ we are combining the bespokeness of consultant integrators with the scale of Saa
 | Risk Category                   | Controlled               | Risk                       | Mitigation                                 |
 | ------------------------------- | ------------------------ | -------------------------- | ------------------------------------------ |
 | **Scaling Bespoke Deployments** | 70-80% component reuse   | Customization creep to 50% | Sean and Jackson's architecture discipline |
-| **SaaS Competition**            | On-prem moat             | ?                          | Sean and Jackon's data-centric AI          |
+| **SaaS Competition**            | On-prem moat             | ?                          | Sean and Jackon's user, data-centric AI    |
 | **Deployment Speed**            | Repeatable templates/SDK | Enterprise approval cycles | Align with trusted **integrators**         |
 | **Sales Velocity**              | Land-and-expand model    | Enterprise approval cycles | Align with trusted **integrators**         |
 
