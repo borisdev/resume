@@ -32,7 +32,7 @@ flowchart TD
     J -->|"ROIs + Ground Truth"| B
     SME_A -->|"ROIs + Ground Truth"| B
     SME_B -->|"ROIs + Ground Truth"| B
-    B -->|"Instrumentation"| S
+    B -->|"Analytics Layer"| S
     S -->|"Roadmap"| TeamA
     S -->|"Roadmap"| TeamB
     TeamA -->|"data"| Dashboards
