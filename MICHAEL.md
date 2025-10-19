@@ -50,10 +50,10 @@ flowchart TD
 
 ### Market Position
 
-**Special Sauce (Relevance):** A process to build on-prem embeddable MoC (Management of Change) software in a bespoke manner _and_ scaleable manner.
+**Special Sauce (Relevance):** Sindri has a process to build on-prem embeddable MoC (Management of Change) software in a bespoke manner _and_ scaleable manner.
 In other words, our innovation is that we can combine the bespokeness of consultant integrators with the scale of SaaS tech vendors.
 
-**Moat (Credibility):** ROI metrics dashboards to build customer lock-in.
+**Moat (Credibility):** Sindri has ROI metrics dashboards to build customer lock-in.
 
 ### Market Gap Analysis
 
