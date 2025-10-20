@@ -6,9 +6,9 @@ _Date: 2025-10-20_
 
 ---
 
-## TL;DR — Objectives:
+## TL;DR — Objective: Alignment
 
-1. Alignment on role and my value added
+1. My role and my value added
 2. Alignment on product vision
 
 ## 1. Role
@@ -21,10 +21,10 @@ flowchart TD
         SME_A((SME_A))
         SME_B((SME_B))
     end
-    B((Boris))
+    B(("Boris"))
     S((Sean))
-    TeamA(("Build Pod A"))
-    TeamB(("Build Pod B"))
+    TeamA(("Build Use Case #2"))
+    TeamB(("Build Use Case #3"))
     Dashboards(("KPI Dashboards"))
 
     %% Flows
@@ -32,7 +32,7 @@ flowchart TD
     J -->|"ROIs + Ground Truth"| B
     SME_A -->|"ROIs + Ground Truth"| B
     SME_B -->|"ROIs + Ground Truth"| B
-    B -->|"Analytics Layer"| S
+    B -->|"Analytics and AI Eval Software Layer"| S
     S -->|"Roadmap"| TeamA
     S -->|"Roadmap"| TeamB
     TeamA -->|"data"| Dashboards
@@ -71,9 +71,9 @@ In other words, our innovation is that we can combine the bespokeness of consult
 | **Deployment Speed**            | Repeatable templates/SDK | Enterprise approval cycles | Align with trusted **integrators**         |
 | **Sales Velocity**              | Land-and-expand model    | Enterprise approval cycles | Align with trusted **integrators**         |
 
-### Boris's Questions
+### Boris's Curiosity Questions
 
--   Where is my mental model off?
+-
 -   Who will acquire us?
 -   Should we build for integrators or customer IT departments?
 -   What's the top aggregate ROI target for customer CEOs/investors to see?
