@@ -7,13 +7,13 @@ geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
 
-## Tool Stack
+## Stack
 
--   **Recent Consulting:** OpenAI, LangChain, Python
--   **Data Analytics:** SQL, Python, SQLAlchemy, Pandas, PySpark, GeoSpatial Stats & Maps, Prometheus, Grafana, Tableau, Splunk, ELK, Distributed Tracing
--   **Data Pipelines:** Jenkins, Kafka, SQLAlchemy, Postgres[GIS]
--   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth
--   **Langauge AI:** Embedding DBs (Weaviate, ElasticSearch), PydanticAI Graph Agents, LangChain, LangSmith, SentenceTransformers
+-   **AI**: Temporal, prompt engineering
+-   **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, SQLAlchemy
+-   **Web BE**: FastAPI, Postgres, Mongo, Prometheus, Grafana, Splunk, ELK, OTEL
+-   **Cloud**: Azure, AWS
+-   **Pipelines:** Jenkins, Kafka
 
 ## Education
 
@@ -21,13 +21,14 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ## Experience
 
-### The Program Labs, 2025 - current, Advisor and AI Engineer Contractor
+### Sindri, 2025 - current, Consultant
 
--   Advising on AI and SEO strategy
+Built Temporal AI Agent Evaluation framework
 
-### EcoR1, 2025, Data Science Engineer Contractor
-
--   LLM AI scraper
+-   AI system eval workflow: expectations yaml spec -> snaphot workflow -> evaluate and report
+-   Prompt eval and fine-tuning workflow: faults spec -> prompt patch -> load -> batch find faults -> aggregate-score-enhance
+-   Developers evaluate using a cli tool (python click library)
+-   SME-authored executable spec file, `sme-spec.yaml` [in progress]
 
 ### Nobsmed, 2024 - current, Founder
 
@@ -41,15 +42,15 @@ found in clinical studies and Reddit comments.
 -   Prompt engineering using InstructorAI.
 -   Embedding DBs for search (Weaviate, ElasticSearch).
 
-### AI Engineer consultant at Wolf Games, 2023
-
--   Built an LLM based service with a [new graph prompting for story generation](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
 -   Worked closely with the CTO on requirements
 -   Built the story generation Flask API service
 
-### AI Engineer consultant at Intuitive Systems, 2023
+### Smaller consulting gigs
 
--   NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline. Used LangSmith for evaluation.
+-   The Program Labs, 2025 - advising on AI and SEO strategy
+-   EcoR1, 2025 - Built LLM AI scraper to extract earnings calls
+-   Wolf Games, 2023 - Built [new graph prompting for story generation](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
+-   Intuitive Systems, 2023, NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline. Used LangSmith for evaluation.
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
