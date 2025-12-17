@@ -26,7 +26,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 Built Temporal AI Agent Evaluation framework
 
 -   AI system eval workflow: expectations yaml spec -> snaphot workflow -> evaluate and report
--   Prompt eval and fine-tuning workflow: faults spec -> prompt patch -> load -> batch find faults -> aggregate-score-enhance
+-   LLM-as-judge: Prompt eval and fine-tuning workflow: faults spec -> prompt patch -> load -> batch find faults -> aggregate-score-enhance
 -   Developers evaluate using a cli tool (python click library)
 -   SME-authored executable spec file, `sme-spec.yaml` [in progress]
 
@@ -56,7 +56,7 @@ found in clinical studies and Reddit comments.
 
 SimpleLegal is a legal billing analytics company.
 
--   Built the ground truth for a language model for an AI feature to flag invoice billing discrepancies
+-   Built the ground truth for a small language model (SLM) for an AI feature to flag invoice billing discrepancies
 -   Managed SMEs (subject matter expects) and 5 workers on the annotation pipeline of the training examples
 -   Built the inference server (SageMaker, PyTorch) and its product integration
 
