@@ -27,6 +27,11 @@ Built Temporal AI Agent Evaluation framework
 
 -   AI system eval workflow: expectations yaml spec -> snaphot workflow -> evaluate and report
 -   LLM-as-judge: Prompt eval and fine-tuning workflow: faults spec -> prompt patch -> load -> batch find faults -> aggregate-score-enhance
+    ** step 0: patch the AI system with a candidate prompt
+    ** step 1: build a batch of input test examples synthetically
+    ** step 2: write a "faults spec" markdown files explaining to the LLM what counts as a major and minor fault.
+    ** step 3: Have the LLM list all minor and major faults for each example case
+    \*\* step 4: Consolidate all the faults and have the LLM summarize them, score the prompt (0-5) given a guidance criteria, give a score rationale, and offer a short list of prompt changes to make a new candidate prompt, then repeat (iterate)
 -   Developers evaluate using a cli tool (python click library)
 -   SME-authored executable spec file, `sme-spec.yaml` [in progress]
 
