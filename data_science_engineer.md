@@ -49,7 +49,7 @@ found in clinical studies and Reddit comments.
 - Customer discovery and user interviews.
 - Experimented with fine-tuning opensource embeddings model and ML classification.
 - Prompt engineering using InstructorAI.
-- Embedding DBs for search (Weaviate, ElasticSearch).
+- Embedding DBs for search (Azure Search, Weaviate, OpenSearch).
 
 ### Smaller consulting gigs
 
