@@ -1,8 +1,6 @@
 ---
 colorlinks: true
-title: "Data Science Engineer Resume"
-author: Boris Dev
-date: May 22, 2025
+title: "Boris Dev's resume: Data Science Engineer, Dec 23, 2025
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
@@ -48,9 +46,6 @@ found in clinical studies and Reddit comments.
 - Experimented with fine-tuning opensource embeddings model and ML classification.
 - Prompt engineering using InstructorAI.
 - Embedding DBs for search (Weaviate, ElasticSearch).
-
-- Worked closely with the CTO on requirements
-- Built the story generation Flask API service
 
 ### Smaller consulting gigs
 
