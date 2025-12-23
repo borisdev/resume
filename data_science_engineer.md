@@ -23,7 +23,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### Sindri, 2025 - current, Consultant
 
-Built Temporal AI Agent evaluation `click cli` tooling
+Built Temporal AI agent evaluation CLI framework
 
 - **Temporal AI workflow evaluation steps:**
   1. Author an expectations yaml containing post-run predicates and pre-run scenarios
