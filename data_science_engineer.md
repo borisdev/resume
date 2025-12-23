@@ -5,7 +5,7 @@ geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
 
-# Boris Dev — Data Science Engineer
+# Boris Dev — AI Product Engineer
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
