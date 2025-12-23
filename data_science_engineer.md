@@ -1,9 +1,13 @@
 ---
 colorlinks: true
-title: "Boris Dev's resume: Data Science Engineer, Dec 23, 2025
+date: May 22, 2025
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: pdf_document
 ---
+
+# Boris Dev — Data Science Engineer
+
+San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
 ## Stack
 
