@@ -10,9 +10,10 @@ output: pdf_document
 ## Stack
 
 - **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, SQLAlchemy
-- **Web BE**: FastAPI, Postgres, Mongo, Prometheus, Grafana, Splunk, ELK, OTEL
+- **Web BE**: FastAPI/Flask/Django, docker-compose, kubectl, Postgres, Mongo, Prometheus, Grafana, Splunk, ELK, OTEL
 - **Cloud**: Azure, AWS
 - **Pipelines:** Jenkins, Kafka
+- **LLM tooling**: Instructor, Claude code, Goose, Cursor, Copilot
 
 ## Education
 
@@ -22,7 +23,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### Sindri, 2025 - current, Consultant
 
-Built Temporal AI Agent Evaluation framework
+Built Temporal AI Agent evaluation `click cli` tooling
 
 - **Temporal AI workflow evaluation**
   1. Author an expectations yaml containing post-run predicates and pre-run scenarios
@@ -32,7 +33,7 @@ Built Temporal AI Agent Evaluation framework
   1. step 1: patch the AI system with a candidate prompt
   2. step 2: build a batch of input test examples synthetically
   3. step 3: Using a Jinja prompt template, instruct the LLM to identify major and minor faults per test example
-  4. step 54: Instruct LLM to summarize the aggregation of faults per prompt: score, score rationale, top faults, propose prompt changes.
+  4. step 5: Instruct LLM to summarize the aggregation of faults per prompt: score, score rationale, top faults, propose prompt changes.
      score the prompt (0-5) given a guidance criteria, give a score rationale, and offer a short list of prompt changes to make a new candidate prompt, then repeat (iterate)
 
 - Developers evaluate using a cli tool (python click library)
