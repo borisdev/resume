@@ -25,19 +25,17 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 Built Temporal AI Agent evaluation `click cli` tooling
 
-- **Temporal AI workflow evaluation**
+- **Temporal AI workflow evaluation steps:**
   1. Author an expectations yaml containing post-run predicates and pre-run scenarios
   2. Run temporal workflow and collect snapshot (post-run db side-effects and activity outputs)
   3. Test each expectation and report failures
-- **LLM-as-judge:** Prompt evaluation and fine-tuning workflow
-  1. step 1: patch the AI system with a candidate prompt
-  2. step 2: build a batch of input test examples synthetically
-  3. step 3: Using a Jinja prompt template, instruct the LLM to identify major and minor faults per test example
-  4. step 4: Instruct LLM to summarize the aggregation of faults per prompt: score, score rationale, top faults, propose prompt changes.
-     score the prompt (0-5) given a guidance criteria, give a score rationale, and offer a short list of prompt changes to make a new candidate prompt, then repeat (iterate)
-
-- Developers evaluate using a cli tool (python click library)
-- SME-authored executable spec file, `sme-spec.yaml` [in progress]
+- **LLM-as-judge and prompt fine-tuning steps:**
+  1. Patch the AI system with a candidate prompt
+  2. Build a batch of input test examples synthetically
+  3. Using a Jinja prompt template, instruct the LLM to identify major and minor faults per test example
+  4. Instruct LLM to summarize the aggregation of faults per prompt: score, score rationale, top faults, propose prompt changes.
+  5. iterate
+- **Design doc for SME-authored executable expectations** [in progress]
 
 ### Nobsmed, 2024 - current, Founder
 
