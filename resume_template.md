@@ -55,8 +55,13 @@ found in clinical studies and Reddit comments.
 
 - The Program Labs, 2025 - Building LLM AI automation tooling and a Google Ads Experimentation platform for a non-profit accelerator that helps startups in disadvantaged communities.
 - EcoR1, 2025 - Built LLM AI scraper to extract earnings calls
-- Wolf Games, 2023 - Built [new graph prompting for story generation](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
 - Intuitive Systems, 2023, NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline. Used LangSmith for evaluation.
+
+### AI Engineer consultant at Wolf Games, 2023-2024
+
+Wolf Games is a murder mystery gaming company piloted by the producers of Law & Order.
+
+* Built a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 

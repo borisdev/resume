@@ -1,0 +1,31 @@
+# .goosehints
+
+## Purpose
+Authoritative agent memory, rules, and application tracking for this repo. Read first.
+
+## Workflow Mode
+- Start with user-provided job URLs
+- Switch to agent-assisted job search only with explicit user approval
+
+## Application Tracking (MANDATORY)
+- Maintain an up-to-date list of jobs applied to
+- Record for each application:
+  - Company
+  - Role
+  - Job URL
+  - Date applied
+  - Resume variant used
+- Always check this list before starting new work to avoid duplicates
+
+## Known Repo Context
+- generate_resume.sh: Resume generation helper script
+- datascience_engineer.md: Data Science / Analytics Engineer resume source
+- ai_product_engineer.md: AI Product Engineer resume source
+
+## Operating Rules
+- Prefer minimal, targeted resume edits per job
+- Do not rewrite resumes wholesale unless explicitly requested
+- Log assumptions and decisions here when relevant
+
+## Applications Log
+- (empty — append entries chronologically)
