@@ -9,14 +9,14 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
+## Curiosities
+AI subjective evals • semantic data modeling for retrieval • building customer-centric processes 
+
 ## Stack
 
-- **Curiosities**: semantic indexing, customer cognitive empathizing, subjective AI evaluation
-- **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, SQLAlchemy
-- **Web BE**: FastAPI/Flask/Django, docker-compose, kubectl, Postgres, Mongo, Prometheus, Grafana, Splunk, ELK, OTEL
-- **Cloud**: Azure, AWS
-- **Pipelines:** Jenkins, Kafka
-- **LLM tooling**: Instructor, Claude code, Goose, Cursor, Copilot
+- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data
+- **Web BE**: Pydantic, Azure Search, FastAPI/Flask/Django, docker-compose, kubectl, Postgres, Mongo
+- **Cloud & Pipelines:** Azure, AWS, Jenkins, Kafka, SageMaker, GroundTruth, Splunk, SageMaker
 
 ## Education
 
@@ -45,12 +45,10 @@ Built Temporal AI agent evaluation CLI framework
 Built LLM based website, https://nobsmed.com/, for users to search for biohacking experiences
 found in clinical studies and Reddit comments.
 
-- ETL: Language AI parsing of 100,000 studies and 1,000,000 Reddit comments.
-- Topic modeling: Extended Bertopic using LLM for naming and classification of outliers, [bertopic-easy](https://github.com/borisdev/bertopic-easy).
-- Customer discovery and user interviews.
-- Experimented with fine-tuning opensource embeddings model and ML classification.
-- Prompt engineering using InstructorAI.
-- Embedding DBs for search (Azure Search, Weaviate, OpenSearch).
+- Semantic data modeling that canonicalizes medical questions and clinical studies into a shared standard schema for deterministic retrieval (ontology design)
+- LLM-based extraction
+- Built full-stack product and Azure deployment
+- created [bertopic-easy](https://github.com/borisdev/bertopic-easy) for clustering/topic modeling
 
 ### Smaller consulting gigs
 
