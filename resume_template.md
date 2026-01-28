@@ -11,6 +11,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ## Stack
 
+- **Curiosities**: semantic indexing, customer cognitive empathizing, subjective AI evaluation
 - **Data Science:** Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, SageMaker, PyTorch, GroundTruth, SQLAlchemy
 - **Web BE**: FastAPI/Flask/Django, docker-compose, kubectl, Postgres, Mongo, Prometheus, Grafana, Splunk, ELK, OTEL
 - **Cloud**: Azure, AWS
