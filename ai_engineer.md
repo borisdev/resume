@@ -9,15 +9,11 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-## Interests
-
-subjective AI evaluation • modeling a niche domain's concepts for AI automation • innovating human processes 
-
 ## Stack
 
-- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data
-- **Web BE**: Pydantic, Azure Search, FastAPI/Flask/Django, docker-compose, kubectl, Postgres, Mongo
-- **Cloud & Pipelines:** Azure, AWS, Jenkins, Kafka, SageMaker, GroundTruth, Splunk, SageMaker
+- **Data Science/LLM/ML:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
+- **BE Engineering**: Azure Search, FastAPI/Flask/Django, docker, Postgres,
+Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, 
 
 ## Education
 
@@ -27,7 +23,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### Sindri, 2025 - current, Consultant
 
-Built initial evaluation framework to score the quality of an AI agent’s supplier-error remediation.
+Built initial evaluation framework to score the quality of an AI agent’s supplier-error remediation. This saved developer time from manually validating side-effects and email quality after each prompt or agentic code change.
 
 - **Temporal AI workflow evaluation steps:**
   1. Author an expectations yaml containing post-run predicates and pre-run scenarios
@@ -43,55 +39,57 @@ Built initial evaluation framework to score the quality of an AI agent’s suppl
 
 ### Nobsmed, 2024 - current, Founder
 
-Built LLM based website, https://nobsmed.com/, for users to search for biohacking experiences
-found in clinical studies and Reddit comments.
+Built https://nobsmed.com/ for users to search clinical studies and reddit
+posts for treatment and health insights.
 
-- Semantic data modeling that canonicalizes medical questions and clinical studies into a shared standard schema for deterministic retrieval (ontology design)
-- LLM-based extraction
-- Built full-stack product and Azure deployment
+- LLM extraction of clinical study treatment findings and reddit personal health
+experiences
 - created [bertopic-easy](https://github.com/borisdev/bertopic-easy) for clustering/topic modeling
 
 ### Smaller consulting gigs
 
-- The Program Labs, 2025 - Building LLM AI automation tooling and a Google Ads Experimentation platform for a non-profit accelerator that helps startups in disadvantaged communities.
-- EcoR1, 2025 - Built LLM AI scraper to extract earnings calls
-- Intuitive Systems, 2023, NED (Name Entity Disambiguation) of vendor receipts fed into AMD's sales analytic pipeline. Used LangSmith for evaluation.
+- EcoR1, 2025 - LLM extraction of earning call calendar events
+- Intuitive Systems, 2023, LLM extraction of AMD products from vendor receipts. LangSmith for evaluation.
 
 ### AI Engineer consultant at Wolf Games, 2023-2024
 
 Wolf Games is a murder mystery gaming company piloted by the producers of Law & Order.
 
-* Built a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
+* Fixed story generation to be consistent by building a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company.
 
-- Training examples curation: two SME lawyers and five human annotators
-- Deployed PyTorch SLM on SageMaker and its client in to the product.
+- Redesigned rubric and quality control pipeline--> massive increase in training example quality resulting
+in launching a previously stuck feature
+- Deployed PyTorch Small Language Model on SageMaker and the ML client into the Flask product app.
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
 Sight Machine is a manufacturing analytics company.
 
 - Built the backend engineering on biggest public facing analytic feature
-- Coordinated QA process with sales and engineering
-- Built company's first distributed tracing
-- Built the containerized frontend engineering development environment
+- Demo protocol --> less panic before each sales demo 
+- Coordinated QA process with sales and engineering --> better prioritization/triage
+- Built company's first distributed tracing --> simpler fire-fighting for mid-level developers
+- Containerized frontend build --> standardized team's setup & scaled testing to cloud
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 HiQ Labs was a people analytics company.
 
-- Built the scraping system and observability (Splunk)
-- Led the migration from a monolith to a micro-service paradigm
-- Migrated the data science team to DataBricks PySpark and microservices
+- Refactored scraping system --> Established pipeline reliability 
+- Refactored data pipeline from a data science monolith to a micro-service paradigm --> Established release reliability 
+- Migrated the data science team from Mongo to DataBricks --> increased productivity on new product R&D
 
 ### Developer at Urban Mapping, 2011-2013
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Formulated first map rendering and query performance metrics integrated into our CI/CD pipeline
+- SRE: Built first performance regression gate -> Reduced failed releases/customer complaints
+- SRE: Build first observability --> increased coding issues prioritization with new system performance metrics
+
 
 ## Impactful projects
 
@@ -100,13 +98,8 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Reduced the data science team's firefighting by building a microservice architecture
 - Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)).
 
-<!--
-## Interesting activities
 
--   For my side-project, Nobsmed.com, I am making a website to help people compare their treatment options by summarizing clinical study outcomes along with Reddit personal experience anecdotal comments.
--   I climbed Cotopaxi (21,000 ft), survived bodyboarding Mexpipe, worked with students in Medellín, Columbia to make [ClusterPy](https://github.com/clusterpy/clusterpy), was a kids snowboard instructor at Vail Resorts, CO, was an assistant manager at Gundy's Grill in Vail Resorts, CO, was a counselor for severely emotionally disturbed children at Seneca Institute, CA.
 
--->
 
 ### Papers and code
 
@@ -125,3 +118,4 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Taught kids snowboarding, as an instructor
 - Managed service workers, as a restaurant assistant manager
 - Counseled severely emotionally disturbed children
+- Interests: subjective evaluation • domain modeling • innovating human processes 
