@@ -27,7 +27,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### Sindri, 2025 - current, Consultant
 
-Wrote eval harness on judging the quality of how an AI agent handles a supplier non-conformance (mistake).
+Built initial evaluation framework to score the quality of an AI agent’s supplier-error remediation.
 
 - **Temporal AI workflow evaluation steps:**
   1. Author an expectations yaml containing post-run predicates and pre-run scenarios
