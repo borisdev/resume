@@ -9,8 +9,9 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-## Curiosities
-subjective evals • semantic domain modeling for retrieval • innovating human processes 
+## Interests
+
+subjective AI evaluation • modeling a niche domain's concepts for AI automation • innovating human processes 
 
 ## Stack
 
