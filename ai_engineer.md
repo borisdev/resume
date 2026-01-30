@@ -9,6 +9,8 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
+- Interests: 0-1 building RAGs • subjective AI quality evaluation • innovating human processes  • LLM concept extraction • building cognitive empathy flywheels
+
 ## Stack
 
 - **Data Science/LLM/ML:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
@@ -118,4 +120,3 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Taught kids snowboarding, as an instructor
 - Managed service workers, as a restaurant assistant manager
 - Counseled severely emotionally disturbed children
-- Interests: subjective evaluation • domain modeling • innovating human processes 
