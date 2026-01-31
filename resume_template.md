@@ -9,7 +9,9 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-- Interests: 0-1 building RAGs • subjective AI quality evaluation • innovating human processes  • LLM concept extraction • building cognitive empathy flywheels
+## Interests
+
+0-1 building RAGs • subjective AI quality evaluation • innovating human processes  • LLM concept extraction • building cognitive empathy flywheels
 
 ## Stack
 
