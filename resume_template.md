@@ -91,8 +91,8 @@ HiQ Labs was a people analytics company.
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- SRE: Built first performance regression gate -> Reduced failed releases/customer complaints
-- SRE: Build first observability --> increased coding issues prioritization with new system performance metrics
+- Built first performance regression gate -> Reduced failed releases/customer complaints
+- Built first observability --> increased coding issues prioritization with new system performance metrics
 
 
 ## Impactful projects
