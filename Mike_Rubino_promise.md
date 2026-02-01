@@ -1,42 +1,26 @@
 Mike Rubino
-Promise Head of Talent
+Head of Talent, Promise
 
 Dear Mike,
 
-You asked me on Friday morning over video chat about AI Evaluation and then to email 
-you a summary of what I am interested in for my next role.
+Thanks again for the video chat on Friday. As requested, here’s a quick summary of what I’m interested in for my next role, and my resume is attached.
 
-## TLDR
+**TL;DR:** I’m looking for an AI engineering role where I can build RAG systems and evaluation/feedback loops that reduce human toil.
 
+**A bit more detail (what I mean by “knowledge engineering”):** I like building software plus human-in-the-loop processes that make it reproducible to:
 
-- The short answer is I want to build RAGs in a role such as this one at [Promise Software Engineer -
-AI](https://jobs.ashbyhq.com/Promise/4d2f9b56-1593-4b4f-b653-7d2ef7db0df5?utm_source=7nl8GjynMY).
-- The long answer is I want to reduce human toil through Knowledge Engineering. 
+* **Elicit knowledge and performance feedback from domain experts and customers.** For example, I embedded feedback from lawyers and paralegals into an active-learning ML pipeline to refine a rubric and generate hard training examples.
+* **Quantify subjective concepts of quality and performance at scale.** For example, I built an AI evaluation framework for email quality. In my Ph.D. dissertation, I also operationalized nuanced ideas of income inequality for statistical analysis.
+* **Do 0→1 engineering in messy domains.** I quickly learn the domain, model the key concepts/entities, and then build the extraction/prediction pipeline on top of that. For example, I’ve built or worked on entity types such as:
 
+  * legal billing flags for invalid invoice line items
+  * earnings call calendar events
+  * murder-mystery storyboard scene cards
+  * clinical study treatment effects
+  * AI behavioral expectations and email guidance for handling supplier errors in the maritime construction industry
+  * AMD products in computer sales receipts
 
-## What is "Knowledge Engineering"? 
-
-Knowledge Engineering builds software and human-in-the-loop processes to scale the answering of the following
-questions in a reproducible way:
-
-- How do we elicit knowledge and performance feedback from domain experts and customers? (For example, I embedded the elicitation of knowledge from lawyers and paralegals inside an active learning ML pipeline for fine-tuning the rubric and building hard training examples.)
-- How do we quantify subjective concepts of quality and performance at scale?
-(For example, I made an AI evaluation framework for email quality. Also, for my
-PhD dissertation, I embedded nuanced ideas of income inequality into statistical
-analysis.)
-- How do we model entities of a niche domain human task to make an AI
-prediction or extraction workflow? For example on worked on the following entity
-types, which required fun deep dives into different niche domains:
-  - legal billing flags for invalid invoice line items
-  - earning call calendar events  
-  - murder mystery story board scene cards
-  - clinical study treatment effects
-  - AI behavioral expectations and emails on handling supplier errors in the maritime construction industry 
-  - AMD products in computer sales receipts
-
-To recap, I would love to learn more about AI Engineering, AI Evaluation, or
-Knowledge Engineering roles at Promise.
-
+To recap, I’d love to learn more about AI engineering, AI evaluation, or knowledge engineering roles at Promise, and whether this maps to your current needs.
 
 Sincerely,
 Boris
