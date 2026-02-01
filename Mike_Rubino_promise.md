@@ -1,18 +1,22 @@
 Dear Mike,
 
-Thanks again for the video chat on Friday. As requested, here’s a quick summary of what I’m interested in for my next role, and my resume is attached.
+Thanks again for the video chat on Friday. It was great chatting a bit about AI evaluation.
 
+As you requested, here’s a quick summary of what I’m interested in for my next role, and my resume is attached.
 
-**TL;DR:** I’m looking for an AI role focused on knowledge engineering—building RAG systems (including evaluation) that reduce human toil. I applied to Software Engineer — AI at Promise. I am also curious about other roles.
+**TL;DR:**
+
+- I want to build RAG systems. I applied to the Software Engineer — AI role at Promise.
+- More broadly, I want to reduce human toil through knowledge engineering.
 
 **What is knowledge engineering about and how does it relate to me?**
 
 Knowledge engineering is about answering the following questions in a
 reproducible and scalable way:
 
-* **How can we elicit knowledge and performance feedback from domain experts and customers?** For example, I embedded feedback from lawyers and paralegals into an active-learning ML pipeline to refine a rubric and generate hard training examples.
-* **How can we quantify nuanced subjective concepts of quality to evaluate AI task performance?** For example, I built an AI evaluation framework for email quality. In my Ph.D. dissertation, I also embedded nuanced ideas of income inequality into statistical analysis.
-* **How do wen build a prototype, 0→1 engineering, in messy niche domains?** The key is to quickly learn the domain, model the key concepts/entities, and then build the extraction/prediction pipeline on top of that. For example, I’ve built or worked on entity types such as:
+* **How can we elicit knowledge and performance feedback from domain experts and customers?** For example, I worked with lawyers and paralegals to refine our annotation rubric—facilitating Slack discussions and using an active-learning pipeline to surface progressively harder examples.
+* **How can we embed nuanced, subjective concepts of quality into scalable, reproducible evaluation?** For example, I built an AI evaluation framework for email quality. Also, for my Ph.D. research, I embedded nuanced ideas of income inequality into statistical analysis.
+* **How can we do 0→1 engineering in messy niche domains?** For example, I built 0→1 software by modeling entity types across diverse niche domains:
 
   * legal billing flags for invalid invoice line items
   * earnings call calendar events
@@ -21,7 +25,7 @@ reproducible and scalable way:
   * AI behavioral expectations and email guidance for handling supplier errors in the maritime construction industry
   * AMD products in computer sales receipts
 
-To recap, I’d love to learn more about AI engineering, AI evaluation, or knowledge engineering roles at Promise, and whether this maps to your current needs.
+To recap, I’d love to chat with your team about RAG engineering, AI evaluation, and knowledge engineering roles at Promise.
 
 Sincerely,
 Boris
