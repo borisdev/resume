@@ -1,6 +1,3 @@
-Mike Rubino
-Head of Talent, Promise
-
 Dear Mike,
 
 Thanks again for the video chat on Friday. As requested, here’s a quick summary of what I’m interested in for my next role, and my resume is attached.
