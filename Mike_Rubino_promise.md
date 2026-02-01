@@ -23,7 +23,6 @@ reproducible and scalable way:
   * murder-mystery storyboard scene cards
   * clinical study treatment effects
   * AI behavioral expectations and email guidance for handling supplier errors in the maritime construction industry
-  * AMD products in computer sales receipts
 
 To recap, I’d love to chat with your team about RAG engineering, AI evaluation, and knowledge engineering roles at Promise.
 
