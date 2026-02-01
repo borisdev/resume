@@ -2,8 +2,8 @@ Dear Mike,
 
 Thanks again for the video chat on Friday. As requested, here’s a quick summary of what I’m interested in for my next role, and my resume is attached.
 
-**TL;DR:** I’m looking for an AI knowledge engineering role where I can build RAG systems to help humans. I applied to this role, [Software Engineer - AI](https://jobs.ashbyhq.com/Promise/4d2f9b56-1593-4b4f-b653-7d2ef7db0df5?utm_source=7nl8GjynMY).
 
+**TL;DR:** I’m looking for an AI role focused on knowledge engineering—building RAG systems (including evaluation) that reduce human toil. I applied to Software Engineer — AI at Promise. I am also curious about other roles.
 
 **What is knowledge engineering about and how does it relate to me?**
 
