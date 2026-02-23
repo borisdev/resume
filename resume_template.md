@@ -11,13 +11,13 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ## Interests
 
-0-1 building RAGs • subjective AI quality evaluation • innovating human processes  • LLM concept extraction • building cognitive empathy flywheels
+Ontology-grounded (OG) RAG • AI quality evaluation • Innovating human processes  • Eliciting domain expertise (nuanced ground-truth)
 
 ## Stack
 
-- **Data Science/LLM/ML:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
+- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
 - **BE Engineering**: Azure Search, FastAPI/Flask/Django, docker, Postgres,
-Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, 
+Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, HTMX 
 
 ## Education
 
@@ -25,7 +25,7 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ## Experience
 
-### Sindri, 2025 - current, Consultant
+### Sindri, Oct, 2025 - Feb, 2026, Consultant
 
 Built initial evaluation framework to score the quality of an AI agent’s supplier-error remediation. This saved developer time from manually validating side-effects and email quality after each prompt or agentic code change.
 
