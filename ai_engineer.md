@@ -1,11 +1,12 @@
 ---
 colorlinks: true
 date: May 22, 2025
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm"
 output: pdf_document
 ---
 
-# Boris Dev — AI Engineer
+# Boris Dev
+## AI Engineer
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
@@ -15,7 +16,7 @@ Ontology-grounded (OG) RAG • AI quality evaluation • Innovating human proces
 
 ## Stack
 
-- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Plotly, PySpark, DataBricks, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
+- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth, Databricks
 - **BE Engineering**: Azure Search, FastAPI/Flask/Django, docker, Postgres,
 Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, HTMX 
 
@@ -46,9 +47,8 @@ Built initial evaluation framework to score the quality of an AI agent’s suppl
 Built https://nobsmed.com/ for users to search clinical studies and reddit
 posts for treatment and health insights.
 
-- LLM extraction of clinical study treatment findings and reddit personal health
-experiences
-- created [bertopic-easy](https://github.com/borisdev/bertopic-easy) for clustering/topic modeling
+- Ontology-grounded GraphRAG (knowledge graph) and Cypher graph queries 
+- LLM semantic extraction with Databricks serverless compute pipeline jobs
 
 ### Smaller consulting gigs
 
@@ -101,9 +101,6 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
 - Reduced the data science team's firefighting by building a microservice architecture
 - Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)).
-
-
-
 
 ### Papers and code
 

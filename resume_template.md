@@ -1,11 +1,12 @@
 ---
 colorlinks: true
 date: May 22, 2025
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm"
 output: pdf_document
 ---
 
-# Boris Dev — {{JOB_TITLE}}
+# Boris Dev
+## {{JOB_TITLE}}
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
@@ -15,7 +16,7 @@ Ontology-grounded (OG) RAG • AI quality evaluation • Innovating human proces
 
 ## Stack
 
-- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth
+- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth, Databricks
 - **BE Engineering**: Azure Search, FastAPI/Flask/Django, docker, Postgres,
 Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, HTMX 
 
@@ -27,18 +28,23 @@ PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for lo
 
 ### Sindri, Oct, 2025 - Feb, 2026, Consultant
 
-Built initial evaluation framework to score the quality of an AI agent’s supplier-error remediation. This saved developer time from manually validating side-effects and email quality after each prompt or agentic code change.
 
-- **Temporal AI workflow evaluation steps:**
-  1. Author an expectations yaml containing post-run predicates and pre-run scenarios
-  2. Run temporal workflow and collect snapshot (post-run db side-effects and activity outputs)
-  3. Test each expectation and report failures
-- **LLM-as-judge and prompt fine-tuning steps:**
-  1. Patch the AI system with a candidate prompt
-  2. Build a batch of input test examples synthetically
-  3. Using a Jinja prompt template, instruct the LLM to identify major and minor faults per test example
-  4. Instruct LLM to summarize the aggregation of faults per prompt: score, score rationale, top faults, propose prompt changes.
-  5. iterate
+Built an initial evaluation framework to score the quality of an AI agent's supplier error remediation. This reduced developer time spent manually validating side effects and email quality after each prompt or agentic code change.
+
+## Temporal AI workflow evaluation steps
+
+1. Author an expectations YAML file containing post-run predicates and pre-run scenarios
+2. Run the Temporal workflow and collect a snapshot of post-run database side effects and activity outputs
+3. Test each expectation and report failures
+
+## LLM-as-judge and prompt fine-tuning steps
+
+1. Patch the AI system with a candidate prompt
+2. Build a batch of synthetic input test examples
+3. Using a Jinja prompt template, instruct the LLM to identify major and minor faults for each test example
+4. Instruct the LLM to summarize the aggregated faults for each prompt, including score, score rationale, top faults, and proposed prompt changes
+5. Iterate
+
 - **Design doc for SME-authored executable expectations** [in progress]
 
 ### Nobsmed, 2024 - current, Founder
@@ -46,9 +52,8 @@ Built initial evaluation framework to score the quality of an AI agent’s suppl
 Built https://nobsmed.com/ for users to search clinical studies and reddit
 posts for treatment and health insights.
 
-- LLM extraction of clinical study treatment findings and reddit personal health
-experiences
-- created [bertopic-easy](https://github.com/borisdev/bertopic-easy) for clustering/topic modeling
+- Ontology-grounded GraphRAG (knowledge graph) and Cypher graph queries 
+- LLM semantic extraction with Databricks serverless compute pipeline jobs
 
 ### Smaller consulting gigs
 
@@ -101,9 +106,6 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
 - Reduced the data science team's firefighting by building a microservice architecture
 - Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)).
-
-
-
 
 ### Papers and code
 
