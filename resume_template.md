@@ -10,50 +10,40 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-## Interests
-
-Ontology-grounded (OG) RAG • AI quality evaluation • Innovating human processes  • Eliciting domain expertise (nuanced ground-truth)
+*Knowledge graphs • AI quality evaluation • Eliciting nuanced ground-truth from domain experts*
 
 ## Stack
 
-- **Data Science:** Dspy, Pandas, Sklearn, Numpy, Jupyter, PyTorch, GroundTruth, SQLAlchemy, geo-spatial data and social science data, SageMaker, GroundTruth, Databricks
-- **BE Engineering**: Azure Search, FastAPI/Flask/Django, docker, Postgres,
-Mongo, Open Telemetry, Azure, AWS, Jenkins, Kafka, Splunk, HTMX 
+- **AI / LLM:** DSPy, LangGraph, LangSmith, MCP, Pydantic, Jinja, Neo4j (GraphRAG), Azure Search (BM25)
+- **ML / Data Science:** PyTorch, scikit-learn, Pandas, NumPy, Jupyter, SageMaker, AWS GroundTruth, Databricks / PySpark
+- **Backend:** FastAPI, Flask, Django, SQLAlchemy, Postgres, Mongo, Docker, Temporal, Kafka, HTMX
+- **Ops / Cloud:** AWS, Azure, OpenTelemetry, Jenkins, Splunk
 
 ## Education
 
-PhD in Quantitative Human Geography, at SDSU and UCSB, 2015. Data science for location referenced social science problems. Dissertation: [New Metrics for Assessing Inequality using Geographic Data](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for location referenced social science problems. Dissertation: [New Metrics for Assessing Inequality using Geographic Data](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
 
 ## Experience
 
-### Sindri, Oct, 2025 - Feb, 2026, Consultant
+### Sindri, Oct 2025 - Feb 2026, Consultant
 
+Sindri is an early-stage startup applying AI to document management for large energy-industry construction projects.
 
-Built an initial evaluation framework to score the quality of an AI agent's supplier error remediation. This reduced developer time spent manually validating side effects and email quality after each prompt or agentic code change.
+Built the team's first AI evaluation framework, replacing engineer-driven manual QC/QA with automated checks and unblocking high-stakes customer demos by lifting AI email quality.
 
-## Temporal AI workflow evaluation steps
-
-1. Author an expectations YAML file containing post-run predicates and pre-run scenarios
-2. Run the Temporal workflow and collect a snapshot of post-run database side effects and activity outputs
-3. Test each expectation and report failures
-
-## LLM-as-judge and prompt fine-tuning steps
-
-1. Patch the AI system with a candidate prompt
-2. Build a batch of synthetic input test examples
-3. Using a Jinja prompt template, instruct the LLM to identify major and minor faults for each test example
-4. Instruct the LLM to summarize the aggregated faults for each prompt, including score, score rationale, top faults, and proposed prompt changes
-5. Iterate
-
-- **Design doc for SME-authored executable expectations** [in progress]
+- Designed an SME-authored YAML expectations DSL (pre-run scenarios + post-run predicates) so domain experts — not just engineers — could specify what "correct" looks like for a Temporal workflow run
+- Built a Temporal-aware test harness that snapshots post-run database side effects and activity outputs, then evaluates each expectation — became the team's foundational CI/CD for iterating on Temporal modules
+- Built an LLM-as-judge pipeline that scores candidate prompts against synthetic test batches and emits a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
 
 ### Nobsmed, 2024 - current, Founder
 
-Built https://nobsmed.com/ for users to search clinical studies and reddit
-posts for treatment and health insights.
+[Nobsmed](https://nobsmed.com/) connects ChatGPT and Claude to clinical-trial findings that fit a user's specific situation — an auditable evidence layer addressing the "evidence-to-person fit" problem (e.g., a statin trial that excluded pregnant women being mis-applied to someone trying to conceive).
 
-- Ontology-grounded GraphRAG (knowledge graph) and Cypher graph queries 
-- LLM semantic extraction with Databricks serverless compute pipeline jobs
+- Modeled a PICO-style ontology in Pydantic (`ParticipantGroup`, `StudyArm`, `OutcomeVariable`, with cross-reference integrity validators — defined once at paper level, referenced by id) and built it as a Neo4j knowledge graph queried with Cypher
+- Exposed the graph as an MCP server (tools: `ask`, `decompose`, `resolve`, `evidence`, `filter_by_pertinence`, `concept_hierarchy`, `similar_concepts`) so agents compose multi-step graph queries — ontology-grounded GraphRAG, not vector-only retrieval
+- Live demos (clickable): web UI answering [*"OnabotulinumtoxinA vs sacral neuromodulation for urgency incontinence"*](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence), and a public ChatGPT custom GPT (Clinical Trial Results) answering [*"Show RCTs of non-metformin interventions for prediabetes"*](https://chatgpt.com/g/g-69b9acbfea288191bb9aafd9710f9c23-clinical-trial-results?q=Show%20RCTs%20of%20non-metformin%20interventions%20for%20prediabetes)
+- Built an LLM extraction pipeline (Databricks / PySpark) over the PMC author-accepted-manuscript corpus that extracts structured findings per study arm (intervention, comparator, outcome, effect size, vs-baseline); ~250 papers ingested into the production graph to date
+- Built an eval harness with subdomain competency-question YAMLs (gold questions across 11 clinical subdomains — prolapse, prediabetes, anxiety, infant sleep, etc.) plus per-paper extraction-error annotations; open-sourcing the IR + harness in progress
 
 ### Smaller consulting gigs
 
@@ -64,63 +54,56 @@ posts for treatment and health insights.
 
 Wolf Games is a murder mystery gaming company piloted by the producers of Law & Order.
 
-* Fixed story generation to be consistent by building a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)
+* Fixed story generation to be consistent by building a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames)
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
 SimpleLegal is a legal billing analytics company.
 
-- Redesigned rubric and quality control pipeline--> massive increase in training example quality resulting
-in launching a previously stuck feature
-- Deployed PyTorch Small Language Model on SageMaker and the ML client into the Flask product app.
+- Identified a poorly specified rubric as the root cause of low model quality on a stuck feature
+- Designed a collaborative process for paralegals and lawyers to debate edge cases, build consensus, and elicit the nuanced expertise needed to refactor the rubric
+- Built a quality-control annotation pipeline around the new rubric --> massive increase in training example quality and the launch of the previously stuck feature
+- Deployed a PyTorch Small Language Model on SageMaker and the ML client into the Flask product app
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
 Sight Machine is a manufacturing analytics company.
 
-- Built the backend engineering on biggest public facing analytic feature
-- Demo protocol --> less panic before each sales demo 
+- Built the backend engineering on biggest public facing analytic feature 
+- Implemented a pre-demo protocol between product and engineering --> less panic before each sales demo 
 - Coordinated QA process with sales and engineering --> better prioritization/triage
-- Built company's first distributed tracing --> simpler fire-fighting for mid-level developers
+- Built company's first distributed tracing --> simpler firefighting for mid-level developers
 - Containerized frontend build --> standardized team's setup & scaled testing to cloud
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 HiQ Labs was a people analytics company.
 
+- Taught data scientists how to refactor their pipeline code into microservices
 - Refactored scraping system --> Established pipeline reliability 
 - Refactored data pipeline from a data science monolith to a micro-service paradigm --> Established release reliability 
-- Migrated the data science team from Mongo to DataBricks --> increased productivity on new product R&D
+- Migrated the data science team from Mongo to PySpark/Databricks --> increased productivity on new product R&D
 
 ### Developer at Urban Mapping, 2011-2013
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Built first performance regression gate -> Reduced failed releases/customer complaints
+- Built developer tooling 
+- Built first performance regression gate --> Reduced failed releases/customer complaints
 - Built first observability --> increased coding issues prioritization with new system performance metrics
 
 
 ## Impactful projects
 
+- Reduced Tableau customer complaints by building end-to-end regression tests for the top 100 geospatial queries, the company's first observability system, and CI/CD pre-commit performance gates
+- Migrated a data science ETL monolith to microservices, reducing firefighting
 - Revived a stuck AI feature by shifting the team's focus from training data quantity to quality
-- Reduced Tableau customer complaints by building a new observability system and CI/CD pre-commit metrics
-- Reduced the data science team's firefighting by building a microservice architecture
-- Built a gaming company's first murder mystery story generator by chaining to prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames?utm_source=chatgpt.com)).
+- Built a gaming company's first murder mystery story generator by chaining prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames)).
 
-### Papers and code
-
-- LLM based taxonomy (topic modeling): [bertopic-easy](https://github.com/borisdev/bertopic-easy).
-- [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287)
-- [Langchain PR: Causal Program-aided Language
-  (CPAL)](https://github.com/hwchase17/langchain/pull/6255). See Harrison Chase's [Tweet](https://twitter.com/LangChainAI/status/1678797225013440514).
-- [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit)
-- [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-)
-
-### Non-tech fun points
-
-- Climbed Cotopaxi (21,000 ft).
-- Bodyboarded Mexpipe.
-- Taught with students in Medellín, Columbia to make an open-source geo clustering library (ClusterPy)
-- Taught kids snowboarding, as an instructor
-- Managed service workers, as a restaurant assistant manager
-- Counseled severely emotionally disturbed children
+| **Papers & code** | **Non-tech fun** |
+|---|---|
+| LLM-based taxonomy (topic modeling): [bertopic-easy](https://github.com/borisdev/bertopic-easy) | Climbed Cotopaxi (21,000 ft) |
+| [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287) | Bodyboarded Mexpipe |
+| [Langchain PR: Causal Program-aided Language (CPAL)](https://github.com/hwchase17/langchain/pull/6255) — see Harrison Chase's [tweet](https://twitter.com/LangChainAI/status/1678797225013440514) | Taught with students in Medellín, Colombia to make ClusterPy (open-source geo clustering library) |
+| [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit) | Taught kids snowboarding as an instructor |
+| [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-) | Counseled severely emotionally disturbed children |
