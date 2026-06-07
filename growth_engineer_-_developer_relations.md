@@ -6,7 +6,7 @@ output: pdf_document
 ---
 
 # Boris Dev
-## AI Engineer
+## Growth Engineer - Developer Relations
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
