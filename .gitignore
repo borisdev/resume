@@ -2,3 +2,5 @@
 .claude
 .playwright-mcp/
 *.png
+__pycache__/
+*.pyc
