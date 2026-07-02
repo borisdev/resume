@@ -19,8 +19,22 @@ echo "Generated: ${FILENAME}.md"
 
 # Optionally generate PDF if pandoc is available
 if command -v pandoc &> /dev/null; then
-    pandoc "${FILENAME}.md" -s -o "${FILENAME}.pdf"
-    echo "Generated: ${FILENAME}.pdf"
+    # Prefer xelatex when present: it renders Unicode (e.g. Greek τ) natively,
+    # whereas the default pdflatex engine errors out on such characters.
+    if command -v xelatex &> /dev/null; then
+        PDF_ENGINE=(--pdf-engine=xelatex)
+    else
+        PDF_ENGINE=()
+    fi
+
+    # Only claim success if pandoc actually exits 0 — otherwise the old PDF
+    # is left untouched and we must say so rather than print "Generated:".
+    if pandoc "${FILENAME}.md" -s "${PDF_ENGINE[@]}" -o "${FILENAME}.pdf"; then
+        echo "Generated: ${FILENAME}.pdf"
+    else
+        echo "ERROR: PDF generation failed — ${FILENAME}.pdf was NOT updated" >&2
+        exit 1
+    fi
 else
     echo "To generate PDF, install pandoc and run: pandoc ${FILENAME}.md -s -o ${FILENAME}.pdf"
 fi
