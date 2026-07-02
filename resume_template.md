@@ -25,6 +25,11 @@ PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for loc
 
 ## Experience
 
+### Open-source AI-eval research, 2025 - current
+
+- [**tau-belief-state-bench**](https://github.com/borisdev/tau-belief-state-bench) — belief-state layer on tau-bench that catches agent failures invisible to terminal-state grading (agent passes the DB check yet violates an explicit user instruction); grounds LLM findings against transcripts with a deterministic verifier
+- [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — audit of OpenAI's HealthBench: verified 1,298 claims against primary literature (DOI / PubMed), surfacing 29 decision-changing errors (hallucinated citations, overgeneralization, misweighting)
+
 ### Sindri, Oct 2025 - Feb 2026, Consultant
 
 Sindri is an early-stage startup applying AI to document management for large energy-industry construction projects.
@@ -92,13 +97,6 @@ Urban Mapping provided geospatial analytics to Tableau.
 - Built first performance regression gate --> Reduced failed releases/customer complaints
 - Built first observability --> increased coding issues prioritization with new system performance metrics
 
-
-## Impactful projects
-
-- Reduced Tableau customer complaints by building end-to-end regression tests for the top 100 geospatial queries, the company's first observability system, and CI/CD pre-commit performance gates
-- Migrated a data science ETL monolith to microservices, reducing firefighting
-- Revived a stuck AI feature by shifting the team's focus from training data quantity to quality
-- Built a gaming company's first murder mystery story generator by chaining prompts to force consistency ([post](https://ai.google.dev/showcase/wolfgames)).
 
 | **Papers & code** | **Non-tech fun** |
 |---|---|
