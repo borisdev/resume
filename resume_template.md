@@ -1,7 +1,7 @@
 ---
 colorlinks: true
-date: May 22, 2025
-geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm"
+date: July 8, 2026
+geometry: "left=1.1cm,right=1.1cm,top=1.0cm,bottom=1.0cm"
 output: pdf_document
 ---
 
@@ -12,23 +12,13 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 *Medical evidence ontology alignment • Knowledge graphs • AI Evals • Eliciting ground-truth from domain experts*
 
-## Stack
+## Open-source AI-eval research
 
-- **AI / LLM:** DSPy, LangGraph, LangSmith, MCP, Pydantic, Jinja, Neo4j (GraphRAG), Azure Search (BM25)
-- **ML / Data Science:** PyTorch, scikit-learn, Pandas, NumPy, Jupyter, SageMaker, AWS GroundTruth, Databricks / PySpark
-- **Backend:** FastAPI, Flask, Django, SQLAlchemy, Postgres, Mongo, Docker, Temporal, Kafka, HTMX
-- **Ops / Cloud:** AWS, Azure, OpenTelemetry, Jenkins, Splunk
-
-## Education
-
-PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for location referenced social science problems. Dissertation: [New Metrics for Assessing Inequality using Geographic Data](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
+- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* when task success, safety, and user requirements compete (beyond terminal-state tau-bench).
+- [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
+- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — graded GPT-5.2 & Claude Opus 4.8 on the audit-verified slice: **~90% of failures are omissions** (missing alternatives, monitoring, safety-nets), not wrong answers.
 
 ## Experience
-
-### Open-source AI-eval research, 2025 - current
-
-- [**tau-belief-state-bench**](https://github.com/borisdev/tau-belief-state-bench) — belief-state layer on tau-bench that catches agent failures invisible to terminal-state grading (agent passes the DB check yet violates an explicit user instruction); grounds LLM findings against transcripts with a deterministic verifier
-- [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — audit of OpenAI's HealthBench: verified 1,298 claims against primary literature (DOI / PubMed), surfacing 29 decision-changing errors (hallucinated citations, overgeneralization, misweighting)
 
 ### Sindri, Oct 2025 - Feb 2026, Consultant
 
@@ -52,14 +42,14 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 ### Smaller consulting gigs
 
-- EcoR1, 2025 - LLM extraction of earning call calendar events
-- Intuitive Systems, 2023, LLM extraction of AMD products from vendor receipts. LangSmith for evaluation.
+- EcoR1, 2025 - LLM extraction of earning-call calendar events
+- Intuitive Systems, 2023 - LLM extraction of AMD products from vendor receipts; LangSmith for evaluation
 
 ### AI Engineer consultant at Wolf Games, 2023-2024
 
-Wolf Games is a murder mystery gaming company piloted by the producers of Law & Order.
+Wolf Games is a murder-mystery gaming company piloted by the producers of Law & Order.
 
-* Fixed story generation to be consistent by building a DAG-based story composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows to ensure consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames)
+* Fixed story generation to be consistent by building a DAG-based story-composition engine that dynamically chained LLM prompts to maintain narrative coherence across overlapping multi-step workflows, ensuring consistency in plot and in character MMOs (Means, Motive, Opportunity). [Read Google AI showcase here](https://ai.google.dev/showcase/wolfgames)
 
 ### AI Engineer consultant at SimpleLegal, 2022-2023
 
@@ -67,36 +57,43 @@ SimpleLegal is a legal billing analytics company.
 
 - Identified a poorly specified rubric as the root cause of low model quality on a stuck feature
 - Designed a collaborative process for paralegals and lawyers to debate edge cases, build consensus, and elicit the nuanced expertise needed to refactor the rubric
-- Built a quality-control annotation pipeline around the new rubric --> massive increase in training example quality and the launch of the previously stuck feature
+- Built a quality-control annotation pipeline around the new rubric → massive increase in training-example quality and the launch of the previously stuck feature
 - Deployed a PyTorch Small Language Model on SageMaker and the ML client into the Flask product app
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
 Sight Machine is a manufacturing analytics company.
 
-- Built the backend engineering on biggest public facing analytic feature 
-- Implemented a pre-demo protocol between product and engineering --> less panic before each sales demo 
-- Coordinated QA process with sales and engineering --> better prioritization/triage
-- Built company's first distributed tracing --> simpler firefighting for mid-level developers
-- Containerized frontend build --> standardized team's setup & scaled testing to cloud
+- Built the backend engineering on the biggest public-facing analytic feature
+- Implemented a pre-demo protocol between product and engineering → less panic before each sales demo
+- Coordinated QA process with sales and engineering → better prioritization/triage
+- Built the company's first distributed tracing → simpler firefighting for mid-level developers
+- Containerized the frontend build → standardized the team's setup & scaled testing to cloud
 
 ### Lead Data Engineer at HiQ Labs, 2015-2018
 
 HiQ Labs was a people analytics company.
 
 - Taught data scientists how to refactor their pipeline code into microservices
-- Refactored scraping system --> Established pipeline reliability 
-- Refactored data pipeline from a data science monolith to a micro-service paradigm --> Established release reliability 
-- Migrated the data science team from Mongo to PySpark/Databricks --> increased productivity on new product R&D
+- Refactored the scraping system → established pipeline reliability
+- Refactored the data pipeline from a data-science monolith to a microservice paradigm → established release reliability
+- Migrated the data science team from Mongo to PySpark/Databricks → increased productivity on new-product R&D
 
 ### Developer at Urban Mapping, 2011-2013
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Built developer tooling 
-- Built first performance regression gate --> Reduced failed releases/customer complaints
-- Built first observability --> increased coding issues prioritization with new system performance metrics
+- Built developer tooling
+- Built the first performance-regression gate → reduced failed releases/customer complaints
+- Built the first observability → prioritized coding issues with new system-performance metrics
 
+## Stack
+
+**Core:** Python · Pydantic (heavy) · FastAPI · PydanticAI (light) · LangGraph (light) · Neo4j · Postgres · MongoDB · BM25 / Azure AI Search · Databricks / Delta / PySpark · Temporal (early) · AWS · Azure · OpenTelemetry · TypeScript (light) · Angular (older)
+
+## Education
+
+PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for location-referenced social-science problems. Dissertation: [New Metrics for Assessing Inequality using Geographic Data](https://escholarship.org/content/qt8br7d5df/qt8br7d5df.pdf)
 
 | **Papers & code** | **Non-tech fun** |
 |---|---|
