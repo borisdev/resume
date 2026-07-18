@@ -1,40 +1,42 @@
 #!/bin/bash
+#
+# Single source of truth: resume_template.md  →  the ONE resume PDF.
+#
+#   ./generate_resume.sh                 canonical send resume:
+#                                          title "AI Engineer" → boris-dev-resume.pdf
+#   ./generate_resume.sh "Some Title"    tailored one-off:
+#                                          title "Some Title"  → some_title.pdf
+#
+# The job-search repo does NOT keep its own copy — its boris-dev-resume.pdf is a
+# symlink to the file this script builds here, so the two can never drift.
 
-# Check if job title argument is provided
+set -euo pipefail
+cd "$(dirname "$0")"
+
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 \"Job Title\""
-    echo "Example: $0 \"AI Product Engineer\""
+    JOB_TITLE="AI Engineer"          # canonical, intentionally general
+    OUT="boris-dev-resume"
+else
+    JOB_TITLE="$1"
+    OUT=$(echo "$JOB_TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g')
+fi
+
+if ! command -v pandoc >/dev/null 2>&1; then
+    echo "ERROR: pandoc not found — install it (brew install pandoc) and re-run." >&2
     exit 1
 fi
 
-JOB_TITLE="$1"
+# Prefer xelatex: it renders Unicode (e.g. Greek τ in "τ-discernment") natively;
+# the default pdflatex engine errors on such characters.
+PDF_ENGINE=()
+command -v xelatex >/dev/null 2>&1 && PDF_ENGINE=(--pdf-engine=xelatex)
 
-# Create filename from job title (lowercase, replace spaces with underscores)
-FILENAME=$(echo "$JOB_TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g')
-
-# Generate the resume markdown file
-sed "s/{{JOB_TITLE}}/$JOB_TITLE/g" resume_template.md > "${FILENAME}.md"
-
-echo "Generated: ${FILENAME}.md"
-
-# Optionally generate PDF if pandoc is available
-if command -v pandoc &> /dev/null; then
-    # Prefer xelatex when present: it renders Unicode (e.g. Greek τ) natively,
-    # whereas the default pdflatex engine errors out on such characters.
-    if command -v xelatex &> /dev/null; then
-        PDF_ENGINE=(--pdf-engine=xelatex)
-    else
-        PDF_ENGINE=()
-    fi
-
-    # Only claim success if pandoc actually exits 0 — otherwise the old PDF
-    # is left untouched and we must say so rather than print "Generated:".
-    if pandoc "${FILENAME}.md" -s "${PDF_ENGINE[@]}" -o "${FILENAME}.pdf"; then
-        echo "Generated: ${FILENAME}.pdf"
-    else
-        echo "ERROR: PDF generation failed — ${FILENAME}.pdf was NOT updated" >&2
-        exit 1
-    fi
+# Substitute the title and render straight to PDF — no intermediate .md file to
+# drift or get left stale.
+if sed "s/{{JOB_TITLE}}/$JOB_TITLE/g" resume_template.md \
+    | pandoc -f markdown -s "${PDF_ENGINE[@]}" -o "${OUT}.pdf"; then
+    echo "Generated: ${OUT}.pdf   (title: \"$JOB_TITLE\")"
 else
-    echo "To generate PDF, install pandoc and run: pandoc ${FILENAME}.md -s -o ${FILENAME}.pdf"
+    echo "ERROR: PDF generation failed — ${OUT}.pdf was NOT updated" >&2
+    exit 1
 fi
