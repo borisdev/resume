@@ -32,7 +32,7 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 ### Nobsmed, 2024 - current, Founder
 
-[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing AI system can query and reason over.
+[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
 
 - Ran Reddit ad experiments
 - Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
