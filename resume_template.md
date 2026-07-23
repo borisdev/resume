@@ -14,9 +14,9 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ## Open-source AI-eval research
 
-- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* when task success, safety, and user requirements compete (beyond terminal-state tau-bench).
+- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* in balancing competing goals *(in progress)*.
 - [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
-- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — graded GPT-5.2 & Claude Opus 4.8 on the audit-verified slice: **~90% of failures are omissions** (missing alternatives, monitoring, safety-nets), not wrong answers.
+- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — failure-pattern analysis of GPT-5.2 & Claude Opus 4.8 on medical AI questions.
 
 ## Experience
 
@@ -32,7 +32,7 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 ### Nobsmed, 2024 - current, Founder
 
-[Nobsmed](https://nobsmed.com/) connects ChatGPT and Claude to clinical-trial findings that fit a user's specific situation — an auditable evidence layer addressing the "evidence-to-person fit" problem (e.g., a statin trial that excluded pregnant women being mis-applied to someone trying to conceive).
+[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing AI system can query and reason over.
 
 - Modeled a PICO-style ontology in Pydantic (`ParticipantGroup`, `StudyArm`, `OutcomeVariable`, with cross-reference integrity validators — defined once at paper level, referenced by id) and built it as a Neo4j knowledge graph queried with Cypher
 - Exposed the graph as an MCP server (tools: `ask`, `decompose`, `resolve`, `evidence`, `filter_by_pertinence`, `concept_hierarchy`, `similar_concepts`) so agents compose multi-step graph queries — ontology-grounded GraphRAG, not vector-only retrieval
