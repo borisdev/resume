@@ -10,7 +10,7 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-*Medical evidence ontology alignment • Knowledge graphs • AI Evals • Eliciting ground-truth from domain experts*
+*Product Software Engineer • AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
 
 ## Open-source AI-eval research
 
@@ -83,7 +83,9 @@ HiQ Labs was a people analytics company.
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Built developer tooling
+- Built geospatial API (delivered to Tableau)
+- **MapDecision** — geospatial map client for Public Works departments
+- **GeoScores** — geospatial analysis tool for neighborhood quality
 - Built the first performance-regression gate → reduced failed releases/customer complaints
 - Built the first observability → prioritized coding issues with new system-performance metrics
 
@@ -99,6 +101,7 @@ PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for loc
 |---|---|
 | LLM-based taxonomy (topic modeling): [bertopic-easy](https://github.com/borisdev/bertopic-easy) | Climbed Cotopaxi (21,000 ft) |
 | [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287) | Bodyboarded Mexpipe |
-| [Langchain PR: Causal Program-aided Language (CPAL)](https://github.com/hwchase17/langchain/pull/6255) — see Harrison Chase's [tweet](https://twitter.com/LangChainAI/status/1678797225013440514) | Taught with students in Medellín, Colombia to make ClusterPy (open-source geo clustering library) |
-| [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit) | Taught kids snowboarding as an instructor |
+| [Langchain PR: Causal Program-aided Language (CPAL)](https://github.com/hwchase17/langchain/pull/6255) — see Harrison Chase's [tweet](https://twitter.com/LangChainAI/status/1678797225013440514) | Taught coding with students in Medellín, Colombia |
+| ClusterPy — open-source geo clustering library | Taught kids snowboarding as an instructor |
+| [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit) | |
 | [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-) | Counseled severely emotionally disturbed children |
