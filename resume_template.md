@@ -10,13 +10,13 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-*Product Software Engineer • AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
+*AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
 
-## Open-source AI-eval research
+## Recent open-source projects
 
-- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* when task success, safety, and user requirements compete (beyond terminal-state tau-bench).
+- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* in balancing competing goals *(in progress)*.
 - [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
-- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — graded GPT-5.2 & Claude Opus 4.8 on the audit-verified slice: **~90% of failures are omissions** (missing alternatives, monitoring, safety-nets), not wrong answers.
+- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — failure-pattern analysis of GPT-5.2 & Claude Opus 4.8 on medical AI questions.
 
 ## Experience
 
@@ -30,15 +30,14 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 - Built a Temporal-aware test harness that snapshots post-run database side effects and activity outputs, then evaluates each expectation — became the team's foundational CI/CD for iterating on Temporal modules
 - Built an LLM-as-judge pipeline that scores candidate prompts against synthetic test batches and emits a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
 
-### Nobsmed, 2024 - current, Founder
+### NoBSmed, 2024 - current, Founder
 
-[Nobsmed](https://nobsmed.com/) connects ChatGPT and Claude to clinical-trial findings that fit a user's specific situation — an auditable evidence layer addressing the "evidence-to-person fit" problem (e.g., a statin trial that excluded pregnant women being mis-applied to someone trying to conceive).
+[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
 
-- Modeled a PICO-style ontology in Pydantic (`ParticipantGroup`, `StudyArm`, `OutcomeVariable`, with cross-reference integrity validators — defined once at paper level, referenced by id) and built it as a Neo4j knowledge graph queried with Cypher
-- Exposed the graph as an MCP server (tools: `ask`, `decompose`, `resolve`, `evidence`, `filter_by_pertinence`, `concept_hierarchy`, `similar_concepts`) so agents compose multi-step graph queries — ontology-grounded GraphRAG, not vector-only retrieval
-- Live demos (clickable): web UI answering [*"OnabotulinumtoxinA vs sacral neuromodulation for urgency incontinence"*](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence), and a public ChatGPT custom GPT (Clinical Trial Results) answering [*"Show RCTs of non-metformin interventions for prediabetes"*](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f)
-- Built an LLM extraction pipeline (Databricks / PySpark) over the PMC author-accepted-manuscript corpus that extracts structured findings per study arm (intervention, comparator, outcome, effect size, vs-baseline); ~250 papers ingested into the production graph to date
-- Built an eval harness with subdomain competency-question YAMLs (gold questions across 11 clinical subdomains — prolapse, prediabetes, anxiety, infant sleep, etc.) plus per-paper extraction-error annotations; open-sourcing the IR + harness in progress
+- Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
+- Exposed the graph to ChatGPT/Claude as an MCP server — ontology-grounded retrieval, not vector-only
+- Live demos (clickable): [web UI](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence) and a [public ChatGPT GPT](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f) answering clinical-trial questions
+- Ran Reddit ad experiments
 
 ### Smaller consulting gigs
 
@@ -83,11 +82,13 @@ HiQ Labs was a people analytics company.
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Built geospatial API (delivered to Tableau)
+- Built the first observability for the geospatial API (delivered to Tableau) → surfaced system-performance metrics to prioritize coding issues
+- Built the first performance-regression gate → reduced failed releases/customer complaints
+
+### Small startup attempts
+
 - **MapDecision** — geospatial map client for Public Works departments
 - **GeoScores** — geospatial analysis tool for neighborhood quality
-- Built the first performance-regression gate → reduced failed releases/customer complaints
-- Built the first observability → prioritized coding issues with new system-performance metrics
 
 ## Stack
 
@@ -102,6 +103,6 @@ PhD in Quantitative Human Geography at SDSU and UCSB, 2015. Data science for loc
 | LLM-based taxonomy (topic modeling): [bertopic-easy](https://github.com/borisdev/bertopic-easy) | Climbed Cotopaxi (21,000 ft) |
 | [Language AI Evaluation 101: Know your user](https://medium.com/@boris.dev/why-did-your-language-ai-feature-fail-66a280954287) | Bodyboarded Mexpipe |
 | [Langchain PR: Causal Program-aided Language (CPAL)](https://github.com/hwchase17/langchain/pull/6255) — see Harrison Chase's [tweet](https://twitter.com/LangChainAI/status/1678797225013440514) | Taught coding with students in Medellín, Colombia |
-| ClusterPy — open-source geo clustering library | Taught kids snowboarding as an instructor |
+| [ClusterPy](https://github.com/clusterpy/clusterpy) — open-source geo clustering library | Taught kids snowboarding as an instructor |
 | [Work papers](https://docs.google.com/document/d/1pMID97O4hHkK8ok7cwLH4Y4KpsgQSPUAXtYrscwcyb4/edit) | |
 | [Academic papers](https://scholar.google.com/citations?hl=en&user=Nk4jOl0AAAAJ&view_op=list_works&gmla=AKKJWFcXmp1czN7ENwhvDx7hvgEHHD9lR1FLROPUvMco2ptysbNAe0Cdya8R9DZUmePAtMN53t2N97S_t5xA4NF-) | Counseled severely emotionally disturbed children |

@@ -14,7 +14,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 if [ $# -eq 0 ]; then
-    JOB_TITLE="AI Engineer"          # canonical, intentionally general
+    JOB_TITLE="Product Software Engineer"   # canonical, intentionally general
     OUT="boris-dev-resume"
 else
     JOB_TITLE="$1"
