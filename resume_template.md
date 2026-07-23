@@ -12,7 +12,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 *Product Software Engineer • AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
 
-## Open-source AI-eval research
+## Recent open-source projects
 
 - [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* in balancing competing goals *(in progress)*.
 - [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
@@ -34,11 +34,8 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 [NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing AI system can query and reason over.
 
-- Modeled a PICO-style ontology in Pydantic (`ParticipantGroup`, `StudyArm`, `OutcomeVariable`, with cross-reference integrity validators — defined once at paper level, referenced by id) and built it as a Neo4j knowledge graph queried with Cypher
-- Exposed the graph as an MCP server (tools: `ask`, `decompose`, `resolve`, `evidence`, `filter_by_pertinence`, `concept_hierarchy`, `similar_concepts`) so agents compose multi-step graph queries — ontology-grounded GraphRAG, not vector-only retrieval
-- Live demos (clickable): web UI answering [*"OnabotulinumtoxinA vs sacral neuromodulation for urgency incontinence"*](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence), and a public ChatGPT custom GPT (Clinical Trial Results) answering [*"Show RCTs of non-metformin interventions for prediabetes"*](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f)
-- Built an LLM extraction pipeline (Databricks / PySpark) over the PMC author-accepted-manuscript corpus that extracts structured findings per study arm (intervention, comparator, outcome, effect size, vs-baseline); ~250 papers ingested into the production graph to date
-- Built an eval harness with subdomain competency-question YAMLs (gold questions across 11 clinical subdomains — prolapse, prediabetes, anxiety, infant sleep, etc.) plus per-paper extraction-error annotations; open-sourcing the IR + harness in progress
+- Ran Reddit ad experiments
+- Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
 
 ### Smaller consulting gigs
 
