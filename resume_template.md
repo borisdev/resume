@@ -10,7 +10,7 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-*Product Software Engineer • AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
+*AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
 
 ## Recent open-source projects
 
@@ -30,12 +30,14 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 - Built a Temporal-aware test harness that snapshots post-run database side effects and activity outputs, then evaluates each expectation — became the team's foundational CI/CD for iterating on Temporal modules
 - Built an LLM-as-judge pipeline that scores candidate prompts against synthetic test batches and emits a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
 
-### Nobsmed, 2024 - current, Founder
+### NoBSmed, 2024 - current, Founder
 
 [NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
 
-- Ran Reddit ad experiments
 - Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
+- Exposed the graph to ChatGPT/Claude as an MCP server — ontology-grounded retrieval, not vector-only
+- Live demos (clickable): [web UI](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence) and a [public ChatGPT GPT](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f) answering clinical-trial questions
+- Ran Reddit ad experiments
 
 ### Smaller consulting gigs
 
@@ -80,9 +82,8 @@ HiQ Labs was a people analytics company.
 
 Urban Mapping provided geospatial analytics to Tableau.
 
-- Built observability for geospatial API (delivered to Tableau)
+- Built the first observability for the geospatial API (delivered to Tableau) → surfaced system-performance metrics to prioritize coding issues
 - Built the first performance-regression gate → reduced failed releases/customer complaints
-- Built the first observability → prioritized coding issues with new system-performance metrics
 
 ### Small startup attempts
 
