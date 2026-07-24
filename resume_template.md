@@ -54,10 +54,10 @@ Wolf Games is a murder-mystery gaming company piloted by the producers of Law & 
 
 SimpleLegal is a legal billing analytics company.
 
-- Identified a poorly specified rubric as the root cause of low model quality on a stuck feature
-- Designed a collaborative process for paralegals and lawyers to debate edge cases, build consensus, and elicit the nuanced expertise needed to refactor the rubric
-- Built a quality-control annotation pipeline around the new rubric → massive increase in training-example quality and the launch of the previously stuck feature
-- Deployed a PyTorch Small Language Model on SageMaker and the ML client into the Flask product app
+- Traced a stuck NLP feature's low quality past the model to the real cause — incoherent annotation guidelines producing inconsistent ground truth
+- Stood up an SME-driven annotation + QA pipeline: brought in two outside subject-matter experts and ran a continuous-improvement consensus loop (annotators + SME + me) to fix the guidelines as edge cases surfaced — ground-truth feedback
+- Made it metrics-driven — tracked model recall/precision **and inter-annotator agreement**, so a real gain was distinguishable from label noise → the previously stuck feature launched
+- Deployed the model as a PyTorch SageMaker inference endpoint into the Flask product app (pre-processing noise filters; SageMaker Ground Truth annotation forms; Rancher/Helm demo env)
 
 ### Lead Analytic Endpoint Engineer at Sight Machine, 2018-2021
 
