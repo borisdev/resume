@@ -38,7 +38,7 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 - Designed an SME-authored YAML expectations DSL (pre-run scenarios + post-run predicates) so domain experts — not just engineers — could specify what "correct" looks like for a Temporal workflow run
 - Built a Temporal-aware test harness that snapshots post-run database side effects and activity outputs, then evaluates each expectation — became the team's foundational CI/CD for iterating on Temporal modules
-- Built an LLM-as-judge pipeline for the AI task of writing customer emails that explain how to fix their supply-chain data bugs — scoring candidate prompts against synthetic test batches and emitting a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
+- Built an LLM-as-judge pipeline for the AI task of writing customer emails that explain how to fix their supplier non-conformance cases — scoring candidate prompts against synthetic test batches and emitting a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
 
 ### Smaller consulting gigs
 
