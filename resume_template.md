@@ -22,7 +22,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ### NoBSmed, 2024 - current, Founder
 
-[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over. Full-time again right after Sindri ended.
+[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
 
 - Automating the incremental, re-entrant build of per-case evidence graphs — no persistent graph DB, any version replays exactly *(in progress)*
 - Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
