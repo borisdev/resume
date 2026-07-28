@@ -20,6 +20,16 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ## Experience
 
+### NoBSmed, 2024 - current, Founder
+
+[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over. Full-time again right after Sindri ended.
+
+- Automating the incremental, re-entrant build of per-case evidence graphs — no persistent graph DB, any version replays exactly *(in progress)*
+- Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
+- Exposed the graph to ChatGPT/Claude as an MCP server — ontology-grounded retrieval, not vector-only
+- Live demos (clickable): [web UI](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence) and a [public ChatGPT GPT](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f) answering clinical-trial questions
+- Ran Reddit ad experiments
+
 ### Sindri, Oct 2025 - Feb 2026, Consultant
 
 Sindri is an early-stage startup applying AI to document management for large energy-industry construction projects.
@@ -28,16 +38,7 @@ Built the team's first AI evaluation framework, replacing engineer-driven manual
 
 - Designed an SME-authored YAML expectations DSL (pre-run scenarios + post-run predicates) so domain experts — not just engineers — could specify what "correct" looks like for a Temporal workflow run
 - Built a Temporal-aware test harness that snapshots post-run database side effects and activity outputs, then evaluates each expectation — became the team's foundational CI/CD for iterating on Temporal modules
-- Built an LLM-as-judge pipeline that scores candidate prompts against synthetic test batches and emits a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
-
-### NoBSmed, 2024 - current, Founder
-
-[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
-
-- Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
-- Exposed the graph to ChatGPT/Claude as an MCP server — ontology-grounded retrieval, not vector-only
-- Live demos (clickable): [web UI](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence) and a [public ChatGPT GPT](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f) answering clinical-trial questions
-- Ran Reddit ad experiments
+- Built an LLM-as-judge pipeline for the AI task of writing customer emails that explain how to fix their supply-chain data bugs — scoring candidate prompts against synthetic test batches and emitting a structured fault taxonomy (top faults, rationale, proposed prompt edits) to drive iteration
 
 ### Smaller consulting gigs
 
