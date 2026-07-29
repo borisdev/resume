@@ -24,7 +24,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 [NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
 
-- Automating the incremental, re-entrant build of per-case evidence graphs — no persistent graph DB, any version replays exactly *(in progress)*
+- Automating the incremental build of per-case, ontology-grounded evidence graphs — parsed findings cached in a Databricks Delta table *(in progress)*
 - Parsed clinical-trial studies and Reddit health posts for loading into a Neo4j knowledge graph and Azure Search
 - Exposed the graph to ChatGPT/Claude as an MCP server — ontology-grounded retrieval, not vector-only
 - Live demos (clickable): [web UI](https://nobsmed.com/ask?q=OnabotulinumtoxinA%20vs%20sacral%20neuromodulation%20for%20urgency%20incontinence) and a [public ChatGPT GPT](https://chatgpt.com/share/6a17a6f0-12d0-83e8-8c85-8bd2b8d9a72f) answering clinical-trial questions
