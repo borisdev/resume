@@ -20,13 +20,14 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ## Experience
 
-### NoBSmed, 2024 - current, Founder
+### NoBSmed, 2024 - Present, Founder
 
-[NoBSmed](https://nobsmed.com/) transforms patient context and clinical evidence into a provenance-linked, SNOMED-grounded evidence graph that an existing customer's AI system can query and reason over.
+Building an evidence-evaluation system that double-checks a patient's treatment plan against clinical research, surfacing gaps, conflicting evidence, and questions for a doctor or AI.
 
-- Automating the incremental build of per-case, ontology-grounded evidence graphs — parsed findings cached in a Databricks Delta table *(in progress)*
-- Parsed findings from clinical-trial studies and Reddit health posts
-- Ran Reddit ad GTM experiments — learned people want to audit their supplement and medication stacks, and that a key segment lives in the biohacker and Peter Attia subreddits
+- Built a typed evaluation pipeline that parses patient context and treatment plans, retrieves and structures clinical-study findings, and evaluates where the two fail to align.
+- Building provenance-linked, ontology-grounded evidence graphs with reusable parsed findings cached in Databricks Delta.
+- Designed structured clinical-study and patient-evidence representations for causal reasoning, provenance tracking, and downstream AI evaluation.
+- Ran Reddit GTM experiments identifying demand for evidence-based audits of medication and supplement stacks, particularly among biohacking communities.
 
 ### Sindri, Oct 2025 - Feb 2026, Consultant
 
