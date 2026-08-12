@@ -25,8 +25,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 Building a causal-evidence diff engine that compares a patient's current health approach against clinical-study evidence, surfacing omitted upstream drivers, downstream effects, contested evidence, and questions to investigate with a doctor or AI.
 
 - Built a typed evaluation pipeline: Patient Context → Evidence Retrieval → Structured Findings → Evidence Graph → Diff/Evaluation → Report.
-- Built provenance-linked, ontology-grounded evidence graphs that make patient context and clinical-study findings comparable and queryable.
-- Designed typed clinical-study and patient-evidence representations for causal reasoning, provenance tracking, and downstream AI evaluation.
+- Designed provenance-linked, ontology-grounded, typed representations of patient context and clinical-study findings — making the two comparable, queryable, and usable for causal reasoning and downstream AI evaluation.
 - Built incremental evidence-graph construction with reusable parsed findings cached in Databricks Delta.
 - Ran Reddit GTM experiments identifying demand for evidence-based audits of medication and supplement stacks, particularly among biohacking communities.
 
