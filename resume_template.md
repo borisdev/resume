@@ -10,7 +10,7 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-*AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
+*AI Evals • Analytics • Data Engineering • Geospatial (PhD Quantitative Geography)*
 
 ## Experience
 
