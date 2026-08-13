@@ -12,20 +12,15 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 *AI Evals • Analytics • Data Engineering • Geospatial (PhD Geography)*
 
-## Recent open-source projects
-
-- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* in balancing competing goals *(in progress)*.
-- [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
-- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — failure-pattern analysis of GPT-5.2 & Claude Opus 4.8 on medical AI questions.
-
 ## Experience
 
 ### NoBSmed, 2024 - Present, Founder
 
 Building a causal-evidence diff engine that compares a patient's current health approach against clinical-study evidence, surfacing omitted upstream drivers, downstream effects, contested evidence, and questions to investigate with a doctor or AI.
 
-- Built a typed evaluation pipeline: Patient Context → Evidence Retrieval → Structured Findings → Evidence Graph → Diff/Evaluation → Report.
-- Designed provenance-linked, ontology-grounded, typed representations of patient context and clinical-study findings — making the two comparable, queryable, and usable for causal reasoning and downstream AI evaluation.
+- Built the causal-graph diff engine as a deterministic DAG dataflow with LLM calls inside individual nodes: Patient Context → Evidence Retrieval → Structured Findings → Evidence Graph → Diff/Evaluation → Report.
+- Built hybrid retrieval over Azure AI Search and a Neo4j graph database with a SNOMED ontology layer.
+- Designed provenance-linked, ontology-grounded, typed representations of patient context and clinical-study findings — comparable, queryable, and usable for causal reasoning and downstream AI evaluation.
 - Built incremental evidence-graph construction with reusable parsed findings cached in Databricks Delta.
 - Ran Reddit GTM experiments identifying demand for evidence-based audits of medication and supplement stacks, particularly among biohacking communities.
 
@@ -89,6 +84,12 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 - **MapDecision** — geospatial map client for Public Works departments
 - **GeoScores** — geospatial analysis tool for neighborhood quality
+
+## Recent open-source projects
+
+- [**tau-discernment**](https://github.com/borisdev/tau-discernment) — grades agent *discernment* in balancing competing goals *(in progress)*.
+- [**nobsmed-healthbench-audit**](https://github.com/borisdev/nobsmed-healthbench-audit) — flagged 29 decision-changing errors in OpenAI's HealthBench.
+- [**healthbench-ebm-verified**](https://github.com/borisdev/healthbench-ebm-verified) — failure-pattern analysis of GPT-5.2 & Claude Opus 4.8 on medical AI questions.
 
 ## Stack
 
