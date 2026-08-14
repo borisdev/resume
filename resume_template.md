@@ -93,7 +93,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Stack
 
-**Core:** Python · Pydantic (heavy) · FastAPI · Django / DRF · PydanticAI (light) · LangGraph (light) · Neo4j · Postgres · MongoDB · BM25 / Azure AI Search · Databricks / Delta / PySpark · Temporal (early) · AWS · Azure · OpenTelemetry · TypeScript (light) · Angular (older)
+**Core:** Python · Pydantic (heavy) · FastAPI · Django / DRF · PydanticAI (light) · LangGraph (light) · Neo4j · Postgres · MongoDB · BM25 / Azure AI Search · Databricks / Delta / PySpark · Temporal (early) · AWS · Azure · OpenTelemetry · TypeScript · React / Next.js / HTMX (light) · Angular (older)
 
 ## Education
 
