@@ -10,7 +10,7 @@ output: pdf_document
 
 San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) • [linkedin](https://linkedin.com/in/boris-dev/)
 
-*AI Evals • Analytics • Data Engineering • Geospatial (PhD Quantitative Geography)*
+*AI Product • AI Evals • Analytics • Data Engineering • Geospatial (PhD Quantitative Geography)*
 
 ## Experience
 
@@ -19,7 +19,7 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 Building a causal-evidence diff engine that compares a patient's current health approach against clinical-study evidence, surfacing omitted upstream drivers, downstream effects, contested evidence, and questions to investigate with a doctor or AI.
 
 - Built the causal-graph diff engine as a deterministic DAG dataflow with LLM calls inside individual nodes: Patient Context → Evidence Retrieval → Structured Findings → Evidence Graph → Diff/Evaluation → Report.
-- Built hybrid retrieval over Azure AI Search and a Neo4j graph database with a SNOMED ontology layer.
+- Built hybrid retrieval (RAG) over Azure AI Search and a Neo4j graph database with a SNOMED ontology layer.
 - Designed provenance-linked, ontology-grounded, typed representations of patient context and clinical-study findings — comparable, queryable, and usable for causal reasoning and downstream AI evaluation.
 - Built incremental evidence-graph construction with reusable parsed findings cached in Databricks Delta.
 - Ran Reddit GTM experiments identifying demand for evidence-based audits of medication and supplement stacks, particularly among biohacking communities.
@@ -93,7 +93,7 @@ Urban Mapping provided geospatial analytics to Tableau.
 
 ## Stack
 
-**Core:** Python · Pydantic (heavy) · FastAPI · PydanticAI (light) · LangGraph (light) · Neo4j · Postgres · MongoDB · BM25 / Azure AI Search · Databricks / Delta / PySpark · Temporal (early) · AWS · Azure · OpenTelemetry · TypeScript (light) · Angular (older)
+**Core:** Python · Pydantic (heavy) · FastAPI · Django / DRF · PydanticAI (light) · LangGraph (light) · Neo4j · Postgres · MongoDB · BM25 / Azure AI Search · Databricks / Delta / PySpark · Temporal (early) · AWS · Azure · OpenTelemetry · TypeScript (light) · Angular (older)
 
 ## Education
 
