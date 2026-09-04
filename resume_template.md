@@ -16,12 +16,9 @@ San Francisco • boris.dev@gmail.com • [github](https://github.com/borisdev) 
 
 ### NoBSmed, 2024 - Present, Founder
 
-Building a causal-evidence diff engine that compares a patient's current health approach against clinical-study evidence, surfacing omitted upstream drivers, downstream effects, contested evidence, and questions to investigate with a doctor or AI.
+Building an agentic AI reasoning layer to identify omissions in a patient's health stack -- omissions of upstream drivers, downstream side-effects, contested evidence, and alternative treatments.
 
-- Built the causal-graph diff engine as a deterministic DAG dataflow with LLM calls inside individual nodes: Patient Context → Evidence Retrieval → Structured Findings → Evidence Graph → Diff/Evaluation → Report.
-- Built hybrid retrieval (RAG) over Azure AI Search and a Neo4j graph database with a SNOMED ontology layer.
-- Designed provenance-linked, ontology-grounded, typed representations of patient context and clinical-study findings — comparable, queryable, and usable for causal reasoning and downstream AI evaluation.
-- Built incremental evidence-graph construction with reusable parsed findings cached in Databricks Delta.
+- Stack: Pydantic Graph Builder, Azure, AWS, DuckDB and Parquet, hybrid retrieval (RAG) over Azure AI Search and a Neo4j graph database with a SNOMED ontology layer, and UMLS resolver.
 - Ran Reddit GTM experiments identifying demand for evidence-based audits of medication and supplement stacks, particularly among biohacking communities.
 
 ### Sindri, Oct 2025 - Feb 2026, Consultant
